@@ -1,0 +1,1191 @@
+pi_name,institution,title,abstract,amount,notice_date
+"ABBOTT, DEREK W",NATIONAL JEWISH HEALTH,Innate Immune Signal Transduction Specificity in Inflammatory Disease,"ABSTRACT
+The NOD2:RIPK2 complex helps a cell recognize and respond to an intracellular bacterial infection. Activation
+of this pathway initiates a cytokine response that helps tailor the adaptive immune system to eradicate the
+offending pathogen. Signaling from this complex must be precisely tailored. Too little inflammation can cause
+immunodeficiency that can manifest in dysbiosis while too much inflammation can manifest in inflammatory
+disease. Over the past decade, my lab has worked to understand this signaling system with the goal of
+identifying drug targets such that when the NOD2:RIPK2 complex is hyperactive and therefore
+hyperinflammatory, we have pharmacologic tools to inhibit it. To this end, we have now developed agents for
+RIPK2 that inhibit its kinase activity. These inhibitors are now at the Pre-IND stage and we anticipate filing for
+an IND in late 2020 or early 2021. Despite this chemical success, key questions surrounding RIPK2’s kinase
+activity remain. While some studies suggest that kinase activity is necessary for function, others suggest it is
+not. We don’t know the kinase-dependent versus kinase-independent signaling pathways that are activated or
+inhibited. We don’t know any bone fide RIPK2 substrates, and we don’t know which patients will particularly
+benefit from RIPK2 inhibition. To this end, we have developed phosphoproteomic and phospho-substrate
+databases utilizing mass spectrometry and chemical genetics. This grant application aims to leverage these
+unpublished databases to i) identify novel RIPK2 substrates, ii) identify novel RIPK2 kinase-regulated signaling
+pathways and iii) identify patient populations in which RIPK2 targeting might be most efficacious. Better
+understanding RIPK2’s kinase activity is highly significant as RIPK2 inhibitors enter the clinic over the next few
+years.",165000,2026-02-09T00:00:00
+"ABDI, REZA ",BRIGHAM AND WOMEN'S HOSPITAL,The novel role of beta3 integrin in regulating alloimmunity,"Abstract
+Heart transplantation is the optimal therapy for patients with irreversible, end-stage heart disease. However, a
+several challenges remain to improve allograft and recipient survival. Immunosuppressive agents used to
+prevent rejection have improved, but they still cannot consistently eliminate acute and chronic rejection, and they
+are implicated in the pathogenesis of organ failure. New insights into how innate and adaptive immunity
+contribute to rejection, identification of new therapeutic targets, and novel approaches to promote immune
+tolerance are major unmet needs in transplantation. Early innate inflammatory responses in the organs (e.g.,
+due to ischemia-reperfusion injuries) enhance acute and chronic heart allograft rejection. Integrins are
+heterodimeric cell surface receptors involved in immune cell trafficking and signaling; therefore, they are
+attractive targets to inhibit inflammation, including transplant rejection. The main goal of this project is to elucidate
+the novel role of β3 integrin in regulating alloimmune responses via control of platelet- and T cell- mediated
+immunity. Our ultimate objective is to develop new anti-β3 integrin-based strategies to promote engraftment. Our
+data indicate that β3 integrin-/- mice (β3-/-) show significantly prolonged heart allograft survival in comparison to
+wild-type (WT) mice, a finding that is associated with reduced CD8+ T cell infiltration into the grafts. We also
+show that β3 is expressed by activated CD8+ T cells, and that the trafficking of T cells from β3-/- mice is impaired.
+Notably, targeting β3 integrin also substantially reduces lesions typical of chronic rejection. The β3 subunit is
+shared by the two integrin molecules, αVβ3 and αIIbβ3, which are expressed by T cells and platelets,
+respectively. Based on extensive preliminary data, our specific hypothesis is that β3 on both cell types
+contributes to rejection. In this proposal, we aim to define the relative roles of β3 integrins expressed on platelets
+(in early promotion of inflammatory responses) and T cells (in enhancement of alloimmunity) in mediating
+allograft rejection. Furthermore, our targeted delivery method of therapeutics usingnanoparticles (NPs) has
+emerged as a promising method that increases efficacy and reduces side effects. Here, we have developed first-
+in-class NPs for targeted delivery of cyclic RGD tripeptides (cRGD) to suppress β3 integrin- mediated recruitment
+of platelets and T cells for early reduction of chronic rejection, using a murine model of heart transplantation. In
+this proposal, we present three main aims to determine the roles of αIIbβ3 on platelets (Aim 1) and T cell-
+expressed β3 (Aim 2) in regulating alloimmunity. In Aim 3, we will perfuse organs prior to transplantation with
+NPs carrying cRGD to promote graft acceptance.",749489,2026-01-21T00:00:00
+"ABEL, EDWIN TED G.",UNIVERSITY OF IOWA,Elucidating learning-induced molecular signatures in hippocampal mature oligodendrocytes at single-cell and spatial resolution: Implications for hippocampal function,"Project Summary/Abstract
+Neuronal plasticity is fundamental for cognitive and behavioral processes. Emerging evidence has shed light on
+the role of oligodendrocytes in regulating activity-dependent plasticity. Although primarily recognized for their role
+in forming myelin, mature oligodendrocytes also perform additional metabolic functions that facilitate energy-
+efficient and rapid saltatory conduction in white matter tracts across neuronal circuits. Although it is established
+that myelin plasticity can influence neurophysiology and behavior, a comprehensive understanding of the
+molecular mechanisms by which mature oligodendrocytes regulate hippocampal function remain elusive. Recent
+reports have identified the presence of distinct mature oligodendroglial subtypes within the hippocampus that
+differ in their transcriptomic profiles, topographical distribution, and myelination characteristics, and it is likely
+that these mature oligodendroglial subclasses also exhibit differences in cell-type-specific and spatial molecular
+signatures during long-term memory storage. Our preliminary findings provide evidence of rapid changes in
+transcriptomic signatures in mature myelinating oligodendrocytes within the first hour after spatial learning, likely
+reflecting myelin-independent aspects of mature oligodendroglial function. The rapid and dynamic changes
+observed in the transcriptomic landscape, coupled with the diversity in mature oligodendroglial cell types,
+necessitate a thorough molecular investigation to fully comprehend the role of these cells in hippocampal
+function. This proposal aims to elucidate the molecular signatures of mature oligodendroglial subtypes at single-
+cell and spatial resolution during memory consolidation and investigate the functional consequences of
+manipulating mature oligodendroglial gene expression on activity-dependent oligodendroglial plasticity
+underlying hippocampal memory consolidation. The research will be conducted in two aims. In Specific Aim 1,
+we will identify learning-induced molecular signatures in mature oligodendrocyte subtypes using cutting-edge
+single-cell multiomics and high-plex in situ approaches. In Specific Aim 2, we will develop in vivo strategies of
+gene manipulation specifically targeting mature myelinating oligodendrocytes. We will then examine functional
+signatures of activity-dependent oligodendroglial plasticity in vivo, by quantifying myelination changes after
+learning and utilizing fiber-photometry to investigate the dynamics of calcium and glucose in mature myelinating
+oligodendrocytes during spatial learning. The expected outcomes of this exploratory/developmental R21
+proposal will provide unprecedented insights into the functional heterogeneity of mature oligodendrocytes during
+memory consolidation, laying the groundwork for future research to investigate the mechanistic relationship
+between transcriptomic changes that underlie learning-dependent oligodendroglial plasticity and hippocampal
+memory consolidation. These findings will significantly advance our understanding of long-term memory and
+offer novel avenues for therapeutic interventions for cognitive impairments associated with neurodevelopmental,
+neuropsychiatric, and neurodegenerative disorders.",231350,2026-02-04T00:00:00
+"ABRAHAM, SOMAN N",DUKE UNIVERSITY,BCG-Mediated Immunotherapy Against Bacteria,"Abstract
+ Up to 3.5 billion dollars is spent each year, in the US alone, to manage bladder infections and their
+recurrence. The intractability of these infections is attributable, in part, to the capacity of bladder bacteria to
+persist in the bladder long after infection resolution only to remerge as another flareup. In view of the fact that
+antibiotics are largely ineffective there is a dire need for alternate approaches to protect against these
+infections. We have found that a single bladder treatment of live attenuated Bacillus Calmette-Guerin (BCG),
+an FDA approved therapy for bladder cancer, along with a peptide capable of disrupting the superficial
+epithelium was highly efficacious in protecting against uropathogenic E.coli (UPEC) mediated infection. Since
+tumor fighting properties of BCG is associated with their persistence in the bladder and their capacity to recruit
+Th1 cells, the protection against UPEC is probably also mediated, at least in part, by Th1 cells. We
+hypothesize that we can prolong the duration of this protection by simultaneously inducing bladder recruitment
+of E.coli specific Th1 cells which typically have an indefinite life span. Thus, we believe that supplementing the
+BCG and epithelial disruptor peptide formulation with UPEC antigens would markedly prolong and enhance the
+protective capacity of BCG immunotherapy against UPEC bladder infections. The following specific aims are
+proposed: (i) Determine cellular targets of BCG uptake and persistence in the bladder, (ii) Identify the
+immunological basis of cross-protection induced by co-treatment with BCG bladder and epithelial disruptor
+peptide (iii) Evaluate the efficacy and durability of intravesical administration of an optimized formulation
+comprising of epithelial disruptor peptide/BCG/ UPEC antigens in combating recurrent bladder infections.
+ It is expected that these studies will reveal a distinct, effective, and long-lasting strategy to combat
+intractable bladder infections. Since this strategy involves repurposing a currently utilized bladder therapy, its
+implementation could be relatively rapid.",610124,2026-02-04T00:00:00
+"ABRAHAMS, VIKKI M",YALE UNIVERSITY,Mechanisms regulating fetal membrane and neutrophil responses to infection,"Summary/Abstract
+Chorioamnionitis - inflammation of the fetal membranes (FM) - is characterized by neutrophil infiltration and is
+a major risk factor for preterm birth. Even in the absence of prematurity, chorioamnionitis can be detrimental to
+the fetus. Despite a strong association between bacterial infection, chorioamnionitis, and preterm birth, the
+mechanisms involved are not fully understood. Through expression of the innate immune pattern recognition
+receptors (PRR), Toll-like receptors (TLRs) and Nod-like receptors (NLRs), FMs have strategies to evade and
+protect against infection. However, depending upon the nature of signaling and regulation, these protective
+immune mechanisms may create an inflammatory milieu that can contribute to pathology. In particular, IL-8 is a
+major neutrophil chemoattractant and inflammasome-mediated IL-1b is a major inducer of tissue injury and
+mediator of preterm birth. We have found that the chorionic compartment is the primary site of FM IL-8 and IL-
+1b production in response to bacterial lipopolysaccharide (LPS), peptidoglycan (PDG), and muramyl dipeptide
+(MDP) which activate TLR4, TLR2, and Nod2, respectively. While TLRs and NLRs can directly activate
+signaling pathways leading to inflammatory cytokine/chemokine production, there is the potential for far more
+complex modulation, regulation, and fine-tuning of these processes and the type of responses generated,
+particularly for IL-1b. This grant focusses on the requirement of two or more PRRs to be activated sequentially
+in FMs exposed to bacterial triggers via novel intermediates. A non-classical family of microRNAs (miRs)
+activate the ssRNA sensors, TLR7 and TLR8, to elicit an inflammatory response. These miRs can also be
+carried in exosomes and delivered to TLR7 or TLR8 in target cells. Our preliminary data supports the concept
+that TLR8-activating miR-146a-3p may acts as a novel intermediate signal that drives FM chemotactic and
+inflammatory responses to bacterial TLR and NLR agonists. We also have preliminary data demonstrating that
+FM-derived exosomes containing TLR8-activating miRs trigger neutrophil activation and release of neutrophil
+extracellular traps. Finally, we found that FM tissue and circulating exosomal TLR8-activating miR-146a-3p is
+elevated in women with preterm birth. Based on this, our central hypothesis is that TLR8-activating miRs
+mediate FM chemotactic IL-8 and inflammasome-mediated inflammatory IL-1b in response to bacterial
+triggers, and through their release and delivery via exosomes active maternal neutrophils. This leads
+to inflammation at the maternal-fetal interface, increasing the risk for chorioamnionitis. To test this, our
+specific aims are to determine if:
+Aim 1. TLR8-activating miRs mediate a FM chemotactic IL-8 response after exposure to bacterial triggers.
+Aim 2. TLR8-activating miRs contribute to FM inflammasome activation and inflammatory IL-1b production.
+Aim 3. FM exosomes containing TLR8-activating miRs induce neutrophil activation.",703356,2026-02-13T00:00:00
+"ABRANTES, ANA M","BUTLER HOSPITAL (PROVIDENCE, RI)",tDCS to Decrease Opioid Relapse,"Buprenorphine has emerged as a leading treatment for opioid use disorder (OUD), but recipients have high
+early relapse rates likely due to varying degrees of dysfunction within craving and cognitive control neuronal
+networks. Transcranial direct current stimulation (tDCS) may have promise as adjuvant treatment for
+buprenorphine initiators because considerable work on addictive substances suggests treatment targeted at the
+dorsolateral prefrontal cortex (DLPFC; region involved in self-regulation) may reduce craving and drug
+consumption. We will measure behavioral and brain responses following tDCS stimulation to the DLPFC
+delivered during cognitive control network (CCN) priming. Participants in their first week of prescribed
+buprenorphine will be assessed twice using FMRI, once prior to tDCS+CCN priming and again at the
+completion of 5 sessions of tDCS+CCN priming (one week later). Task-based and resting state functional
+connectivity will be used to examine networks associated with craving (CR) and cognitive control. In the UG3
+phase (n=60), FMRI will provide validation of expected changes in these networks following tDCS stimulation.
+Go/no go criteria for the UH3 phase will be demonstration of greater FMRI change in any node of the CR or
+CCN networks AND greater change in subjective craving measured prior to (outside FMRI scan) or during an
+FMRI cue reactivity task following the tDCS+CCN priming intervention compared to sham tDCS+CCN
+priming. In the UH3 phase (n=100), we will perform a larger RCT (vs. sham control) to address long-term
+neurobehavioral outcomes, including opioid relapse, craving, and sustained fMRI changes. Because tDCS is
+safe, inexpensive and portable, if this intervention provides FMRI validation of targeted brain effects and
+produces clinical response, it could have great impact augmenting the care of persons entering buprenorphine
+treatment, a population at high risk for treatment failure.",498005,2026-01-29T00:00:00
+"ABREU, NICOLAS JULIAN",NEW YORK UNIVERSITY SCHOOL OF MEDICINE,Quantitative Gait Metrics to Assess and Predict Gross Motor Impairment in Young Children with Neurofibromatosis Type 1,"Project Summary/Abstract
+Most children with neurofibromatosis type 1 (NF1), one of the most common inherited neurological disorders in
+the United States, experience difficulties with large muscle movements. Current methods of measuring gross
+motor impairment in young children with NF1 are time- and resource-intensive, reliant on coarse scoring from a
+proxy typically based on the presence or absence of abilities without regard to the quality of function. These
+limitations hamper counseling in the clinic on the severity of gross motor difficulties, prediction of future
+function, and guidance on treatment planning. The objective of this K23 proposal is to develop office-based
+tools to quantify gait in young children with NF1 that reflect overall gross motor impairment and predict future
+gross motor difficulties. In this prospective observational study of ambulatory children less than six years old
+with NF1, we will evaluate gait speed as the fastest time to walk 10 meters and interlimb coordination derived
+from artificial intelligence-based pose estimates from video. We will conduct office-based gait assessments
+with video, clinical exams, and neurodevelopmental evaluations during routine medical visits at baseline, 12
+months, and 24 months at one of the largest NF1 centers in the U.S., the NYU Comprehensive
+Neurofibromatosis Center. Using this design, our specific aims are to: (1) evaluate how well gait speed and
+interlimb coordination reflect gross motor impairment compared to currently available neurodevelopmental
+assessments; (2) determine the test-retest reliability of gait speed and interlimb coordination; and (3)
+investigate the prognostic ability of gait speed and interlimb coordination to predict gross motor impairment up
+to two years later. We expect these findings will result in improved developmental surveillance in clinic and
+inform clinical trial design with the addition of performance-based endpoints. This proposal aligns with the
+NINDS strategic plan of “seeing more precisely – develop and validate biomarkers and outcome measures that
+stimulate therapy development and improve patient care.” During this five-year award, Dr. Abreu will complete
+the following training goals: (1) gain fluency in advanced statistical methodologies for outcome measure
+development and predictive analyses; (2) deepen knowledge of clinical gait analysis; and (3) grow his skillset
+in pediatric NF1 clinical trial readiness. Dr. Abreu is ideally positioned to accomplish this work based upon his
+unique background and a stellar mentorship team, including primary mentor, Dr. Heidi Schambra (leader in
+quantitative motor assessment in neurological disorders), and co-mentors, Drs. Kaleb Yohay (leader in NF1)
+and Moriah Thomason (leader in early childhood neurodevelopment). His training program will be enriched by
+a scientific advisory committee with complementary expertise. This K23 award will advance Dr. Abreu towards
+his goal of becoming an independent physician-scientist studying quantitative motor assessment in NF1 and
+other pediatric neurogenetic disorders, including an R01-level submission treating gross motor impairment in
+early NF1.",247995,2026-01-23T00:00:00
+"ACHENBACH, CHAD J",NORTHWESTERN UNIVERSITY AT CHICAGO,Chicago Clinical Trials Unit,"Project Summary. The Chicago Clinical Trials Unit (CCTU) is a consortium of four Clinical Research Sites
+(CRSs) which will address two priority clinical research areas of the NIAID: 1) adult HIV/AIDS therapeutic
+strategies, including novel therapeutics, HIV cure, noninfectious comorbidities, and infectious comorbidities
+of hepatitis B and tuberculosis; and 2) integrated HIV prevention strategies, including novel long-acting ARV-
+based HIV prevention agents and delivery systems for Pre-exposure Prophylaxis (PrEP), multi-purpose
+prevention technologies, integrated biomedical and socio-behavioral HIV prevention strategies, and
+collaborative protocols with the HIV Vaccines Network testing antibody-mediated prevention strategies. The
+CCTU consists of four highly experienced and scientifically productive CRSs that are uniquely positioned to
+develop, implement and adapt the clinical research priorities of the NIAID clinical research priority areas. The
+CCTU has a proven track record and will continue its productivity through active engagement with a diverse
+host of at-risk and HIV-impacted communities, participation in high impact, ground-breaking clinical research
+studies, efficient management of resources and critical performance oversight of the clinical activities,
+laboratories, and pharmacies. Compliance with all relevant rules and regulations is a priority of the
+consortium. The CCTU includes CRSs and personnel that have long-term productive involvement with the
+two research networks with which the CCTU is affiliated, and platforms for inter-network collaboration with
+the other NIAID networks. The CRSs and their network affiliations are: Northwestern University (adult
+HIV/AIDS therapeutic strategies); Rush University (adult HIV/AIDS therapeutic strategies); Trinity Health &
+Wellness Center (adult HIV/AIDS therapeutic strategies); and The Ruth L. Rothstein CORE Center (HIV
+prevention and adult HIV/AIDS therapeutic strategies). The cities of Chicago and Dallas, where the CRSs
+are located, are in Cook and Dallas counties, two of the 48 “hot spots” counties where half of new HIV
+diagnoses in the US were concentrated in 2016 and 2017. The aims of this proposal are: development,
+implementation and adaptation of the clinical research program of the 1) Adult HIV/AIDS Therapeutics
+Strategies Clinical Trials Network in four CRSs, and 2) HIV Prevention Network in one CRS, in synergy with
+all CCTU elements, and 3) To ensure all CCTU research is relevant to HIV impacted populations and
+ethical through dynamic engagement of the community in all phases of the research. The CCTU is
+well-positioned to reach diverse populations and contribute significantly to the NIAID research agenda.
+RELEVANCE: The phenomenal scientific advances in HIV/AIDS research over the past 35 years have in
+large part been due to NIAID's high-impact therapeutic and prevention studies being performed by its clinical
+trials units (CTUs). The CCTU will continue to respond rapidly to emerging clinical research needs, engage
+constituents, and identify more effective treatment and prevention strategies.",615750,2026-01-24T00:00:00
+"ACOTT, TED S",OREGON HEALTH & SCIENCE UNIVERSITY,Gene Expression and Manipulation Core,"PROJECT SUMMARY - GENE EXPRESSION & MANIPULATION
+The Gene Expression & Manipulation core is focused on providing support and assisting and facilitating specific
+studies relating to gene expression and manipulation. Most of the types of studies supported by this core fall
+within the range of ocular molecular biology, biochemistry, and cell biology. This includes evaluating,
+quantitatively, the temporal effects of treatments, conditions or disease states on gene expression and protein
+levels in ocular tissues. We also support studies focused on determining the effects of individual gene
+manipulation on ocular processes and cells. This includes knockdown of specific gene expression levels in cells
+or tissues by RNAi silencing, increases in specific gene expression by overexpression using vectors, and
+modulation of activity or function of specific genes by expressing modified forms, e.g. by transfecting or infecting
+genetic mutant, dominant negative, constitutively active, or alternatively spliced gene constructs. Manipulation
+methods include construct transfection, gene or RNAi delivery via infection with recombinant viral constructs
+such as lentivirus, or by lipid nanoparticles. We have recently been assisting investigators with CRISPR/Cas9
+gene editing, including base and prime editing studies aimed at disease modeling with the intention of future
+disease related modifications or stem cell manipulation. This core maintains various instruments that support
+these types of studies. The core co-Directors and personnel have experience with all of these methods and will
+facilitate and assist core users with any of the described techniques that they deem of value to their
+investigations. In addition to providing this service to NEI-funded investigators, we actively support efforts of new
+and young investigators, to develop pilot or preliminary data that can be leveraged into future foundation and
+NEI funding.",160802,2026-02-06T00:00:00
+"ADAMS, JULIA M",UNIVERSITY OF CALIFORNIA LOS ANGELES,Functions and mechanisms of Crym-positive astrocytes in the nucleus accumbens,"Project Summary/Abstract
+Astrocytes are ubiquitous CNS cells that make extensive contacts with neurons. Astrocytes serve diverse
+roles, including ion homeostasis, neurotransmitter clearance, and contributions to neurovascular coupling,
+which position them as critical components of neural circuits that contribute to brain physiology and
+disease. Once thought of as homogeneous, recent studies have highlighted astrocyte heterogeneity
+across and within brain regions. As tools to study astrocytes have improved, one important goal is to
+determine if defined populations of astrocytes regulate behaviors associated with the brain region they are
+located in. An ideal population to explore this larger question is the newly discovered subpopulation of
+Crym+ astrocytes within the nucleus accumbens (NAc), a structure within the ventral striatum that is well
+characterized in the context of rewarding behaviors and addiction. The focus of this application is thus to
+determine the role(s) of Crym+ astrocytes in behaviors relevant to the NAc. Crym encodes the protein µ-
+crystallin that was recently identified in a specific population of central striatal astrocytes to regulate
+perseverative behaviors of mice. The current application seeks to elucidate the functions of Crym+ NAc
+astrocytes (~45%) using integrated molecular, cellular, and physiological assessments during natural
+behaviors and a model of fentanyl-evoked opioid use disorder (OUD). I will test the hypothesis that
+astrocytes in the NAc have separable properties relative to the dorsal striatum, contribute to goal-
+directed behaviors, and that they are altered in a clinically relevant model of opioid use disorder
+(OUD) where goal-directed behaviors are disrupted. This hypothesis is based on exciting preliminary
+data described in the application, including data showing that Crym expression is decreased in NAc
+astrocytes in the OUD model. I will test this hypothesis with three Specific Aims. Aim 1 will characterize
+basic biological properties of astrocytes in the NAc. Aim 2 will assess functions of Crym+ NAc astrocytes
+during goal-directed behaviors. Aim 3 will determine how NAc astrocytes are altered in a model of fentanyl-
+evoked OUD. The aims are logically related to address my hypothesis but are not interdependent so that
+success in any one is not contingent on the other. The completion of the proposed experiments will provide
+me with rigorous training in state-of-the-art methods and allow me to directly address the functions of a
+molecularly defined population of astrocytes in the NAc.",45228,2026-01-27T00:00:00
+"ADAMS, PETER D.",UNIVERSITY OF PENNSYLVANIA,Project 1: Epigenetic control of cell identity and inflammation in aging,"SUMMARY
+The epigenome and transcriptome determine cell identity and function. In liver, transcriptional regulator Hnf4α
+contributes to hepatocyte identity. We found that aging results in decreased expression of highly expressed
+Hnf4α target genes, suggestive of loss of cell identity. The cause and consequence of loss of cell identity and
+whether its reversal can be an intervention for healthy aging is not well understood.
+ This PPG has predicted that to maintain their identity over the lifespan cells possess chromostasis
+mechanisms that maintain integrity of the dynamic epigenome, retard chromatin change and hence maintain
+healthy cell identity, tissue phenotype and function. As a potential chromostasis mechanism, in non-dividing
+cells, such as liver hepatocytes, histone variant H3.3 accumulates with age. Hira is a DNA replication
+independent histone chaperone that deposits histone H3.3 into nucleosomes, especially at active gene bodies,
+promoters and enhancers. Recently, we found that inactivation of Hira specifically in mouse liver hepatocytes
+causes downregulation of highly expressed Hnf4α target genes, apparent loss of hepatocyte identity and
+transcriptomic, metabolic and inflammatory dysfunction of aging liver. The mechanism by which age-dependent
+deposition of histone H3.3 preserves cell identity and whether this can be targeted for healthy aging is unknown.
+ Accumulation of senescent cells in aged tissues also contributes to tissue aging, in part via pro-
+inflammatory Senescence-Associated Secretory Phenotype (SASP). This PPG previously showed that
+senescent cells expel chromatin from the nucleus into the cytoplasm, generating cytoplasmic chromatin
+fragments (CCF). CCF are sensed by the cytoplasmic cGAS/STING pathway, thereby activating NFκB and
+SASP. Our previous and ongoing studies showed that in senescent cells, HIRA localizes to PML nuclear bodies,
+and that both HIRA and PML, in conjunction with autophagy regulator p62SQSTM1 (p62), control activation of
+the cGAS/STING pathway and SASP through an H3.3-independent non-canonical pathway. The mechanism by
+which HIRA, PML and p62 control cGAS/STING is unknown.
+ In collaboration with other members of this PPG team, these knowledge gaps will be addressed:
+Aim 1. Investigate loss of hepatocyte cell identity in aged liver.
+Aim 2. Investigate the role of Hira in chromostasis and maintenance of cell identity in aging liver.
+Aim 3. Investigate the role of HIRA in expression of SASP by senescent cells.
+Completion of these Specific Aims will define novel causes of aging and set a route to healthy aging interventions.",401405,2026-01-28T00:00:00
+"ADAMS, SEAN HARRISON",UNIVERSITY OF CALIFORNIA AT DAVIS,Metabolism and Metabolic Health Core,"ABSTRACT—METABOLISM AND METABOLIC HEALTH (MMH) CORE
+Investigators interested in mechanisms underlying the pathophysiology of obesity, diabetes and related
+metabolic diseases will benefit from a comprehensive analysis of components regulating energy balance,
+macronutrient combustion and metabolism in live animals. Simple tests that compare food intake to weight
+gain, or that measure metabolically-relevant analytes from a single static condition, fail to fully capture nuanced
+bioenergetic and metabolic phenotypes, changes in feeding behaviors, or alterations of body composition.
+Therefore, the Metabolism and Metabolic Health (MMH) Core has been designed and structured to provide
+investigators with expert consultation, state-of-the-art instrumentation, and technical support to assess—in live
+mice—energy balance, energy intake (EI) and digestion, energy expenditure (EE), metabolic efficiency, EI-EE
+coupling phenotypes, macronutrient metabolism, hormone action and secretion, body/tissue composition, and
+associations with the microbiome and xenometabolome. The MMH Core will be service-oriented, client-facing,
+and research-supportive. The MMH Core will be staffed by a Leader, co-Leader, Core Coordinator, Technical
+Specialists, and 5 Scientific Consultants.
+The mission of the MMH Core will be accomplished through the following 2 Specific Aims:
+Specific Aim 1: Provide clients with innovative and unique assets and approaches to deeply-
+characterize key nodes involved with energy balance, food intake, glucose and triglyceride
+metabolism, metabolic hormone sensitivity, body composition and gut microbiota metabolism in live
+mice.
+Specific Aim 2: Provide clients with consultation services focused on study design and interpretation
+of results in the areas of metabolic physiology, obesity, and diabetes.
+Under these specific aims, the MMH Core will carry out the following activities:
+ • Providing acute, mid, and long -term assessments of EI and sensitivity to EI-regulating hormones in
+ male and female mice as models of diabetes, obesity, and other metabolic disorders;
+ • Offering a battery of bioenergetics and EE tests, including RER complex pattern and frequency
+ analysis, EE-EI coupling as a measure of energy balance regulation, and characterization of TNZ
+ and TNP, including under temperature extremes, norepinephrine, exercise, or timed meal
+challenges;
+ • Conducting analyses of body composition by EchoMRI and PixiMus DEXA and studies of
+ macronutrient metabolism via glucose and insulin tolerance tests, continuous glucose monitoring,
+ and hepatic triglyceride production;
+ • Providing innovative and unique services to assess the microbiome and xenometabolome,
+ metabolic and feeding efficiency, and whole-body imaging to complement services obtained from
+ the PB Core;
+ • Assisting investigators to generate high-quality and reproducible research results for publications,
+ pilot data for grant proposals, and preclinical findings to inform human clinical trials;
+ • Being flexible and responsive to user requests for new and customizable assays and procedures;
+ • Participating in the Vibrant Program to assist and train a new generation of scientists with a tailored
+ focus toward underrepresented investigators and increasing diversity in biomedical research
+Through their previous association with the MMPC, the investigators participating in the MMH Core have
+proven expertise and capabilities in the study of energy metabolism, bioenergetics, body composition, glucose
+and lipid homeostasis, food intake, metabolomics, and gut microbiota in live mice. When coupled with state-of-
+the-art equipment, facilities, and core analytical labs at UC Davis, the MMH Core will be a unique and highly-
+impactful scientific asset to national investigators interested in metabolic physiology and the pathophysiology of
+diabetes and obesity.",184102,2026-01-30T00:00:00
+"ADEBIYI, ADEBOWALE ",UNIVERSITY OF MISSOURI-COLUMBIA,Renal Vascular Smooth Muscle NaV Channels: Regulation and Contribution to Hypoperfusion in Neonatal Ischemic Acute Kidney Injury,"Voltage-gated sodium (NaV) channels are essential membrane proteins that mediate sodium ion (Na⁺) influx in
+response to membrane depolarization. This rapid Na⁺ entry is critical for generating and propagating action
+potentials in excitable cells, including neurons, skeletal muscle, and cardiac muscle. The nine functionally
+characterized NaV isoforms (NaV1.1–NaV1.9), encoded by SCN genes, exhibit distinct tissue distributions and
+physiological functions. Mutations in NaV channels contribute to a range of neonatal and adult diseases,
+highlighting their role in pathological processes. While their contributions to neuronal and cardiac excitability are
+well established, NaV channels are also expressed in the vasculature, where their pathophysiological significance
+remains unclear. Although NaV channels have been identified in mesenteric, pulmonary, coronary, and femoral
+arteries, their regulation and function in the renal preglomerular microvasculature remain unexplored. Our
+preliminary findings suggest that NaV1.5 contributes to the regulation of intrarenal arterial tone in the neonatal
+kidney, revealing a previously underappreciated role for this channel in neonatal vascular physiology. In neonatal
+pig renal vascular smooth muscle cells (VSMCs), NaV1.5 channels are spatially localized in close proximity to
+the Na⁺-Ca²⁺ exchanger (NCX). Activation of NaV channels promotes Ca²⁺ influx and vasoconstriction through
+reverse-mode NCX activity and L-type Ca²⁺ channels (LTCCs). Additionally, hypoxia/reoxygenation (H/R)
+stimulates contraction of the neonatal pig renal artery through the NaV-NCX-LTCC axis. Our pilot studies further
+suggest that nitric oxide (NO) regulates NaV1.5 expression in neonatal renal VSMCs via the forkhead box protein
+O1 signaling pathway, a mechanism that may drive alterations in endothelial-to-VSMC signal transduction and
+contribute to renal ischemia-reperfusion (IR)-induced hypoperfusion—a key factor in the development of acute
+kidney injury (AKI). This project aims to (1) elucidate the regulation of NaV1.5 expression and activity in renal
+VSMCs by NO-dependent signaling; (2) determine the role of NaV1.5 in H/R-induced intracellular Na⁺ and Ca²⁺
+overload in renal VSMCs and its contribution to renal vasoconstriction; and (3) assess whether NaV-mediated
+increases in renal vascular resistance contribute to IR-induced kidney hypoperfusion and AKI. To accomplish
+these objectives, we will employ a multidisciplinary approach that integrates biochemical analyses, liquid
+chromatography-tandem mass spectrometry, intracellular ion measurements, patch-clamp electrophysiology,
+vessel myography, and neonatal pig models of renal IR. We will evaluate the therapeutic potential of clinical NaV
+channel modulators and utilize a transgenic SCN5A neonatal pig model. Findings from this study will provide
+fundamental insights into the regulatory mechanisms and functional significance of renal vascular NaV1.5,
+establishing its potential as a therapeutic target for mitigating neonatal AKI.",588892,2026-02-05T00:00:00
+"ADELMAN, ZACH N.",TEXAS A&M AGRILIFE RESEARCH,Self-Eliminating Strategy To Control Gene Drive,"The ability to deliver pathogen-resistance genes into mosquito populations has long been sought as a potential
+alternative for disrupting dengue or malaria transmission where funds and infrastructure are the limiting factors
+in effective mosquito control. While effective gene drive transgenes based on CRISPR/Cas9 have been
+developed for model organism Drosophila and for malaria mosquitoes, Aedes aegypti, the most medically
+important vector of dengue, yellow fever and chikungunya viruses, lags behind for reasons that remain largely
+unexplored and unknown. In this project, D. melanogaster and A. aegypti will be employed to evaluate novel
+hypotheses regarding how genome structure and DNA repair influence both homing gene drive and transgene
+removal based on single strand annealing. Following from previous work, multigeneration cage experiments
+will be performed on this transgene removal strategy in the context of an active gene drive in both flies and
+mosquitoes, followed by a wave of transgene removal (Aim 1). Next, the role of local microhomology, nuclease
+characterisics and DNA repair protein recruitment will be examined on both the rates of both homing gene
+drive and transgene removal in A. aegypti, where gene drive has lagged behind (Aim 2). Finally, the role of
+chromosomal position on both homing gene drive and transgene removal will be tested in the context of both
+synthetic targets and new haplolethal target genes (Aim 3). This innovative approach takes advantage of
+naturally occurring processes that are conserved throughout eukaryota to completely eliminate all transgenic
+sequences following potential field releases. Thus, it is anticipated that this project will have a substantial
+impact on National and International conversations concerning gene drive technology as a whole, and will raise
+expectations for what is possible in any future trial to generate pathogen-resistant mosquitoes.",749703,2026-02-09T00:00:00
+"ADIGUN, ALEXANDRIA ",UNIVERSITY OF PENNSYLVANIA,Illuminating the Molecular Mechanisms of Replication and Transcription Coordination,"Project Summary/Abstract
+The goal of this proposal is to understand how replication and transcription are spatially and temporally
+coordinated at molecular scales during embryonic development. A long-standing assertion is that RNA Pol II (Pol
+II) is completely evicted from DNA during replication to avoid steric conflict between transcription and replication
+machinery. This eviction hypothesis rests largely on in vitro or population and time-averaged genomics or
+biochemical experiments. These either may not recapitulate endogenous contexts or are unable to capture the
+interactions kinetics of Pol II’s association with chromatin with adequate temporal resolution (of seconds to
+minutes). In fact, recent in vivo experiments suggest that Pol II is not completely evicted from chromatin but
+remains in proximity (~40nm) to promoters and gene bodies during replication. This relationship is facilitated by
+Pol II interacting with PCNA, a sliding clamp protein associated with actively replicating domains in the nucleus
+that grow and disappear as replication completes. These contradictory findings call into question the molecular
+mechanisms that govern the coordination of transcription and replication machinery. I propose to use advanced
+live microscopy and single molecule tracking to directly measure the interaction kinetics of transcription and
+replication proteins in real time in developing Drosophila embryos. This work will provide molecular scale insights
+on the coordination of replication and transcription in an in vivo context.
+Our lab has established high resolution light-sheet microscopy which enables tracking of single protein
+molecules within the nuclei of live Drosophila embryos. Single molecule tracking reveals how individual proteins
+move within the nucleus and the kinetics of protein-protein and protein-chromatin interactions. Using these
+approaches along with perturbations to replication and transcription, I will investigate the chromatin binding
+kinetics of Pol II and PCNA as transcription is activated post-replication. To further understand how transcription
+is reactivated post-replication I will similarly investigate the distributions and kinetics of the pioneer transcription
+factor Zelda that is a ubiquitous activator in Drosophila embryos. Preliminary data from our lab shows that Zelda
+is excluded from domains of active replication marked by PCNA yet is detected near these sites. I hypothesize
+that i) Pol II is retained within actively replicating domains to avoid complete eviction from chromatin to enable
+rapid re-engagement and that ii) Zelda swiftly transitions from its excluded state post-replication to engage at
+these sites to facilitate transcriptional activation.",49538,2026-02-13T00:00:00
+"ADLER-MILSTEIN, JULIA ROSE","UNIVERSITY OF CALIFORNIA, SAN FRANCISCO",Advancing Coordination of Home and Community based Services for the ADRD Population,"Project Summary Abstract
+Older adults with Alzheimer's disease and related dementias (ADRD) rely on a broad array of health and social
+services to address needs ranging from traditional medical care to supports for basic activities of daily living. A
+critical set of services is those that allow individuals with ADRD to remain at home as opposed to residing in an
+institutional setting. Referred to as home- and community-based services (HCBS), these services span from
+clinical services (e.g., skilled home health, in-home palliative care) to services that focus on custodial and social
+needs (e.g., home health aides, adult day, respite). Despite their widespread use, there is little data
+characterizing the organizations that deliver HCBS, or how well they coordinate with traditional institutional
+providers that also care for those with ADRD. Lack of accessible data precludes investigation into availability of
+HCBS across different geographies, scope of services offered, organizational relationships, quality, efficiency,
+and beyond. Addressing this gap is particularly essential for the ADRD population because they use HCBS at
+such high levels.
+Our proposal, submitted in response to NIA PAR-19-070, focuses on HCBS for those with dementia and offers
+a multi-method approach to capture systematic data on HCBS organizations and how well they engage in care
+coordination. Our approach leverages newly-available Medicaid claims/encounter data for HCBS to generate
+the first publicly-available, national-level datasets that list and characterize the organizations delivering HCBS to
+the ADRD population. Next, we will identify the organizational networks - including HCBS and institutional
+organizations – based on which organizations care for the same individuals. Prior work has defined networks of
+clinical providers that resulted in widely-used measures of healthcare markets (e.g., hospital referral regions).
+However, the definitions do not include HCBS. Defining networks that include HCBS and serve a shared ADRD
+population will allow us to characterize the features of the networks (e.g., size, density of ties) in addition to
+evaluating outcomes (e.g., hospital readmissions, emergency department visits) for those cared for by these
+networks. Finally, by measuring and comparing care coordination activities in networks with better and worse
+outcomes (via a large-scale survey of HCBS organizations in those networks), we can identify actionable policy
+and practice-based strategies that improve care for a vulnerable population. Taken together, our results will
+inform policy and practice strategies to improve delivery of HCBS for the ADRD population that are currently not
+well coordinated in relation to our complex and fragmented healthcare delivery system.",707308,2026-01-22T00:00:00
+"ADRIAN, MOLLY ",SEATTLE CHILDREN'S HOSPITAL,Advancing Suicide Intervention Strategies for Teens During High Risk Periods,"Project Summary/Abstract
+The proposed project is designed to evaluate the impact of two interventions designed to bridge acute care
+and outpatient services in comparison with usual care. The long-term goal of this program of research is to
+improve healthcare system’s response to youth who present to acute care due to suicide risk and effectively
+reduce risk during the transition to outpatient care. The current study aims to evaluate treatment that begins
+with Collaborative Assessment and Management of Suicidality (CAMS) or Safety Planning Intervention with
+follow-up (SPI+). Adolescents, parents, and clinicians will participate in the project to advance to following
+Research Aims: 1) Assess the comparative effectiveness of CAMS and SPI+ compared to usual care and 2)
+Evaluate the mechanism of change accounting for the therapeutic effects of the interventions. The project
+aligns with Strategy 3.2 and 3.3 in the NIMH Strategic Plan and the National Action Alliance for Suicide
+Prevention Research Prioritization Task Force through the evaluation of interventions to optimize outcomes
+in community practice settings.",851602,2026-01-22T00:00:00
+"AGADJANYAN, MICHAEL G",INSTITUTE FOR MOLECULAR MEDICINE,"Safety/Tolerability/Immunogenicity of first-in-human Aβ DNA vaccine, AV-1959D Phase 1 trials in early-stage AD subjects: based on IND18953 cleared by FDA.","Project Summary
+Recent data from clinical trials with humanized or fully human mAbs targeting Aβ suggest that immunotherapy
+could clear/reduce brain amyloid plaques and even slow cognitive decline in vaccinated subjects when initiated
+as a preventive measure. However, passive immunotherapy with even the most effective anti-Aβ mAb is not
+practical and cost-effective as a preventive measure in healthy subjects due to the need for frequent (monthly)
+administrations of high concentrations (~800mg IV injections/each time) of this immunotherapeutic in a
+substantial patient population. At the same time, high doses of mAb frequently (~30%) induce ARIA-E and ARIA-
+H. In contrast, AD vaccine, similar to the vast majority of vaccines in general, could be very effective when used
+as a preventive/early intervention measure. Today, only limited results are available from ACC001, CAD106,
+and UB311 epitope vaccine clinical trials, but fortunately, comprehensive data on AN-1792 are published. These
+data demonstrated that the AN-1792 vaccine has induced antibodies specific to N-terminus of amyloid in ~19%
+immunized AD patients without causing ARIA-E and ARIA-H abnormalities. Importantly the follow-up analysis
+revealed that even after 14 years post-vaccination, the vaccinated subjects were plaque-free, and there was a
+significant inverse correlation between peripheral blood anti-Aβ antibody titers and the plaque counts. Despite
+the reduction of Aβ pathology, vaccination did not improve cognitive functions likely due to tau pathology buildup.
+These data support our long-standing proposal of starting anti-Aβ vaccination with AV-1959D as a prophylactic
+measure in subjects at risk for AD to inhibit/reduce oligomerization of Aβ and delay downstream pathological
+processes. However, based on an ethical imperative raised by the FDA during our pre-IND meeting, they
+recommended us to test our Aβ vaccine AV-1959D in participants with early-stage AD patients prior to initiating
+the preventive trials in asymptomatic people at risk of MCI/AD. Therefore, here we propose to initiate a Phase 1
+safety trial with the first-in-human Aβ DNA vaccine, AV-1959D in early-stage MCI/AD patients based on FDA
+cleared IND18953 developed under an NIA cooperative agreement (U01 AG048310). Importantly, our vaccine
+strategy differs from all previous or current vaccines tested in clinical trials, as our approach is based on the very
+immunogenic and proprietary MultiTEP platform designed for human use and aimed to (i) overcome self-
+tolerance by inducing Th cell responses to MultiTEP, but not to self-Aβ epitopes; (ii) diminish variability of immune
+responses due to HLA diversity in humans; (iii) augment anti-Aβ antibody production through activation of both
+naïve and pre-existing memory Th cells, especially beneficial for elderly patients with immunosenescence.
+Therefore, in Phase 1 trials, the first-in-human MultiTEP-based DNA vaccine targeting Aβ1-11 B cell epitope
+should be safe and should induce therapeutically sufficient titers of anti-Aβ antibodies in an appreciable number
+of vaccinated early stage AD subjects. Our future program includes preventive vaccine trial in asymptomatic
+people at risk of MCI/AD using only the most immunogenic and safe dose of AV-1959D.",1903959,2026-01-30T00:00:00
+"AGNER, SHANNON CHRISTINE",WASHINGTON UNIVERSITY,Role of Mertk in pathological neurodevelopment in mice with congenital Zika virus infection,"Project Summary/ Abstract
+Congenital and perinatal infections are a leading cause of fetal and infant morbidity and mortality. There is
+increasing evidence that brain injury in babies with congenital and perinatal infections is caused not only by direct
+injury from the pathogen itself, but also may be due to the inflammatory or immune response to the pathogen.
+Targeted immunotherapies that allow pathogen control and removal but minimize bystander brain injury are
+largely unexplored. This proposal investigates the role of the receptor tyrosine kinase, Mertk, in cognitive and
+behavioral dysfunction in mice after congenital Zika virus (ZIKV) infection. Recent global epidemics link
+congenital ZIKV infection to neurodevelopmental abnormalities including microcephaly, intracranial
+calcifications, ventriculomegaly, and cognitive and behavioral impairment. Recent data indicate that ZIKV-
+exposed children without major structural brain abnormalities at birth may still have cognitive and behavioral
+deficits. Mertk, a receptor tyrosine kinase expressed by astrocytes and microglia, has been implicated in
+autoimmune, infectious and oncologic processes. It is not expressed by neurons, so immune-specific pathways
+can be probed without disturbing neuronal biology.
+Mertk facilitates microglial- and astrocyte- mediated synaptic
+pruning during early brain development and also mediates phagocytosis of cells and cellular debris in the brain.
+The hypotheses to be tested are: (1) Increased prenatal and early postnatal Mertk signaling during congenital
+ZIKV infection mediates immune-mediated neuronal injury; (2) increased postnatal Mertk signaling in microglia
+and astrocytes during congenital ZIKV leads to increased phagocytosis of mature neurons and synaptic pruning;
+and (3) increased Mertk signaling due to congenital ZIKV infection mediates abnormalities in functional
+connectivity, cognition, and behavioral deficits following congenital ZIKV infection. Understanding mechanisms
+of brain injury in ZIKV-exposed children is critical for providing interventions that improve neurodevelopment
+once ZIKV is detected. The proposed mechanisms also have broader implications for the effects of other
+neuroinflammatory insults on the developing brain. This mentored career development award provides the
+applicant, a uniquely trained pediatric neurologist with expertise in medical image analysis, formal training in
+animal models of early neurodevelopment along with advanced neuroimmunology and developmental
+neuroscience research methods, including immune cell profiling, histochemical analysis of brain tissue and
+optical imaging of functional brain cortical connectivity. The environment for the proposed research is an
+institution that is deeply committed to development of early career physician scientists and provides the applicant
+direct access to field leaders in developmental neuroscience, infectious diseases and widefield optical imaging.
+The training and data that will result from this award will provide a foundation for the applicant to transition to an
+independent physician scientist and lead critical, rigorous studies in the development of mouse models of
+congenital and perinatal infections that affect the developing brain.",234303,2026-01-26T00:00:00
+"AGRAWAL, DEVENDRA K.",WESTERN UNIVERSITY OF HEALTH SCIENCES,Research Education Program in Immunologic and Allergic Diseases,"Western University is one of the few universities in the United States devoted exclusively to train professionals with a distinct focus on health science education, currently educating about 4,000 professional students each year. Allergic and immunologic diseases are either primary or secondary to diseases involving several systems, including oral health, eyes, feet and ankle, and others. Most of the health professionals, including Osteopathic Medicine physicians, Podiatrist, Optometrist, Dentist, and Pharmacists routinely see patients with prevalent allergic and immunologic diseases. Thus, the expansion of opportunities and resources for research training of future health professionals in biomedical research areas relevant to NIAID mission will have a profound impact in advancing scientific knowledge and better management of patients. Our application builds upon the extensive pre-clinical and clinical research and mentoring expertise of Western University faculty who conduct research in an array of areas in basic, translational, and clinical sciences, tackling complex health problems.  We will strategically recruit 15 qualified, motivated, and research-oriented participants per year from a large pool of qualified health professional students from Western University Osteopathic Medicine, Dentistry, Optometry, Podiatry, and Pharmacy programs in the proposed 2.5 months (~10 weeks) R25 training program in the summer between the first and second year. The NIAID R25 full-time summer research education will focus on student research interests in allergic and immunologic diseases, the most prevalent disorders, and commonly encountered in clinical practice. This will facilitate the participants in achieving their goals to become the next generation of research workforce conducting state-of-the-art research in NIAID mission areas and apply knowledge in areas of extremely high importance for public health. The research education will be supplemented with mentoring, courses in research techniques, scientific and grant writing, responsible conduct of research, including ethics in research and reproducibility of the research findings through scientific rigor and reproducibility, and presentation skills. We have selected a group of experienced advisors to interact with R25 trainees and actively participate in all activities of the R25 program including daily research training, regular meetings with students, journal clubs, Fall Research Day, and publishing research findings. The R25 participants, mentors and research advisors will submit their comments and suggestions on the program. Research and scholarly activity of the participants will be tracked throughout their program and beyond during residency and professional and research career. The R25 program is enthusiastically supported by the Western University Provost and the Deans of the Colleges participating in this program.",377175,2026-01-30T00:00:00
+"AGUIRRE, ANDREW JAMES",DANA-FARBER CANCER INST,Mechanisms of response and resistance to KRAS inhibition in pancreatic cancer,"PROJECT SUMMARY/ABSTRACT
+Pancreatic ductal adenocarcinoma (PDAC) is a devastating cancer, with a five-year survival of only 10%. There
+is an urgent need to develop new therapeutic strategies for this disease. Oncogenic KRAS mutations occur in
+most patients and co-occur with alterations in several different tumor suppressor genes, including TP53,
+CDKN2A, SMAD4, ARID1A and others. Multiple different transcriptional subtypes of PDAC have also been
+observed, such as the classical and basal-like programs, which define distinct subsets of disease with differing
+prognosis and therapeutic response. The recent development of new small molecule inhibitors of KRAS that
+target KRAS mutations frequently observed in PDAC has the potential to transform the treatment of this disease.
+We and others have shown that primary and acquired resistance mechanisms can limit the clinical benefit of
+KRAS inhibitor monotherapy in cancer; thus, understanding the mechanisms of response and resistance to
+KRAS inhibition in PDAC will be critical to maximize the potential of these therapies. This proposal will use novel
+mutant-selective KRAS and pan-RAS inhibitors, unique human organoid and mouse models of PDAC, and
+innovative single-cell and functional genomic approaches to define the genetic, transcriptional and
+microenvironmental factors that impact response to KRAS inhibition in PDAC. In Aim 1 we will investigate how
+tumor suppressor genotype can modify response to KRAS inhibition using CRISPR-Cas12a tumor suppressor
+gene knockout screens in both in vitro and in vivo systems to simultaneously model multiple PDAC genotypes
+and systematically define genetic biomarkers and mechanisms of sensitivity or resistance to KRAS inhibition. In
+Aim 2, we will define the role of PDAC transcriptional cell state in modifying response to KRAS inhibition using
+novel isogenic murine PDAC organoids and human patient-derived PDAC organoids representing the basal-like,
+classical and neuronal-like subtypes of PDAC. We will characterize subtype-specific adaptive mechanisms of
+response to KRAS inhibition and evaluate subtype plasticity with a goal to develop combination therapy
+strategies with KRAS inhibition to target each subtype. In Aim 3, we will build on preliminary single-cell RNA
+sequencing (scRNA-seq) data from human PDAC biopsies showing that the tumor microenvironment (TME)
+shapes the transcriptional phenotype and therapeutic response of PDAC cells. We will examine response to
+oncogenic Kras inhibition in new mouse models of the basal-like, classical and neuronal-like subtypes of PDAC
+and will interrogate the role of paracrine signaling mechanisms from the TME in modifying malignant cell state
+and response to KRAS inhibition using ex vivo scRNA-seq and drug sensitivity profiling assays. Collectively,
+these studies will form a foundation for development of new biomarkers and combination therapies with KRAS
+inhibition that can be evaluated in future clinical trials for PDAC patients.",505595,2026-01-26T00:00:00
+"AHMED, ZUBAIR M.",UNIVERSITY OF MARYLAND BALTIMORE,Usher Proteins in the Inner ear Structure and Function,"Hearing loss (HL) is an etiologically diverse condition that can occur at any age and severity level, affecting 1 in
+500 infants and more than 360 million people globally1; 2. In numerous ethnicities, we have previously identified
+pathogenic variants in the CIB2 gene encoding Calcium and Integrin-Binding protein 2 (CIB2) as the etiology of
+HL4-6. In past funding periods, we discovered that CIB2 is expressed in the mouse hair cell stereocilia and binds
+to the TMC1 and TMC2 components of the hair cell MET complex, and that deafness-causing CIB2 mutations
+disrupt these interactions. We concluded that CIB2 is essential for the MET function7. We also generated two
+mouse models carrying the human deafness-related Cib2 variants (Cib2F91S and Cib2R186W knock-ins) and
+characterized them together with a mouse line lacking CIB2 (Cib2ko). We found that Cib2F91S and Cib2ko mouse
+strains are deaf and lack typical MET responses in the auditory hair cells, despite the existence of tip links that
+are ordinarily responsible for gating the MET channels. In contrast, the p.R186W mutation does not disrupt the
+interaction between CIB2 and TMC1/27, and MET currents in mutant mice are diminished but still detectable. It
+is particularly intriguing that CIB2's participation in the MET machinery may be responsible for at least some of
+the several well-known effects of Ca2+ on hair cell mechanotransduction. Here, we will investigate the precise
+function of CIB2 in MET. We hypothesize that CIB2 is a calcium-dependent element that regulates sensitivity of
+the MET channels and force transmission to these channels in the mammalian auditory hair cells of. Our findings
+further determined that CIB2 deficiency causes an overgrowth of transducing shorter row stereocilia in the hair
+bundle without altering the non-transducing tallest row stereocilia7. This observation cannot be explained solely
+by the loss of mechanotransduction, since blockage of the MET channels causes an opposite effect, the
+retraction of transducing stereocilia8; 9. Hence, CIB2 must have some role in stereocilia growth, unrelated to
+mechanotransduction. Here, we will investigate the involvement of CIB2 in the molecular networks implicated in
+the development and patterning of auditory stereocilia bundles. A recent work has demonstrated functional
+redundancy between CIB2 and CIB3 proteins in regulating MET function3. Therefore, using in vitro and in vivo
+rescue experiments, we will test the hypothesis that cochlear hair cells require CIB2 for faster
+mechanotransduction and specific hair bundle shape. Finally, we will explore the function of CIB3 in hearing.
+The expected outcomes of this study are to uncover the precise mechanism of deafness associated with CIB2
+deficiency, the physiological role of CIB proteins in hair cell functions, especially in MET, and their role in
+stereocilia staircase patterning. The potential for positive impact is inherent; deciphering the functions of HL
+proteins is a critical step towards the development of actual therapies for the treatment and/or prevention of HL.",622550,2026-01-21T00:00:00
+"AHN, BUMSOO ",WAKE FOREST UNIVERSITY HEALTH SCIENCES,Synergistic Effects of Unacylated Ghrelin and Endurance Exercise on Sarcopenia and Mobility Loss,"Project Summary/Abstract
+Sarcopenia, the progressive loss of muscle mass and function, universally impacts the aging population,
+contributing to loss of mobility and independence in older adults. With the rapid growth of the aging population,
+there is an urgent need for effective strategies against sarcopenia. Exercise is the most effective intervention
+that increases muscle mass and function in younger adults, but its benefits are attenuated in older adults due to
+diminished responses to exercise training. Over the years, several candidate molecules, including metformin,
+antioxidants, and resveratrol were combined with endurance exercise (EE) in an attempt to increase training-
+induced benefits; however, these interventions failed to enhance training responses and, in some cases, reduced
+the positive effects of exercise. Given metformin’s inhibitory effects on mitochondrial respiration and the ability
+of antioxidants to scavenge signaling molecules in response to exercise, a logical next step is to combine EE
+with a candidate molecule that specifically enhances mitochondrial bioenergetics and its downstream pathways.
+A strong such candidate is unacylated ghrelin (UnAG), whose circulating levels are significantly decreased in
+older adults and mice. Our pilot data provides evidence that UnAG combined with endurance exercise
+(UnAG+EE) additively increases mitochondrial bioenergetics, while synergistically improving motor coordination,
+muscle mass and contractile function. Our data also revealed that UnAG activated both shared (i.e., PGC-1α)
+and distinct (i.e., mTORC2) pathways compared to those triggered by EE alone, suggesting that UnAG+EE may
+provide synergistic and complementary benefits. Building on our compelling preliminary data, we hypothesized
+that the combination of UnAG+EE will enhance mitochondrial bioenergetics and preserve NMJ integrity in older
+mice, providing synergistic protection for sarcopenia. Our specific aims will focus on the effects of UnAG, EE,
+and UnAG+EE on mitochondrial bioenergetics and oxidative stress (Aim 1), motor neuron cell numbers and
+inflammation in the spinal cord and neuromuscular junction (Aim 2), and muscle mass, function, and protein
+quality in skeletal muscle (Aim 3) in older mice. We will also assess additive or synergistic effects of UnAG+EE
+on key endpoint measures for each aim. Transcriptomic analysis will be performed to identify differentially
+expressed genes and pathways influenced by our interventions, which can provide essential information for
+mechanistic investigations in the future. If our results support the hypothesis, UnAG+EE will be the first
+combination therapy that shows additive or synergistic effects for sarcopenia. UnAG+EE also has great potential
+for translation, given the established safety of UnAG and its mimetics in humans. Finally, our proposal aligns
+directly with the current Strategic Directions of the NIA, “Develop effective interventions to maintain health, well-
+being, and function, while preventing or reducing the burdens of age-related diseases, disorders, and disabilities.",599623,2026-01-29T00:00:00
+"AHN, ERIN EUN-YOUNG",UNIVERSITY OF ALABAMA AT BIRMINGHAM,Genetic and molecular basis of hematopoietic abnormalities in ZTTK syndrome,"PROJECT SUMMARY
+Individuals with rare genetic diseases do not receive attention from the medical and research community. One
+out of two patients diagnosed with a rare disease is a child, meaning that patients and their families must endure
+long battles relating to disease progress throughout their child’s lifetime. Therefore, characterization of
+clinical/molecular aspects of rare diseases will greatly benefit young patients and their families.
+SON is a DNA- and RNA-binding protein that plays dual roles as an RNA splicing factor and a transcriptional
+repressor. Our research team recently identified Zhu-Tokita-Takenouchi-Kim syndrome (ZTTK syndrome), a
+rare genetic disease with multi-organ abnormalities caused by heterozygous loss-of-function mutations in the
+SON gene (SON haploinsufficiency). Our research and publication played a key role in documenting this
+syndrome in major public databases to facilitate clinical diagnosis. As a first step in supporting ZTTK families
+and promoting awareness, we recently launched an official foundation, the ZTTK SON-Shine Foundation.
+Our recent efforts revealed that many children with ZTTK syndrome experience various hematopoietic disorders
+and immune dysfunction, which sometimes leads to life-threatening sepsis. To understand the hematopoietic
+abnormalities associated with ZTTK syndrome, we have generated mouse models of Son knockout (KO) and
+Son haploinsufficiency. Our preliminary data demonstrated that complete Son KO in hematopoietic cells causes
+hematopoietic stem cell (HSC) expansion and embryonic lethality. Furthermore, we found that Son
+haploinsufficiency leads to abnormal proportions of lineage-primed multipotent progenitors (MPPs), with an
+expansion of megakaryocyte-erythroid lineage-primed MPPs and a shrinkage of lymphoid lineage-primed MPPs,
+which is already evident during fetal liver hematopoiesis and persists in adult hematopoiesis in the bone marrow.
+Importantly, our RNA-sequencing analyses revealed that critical chromatin modifier genes were the major targets
+dysregulated by Son haploinsufficiency in early stage hematopoietic stem and progenitor cells (HSPCs).
+Based on these preliminary data, our central hypothesis is that Son haploinsufficiency directly and indirectly
+alters the expression/splicing of key chromatin modifiers, which collectively reshapes chromatin status at the
+level of HSCs and MPPs, and this leads to skewed lineage bias and impaired functional output of HSCs/MPPs.
+To test these hypotheses, we will investigate how Son haploinsufficiency affects functional output of HSCs and
+lineage primed MPPs in vivo (Aim 1), and will dissect the underlying molecular mechanisms by which Son
+haploinsufficiency leads to HSPC abnormalities (Aim 2). Successful completion of this proposed study will
+significantly advance our knowledge about ZTTK syndrome-associated abnormal hematological features and
+will serve as a valuable resource to identify therapeutic strategies. Most importantly, this study will bring hope to
+children and their families battling this rare disease.",493219,2026-02-11T00:00:00
+"AIZENMAN, CARLOS D",BROWN UNIVERSITY,Brown University Postbaccalaureate Research Education Program,"This proposal seeks continued support for the Postbaccalaureate program at Brown University (renamed ‘PREP@Brown) to advance our work in developing a highly-talented pool of knowledgeable and well-trained individuals who go on to pursue Ph.D. degree training and careers in the biomedical sciences. This work responds to the need to expand the U.S. STEM workforce. Informed by best practices and lessons learned from our ongoing work, we describe an innovative program characterized by a comprehensive and customizable set of interventions to support and advance students' academic and career development and success.  
+ Each year, our program will recruit and support six research-oriented baccalaureate graduates (The Scholars) and provide them with interdisciplinary research experiences, individualized academic planning, professional development, and skill-building activities to increase their competitiveness and readiness for high-caliber doctoral programs. Participating departments for Brown’s PREP@Brown program are those in the Life and Medical Sciences Division and include biology, neuroscience, molecular microbiology and immunology, pathobiology, public health, and cognitive, linguistic, and psychological sciences. In addition to intensive interdisciplinary research experiences and knowledge development, multiple mentorship and community-building opportunities permeate the activities of PREP@Brown. This will create a community of scholars that will help participants successfully navigate training needed for readiness for graduate studies. The use of Individual Development Plans (IDP) will ensure that PREP@Brown research, educational and professional development activities are tailored to address each Scholar’s academic and career goals. The PREP@Brown Program will also create opportunities for faculty to engage in conversations about the importance of developing a talented workforce in the biomedical and behavioral sciences. We have developed a comprehensive evaluation plan to assess outcomes and progress toward meeting the overall goal and aims of this project and monitor quality assurance across the proposed interventions.  
+ As designed, PREP@Brown has begun to, and will continue to increase the production of highly-qualified students who obtain a doctoral degree in the biomedical sciences and institutionalize best practices on training and mentoring – practices that can be shared among the Brown community and beyond.",286107,2026-01-26T00:00:00
+"AJALA, AFIS ","GE MEDICAL SYSTEMS INFORMATION TECHNOLOGIES, INC",Functional Magnetic Resonance Imaging and Deep Learning to Improve Deep Brain Stimulation Therapy,"PROJECT SUMMARY/ABSTRACT
+Successful treatment of Parkinson's disease (PD) using deep brain stimulation (DBS) therapy requires an
+optimal setting of stimulation parameters to correct brain function anomalies. The commonly employed DBS
+1.0 electrodes have only four contact locations (with no stimulation directionality) that are used to electric
+pulses to a target volume of the brain. DBS 1.0 electrodes require the optimization of four stimulation
+parameters: signal frequency, voltage, pulse width, and contact location. In current standard-of-care
+optimization protocol, the DBS parameters are adjusted (via trial and error) until the physician determines an
+optimal set of parameters. This empirical optimization protocol requires numerous clinical visits (~6 weeks
+interval) that substantially increases the time to optimization (TTO) per patient (~1 year), financial burden,
+and ultimately limits the number of patients that can have access to DBS therapy. Even though there are more
+effective electrodes, DBS 1.0 electrodes are mostly used by clinicians because their smaller parameter space
+pose less difficulty during manual clinical optimization. However, DBS 1.0 electrodes cannot be directed to
+stimulate a smaller volume of tissue, which can lead to extraneous stimulations that can reduce patient clinical
+benefits and increase side effects. By contrast, the newer DBS electrodes (dubbed DBS 2.0) have a greater
+number of contact locations and can be programmed to stimulate a smaller volume of tissue at multiple levels
+and directions. Several published reports have shown that DBS 2.0 electrodes (compared to DBS 1.0) are more
+energy-efficient and improve patient outcomes with lesser side-effects and a wider therapeutic window.
+However, the expanded DBS 2.0 parameter space has made empirical programming of the electrodes difficult
+as the TTO per patient is beyond acceptable clinical timeframes. This increased difficulty has hindered
+adoption of DBS 2.0 electrodes by clinicians. To significantly shorten and simplify DBS 2.0 parameter
+optimization—thus enabling its wider adoption for more precise therapy—a uniquely qualified multi-
+disciplinary team of magnetic resonance imaging (MRI) physicists, artificial intelligence (AI) engineers, and
+clinicians from GE Research and the University Health Network propose to: 1) develop a semi-automated
+functional MRI (fMRI) and deep learning (DL)-based system for rapid optimization of DBS 2.0 parameters; 2)
+demonstrate its clinical benefit in the treatment of PD patients using bilateral stimulation of the sub-thalamic
+nucleus with DBS 2.0 electrodes in a pilot study. Success of this program will decrease the TTO per patient for
+PD patients with DBS 2.0 implants to ~1 hour, and will improve patient throughput and outcomes in the
+treatment of PD. The proposed fMRI-DL-based optimization method may also improve access by making it
+possible for non-expert centers (without highly specialized clinicians) to carry out stimulation parameters
+optimization in patients after the electrode insertion surgery have been completed in expert centers.",266847,2026-01-30T00:00:00
+"AJALA, AFIS ","GE MEDICAL SYSTEMS INFORMATION TECHNOLOGIES, INC",Functional Magnetic Resonance Imaging and Deep Learning to Improve Deep Brain Stimulation Therapy,"PROJECT SUMMARY/ABSTRACT
+Successful treatment of Parkinson's disease (PD) using deep brain stimulation (DBS) therapy requires an
+optimal setting of stimulation parameters to correct brain function anomalies. The commonly employed DBS
+1.0 electrodes have only four contact locations (with no stimulation directionality) that are used to electric
+pulses to a target volume of the brain. DBS 1.0 electrodes require the optimization of four stimulation
+parameters: signal frequency, voltage, pulse width, and contact location. In current standard-of-care
+optimization protocol, the DBS parameters are adjusted (via trial and error) until the physician determines an
+optimal set of parameters. This empirical optimization protocol requires numerous clinical visits (~6 weeks
+interval) that substantially increases the time to optimization (TTO) per patient (~1 year), financial burden,
+and ultimately limits the number of patients that can have access to DBS therapy. Even though there are more
+effective electrodes, DBS 1.0 electrodes are mostly used by clinicians because their smaller parameter space
+pose less difficulty during manual clinical optimization. However, DBS 1.0 electrodes cannot be directed to
+stimulate a smaller volume of tissue, which can lead to extraneous stimulations that can reduce patient clinical
+benefits and increase side effects. By contrast, the newer DBS electrodes (dubbed DBS 2.0) have a greater
+number of contact locations and can be programmed to stimulate a smaller volume of tissue at multiple levels
+and directions. Several published reports have shown that DBS 2.0 electrodes (compared to DBS 1.0) are more
+energy-efficient and improve patient outcomes with lesser side-effects and a wider therapeutic window.
+However, the expanded DBS 2.0 parameter space has made empirical programming of the electrodes difficult
+as the TTO per patient is beyond acceptable clinical timeframes. This increased difficulty has hindered
+adoption of DBS 2.0 electrodes by clinicians. To significantly shorten and simplify DBS 2.0 parameter
+optimization—thus enabling its wider adoption for more precise therapy—a uniquely qualified multi-
+disciplinary team of magnetic resonance imaging (MRI) physicists, artificial intelligence (AI) engineers, and
+clinicians from GE Research and the University Health Network propose to: 1) develop a semi-automated
+functional MRI (fMRI) and deep learning (DL)-based system for rapid optimization of DBS 2.0 parameters; 2)
+demonstrate its clinical benefit in the treatment of PD patients using bilateral stimulation of the sub-thalamic
+nucleus with DBS 2.0 electrodes in a pilot study. Success of this program will decrease the TTO per patient for
+PD patients with DBS 2.0 implants to ~1 hour, and will improve patient throughput and outcomes in the
+treatment of PD. The proposed fMRI-DL-based optimization method may also improve access by making it
+possible for non-expert centers (without highly specialized clinicians) to carry out stimulation parameters
+optimization in patients after the electrode insertion surgery have been completed in expert centers.",265653,2026-02-05T00:00:00
+"AL ALI, HASSAN ",UNIVERSITY OF MIAMI SCHOOL OF MEDICINE,Developing a kinase inhibitor drug to treat spinal cord injury,"ABSTRACT
+Spinal cord injury (SCI) is a devastating condition with life-long consequences that include paralysis. Central
+nervous system (CNS) axons typically fail to regenerate, leading to irreversible losses of neuronal connectivity
+and associated functions after injury. SCI is now estimated to cost the nation’s healthcare system around $40.5
+billion annually (CDC). People living with paralysis are often unable to afford health insurance that adequately
+covers the associated complex secondary or chronic conditions, which places tremendous economic burden and
+psychological suffering on them and their families. Developing a drug to treat SCI will address major healthcare
+and societal needs.
+Encouraging axon regeneration in the CNS is challenged by at least two separate mechanisms that suppress
+axonal growth: 1) a lack of intrinsic regenerative capacity in adult CNS neurons, and 2) the extrinsic inhibitory
+microenvironment confronting damaged axons. Despite decades of research and billions of NIH dollars spent,
+there are still no approved drugs for promoting axon regeneration. Moreover, the effectiveness of drugs in
+development is likely limited by the fact that each targets only one of the two growth-suppressive mechanisms.
+We have discovered the first therapeutic candidate, in the form of a small molecule, which can simultaneously
+address both sources of regeneration failure. We accomplished this using a combination of phenotypic
+screening, target-based profiling, and machine learning to identify kinase targets within each of the two
+mechanisms, extrinsic and intrinsic. We then identified a single small molecule (RO48) that manifests a
+polypharmacology profile correlated with unusually robust promotion of axon growth. Remarkably, RO48 showed
+high and reproducible efficacy in multiple animal models of SCI. We performed preliminary structure activity
+relationship (SAR) studies on RO48 with three main motivations: 1) preliminary investigation of the SAR and hit-
+to-lead feasibility, 2) improving the potency of RO48 in cell-based assays, and 3) generation of new composition
+of matter IP to permit drug development. We were successful in demonstrating SAR and feasibility, as well as
+generating new IP (International Patent Application No. PCT/US18/58411, inventors: Al-Ali et al.). Preliminary in
+vitro and in vivo DMPK/Tox studies revealed that our chemistry efforts thus far have already eliminated several
+liabilities of RO48. In this project, we aim to finalize the SAR studies and generate four lead candidates for animal
+testing. We will then prioritize one lead to advance towards a Phase I clinical trial.",232474,2026-01-30T00:00:00
+"ALBERTS, JAY L.",CLEVELAND CLINIC LERNER COM-CWRU,The Interplay between Genetics and Aerobic Exercise to Slow Parkinson's disease (GEARS) Trial,"PROJECT SUMMARY/ABSTRACT
+Despite advances in pharmaceutical and surgical approaches to the treatment of Parkinson’s disease (PD), an
+effective disease modifying treatment remains elusive. A growing body of evidence supports the notion that
+high intensity aerobic exercise, when delivered in a highly supervised, well-controlled laboratory setting,
+improves PD symptomology. Despite community exercise being recommended by the American Physical
+Therapy Association, high intensity aerobic exercise performed in a community-setting is not supported by third
+party payors and therefore not delivered by physical therapists. The aim of this project is to address two
+fundamental gaps related to the widespread utilization of exercise to modify PD: 1) are community-based
+exercise programs effective in altering disease progression? and 2) what is the role of genetics in modulating
+the disease altering effects of high intensity aerobic exercise? Our underlying hypothesis is that high-intensity
+community-based exercise is effective in slowing disease progression in PD and those positive effects are
+more likely to occur in individuals with a lower genetic\biological burden. The proposed multi-site, Genetics and
+Aerobic Exercise to Slow (GEARS) PD trial will determine the interplay between genetics and exercise in
+altering PD progression. A total of 250 individuals with PD will be enrolled in Pedaling for Parkinson’s (PFP)
+programs across six locations in NE Ohio and Salt Lake City. The PFP exercise protocol is rooted in our
+established and effective laboratory-based exercise protocol for PD (e.g. exercise at 60-80% of heart rate
+reserve and strive to pedal at 75 RPMs). The PFP community group will exercise 3 times per week for 12
+months. A novel and efficient aspect of the GEARS Trial is the leveraging of PD control data (n=125) from Dr.
+Alberts’ CYCLE-II RCT (2R01NS073717; enrollment completed March 2022). Identical clinical and
+biomechanical data characterizing motor and non-motor function will be gathered from the PFP group to match
+historical control outcomes. Genetic burden for PD will be determined for all 375 PD patients by determining
+the PD polygenic risk score. Aims 1-3 will determine the disease altering potential of community-based
+exercise using clinical and biomechanical outcomes reflective of motor and non-motor performance. A
+prognostic model will be developed in Aim 4 to predict what factors are important in modulating the beneficial
+effects of exercise on slowing disease progression. The model will facilitate understanding of the interplay of
+genetics, aerobic exercise, and disease progression and serve as a non-incremental step in the development
+of patient-specific exercise recommendations in which potential outcomes can be estimated. Demonstrating
+the effectiveness of a community-based exercise program, that can be scaled for minimal cost, will bring an
+effective intervention to PD patients that is not impacted by the healthcare reimbursement policy and politics.",552473,2026-01-31T00:00:00
+"ALBRIGHT, ASHLEY R","UNIVERSITY OF CALIFORNIA, SAN FRANCISCO",Supplement For Continuity Through Major Life Event,"PROJECT SUMMARY
+Cells are the building blocks that comprise and pattern multicellular organisms from plants to humans, and
+many types of cells themselves exhibit complex shapes and patterns. While we understand many of the
+molecular components of cells, we know much less about how they are assembled to create patterns at the
+cellular scale. RNA regionalization, or spatially distinct localization of transcripts, is known to contribute to
+cellular morphology and function in various cells such as neurons. Several diseases that arise in the brain,
+from depression to Alzheimer’s, may also partly be explained by mislocalized RNA. To understand how cells
+are patterned via RNA regionalization, we must also understand how the genome is spatially organized as
+nuclear architecture and chromatin structure both influence gene expression. My proposal leverages the
+strengths of a unicellular system, Stentor coeruleus, that possesses a complex cellular architecture including a
+mouth and tail, and is capable of regeneration when damaged. Stentor cells also harbor a transcriptionally
+active macronucleus that spans the 1 mm long axis of the cell with a unique beads-on-a-string configuration
+and contains more than 50,000 copies of the genome. These properties enable microsurgery to physically
+separate regions of the cell and its nucleus along a defined axis for sub-cellular and sub-nuclear analyses of
+RNA and genome regionalization by sequencing, which is not possible in traditional model systems. First, I will
+examine two independent models for cellular patterning by RNA regionalization. With RNAi and RNA-
+sequencing in bisected cells, I will determine whether RNA transport promotes cellular asymmetry by defining
+the cytoskeletal elements and associated motors required for RNA regionalization. With RNA-sequencing in
+individual ‘nodes’ of the macronucleus, I will also determine if gene expression is regionalized, thereby
+reducing the distance RNA must travel before it reaches its destination. Then, with chromatin profiling and
+whole-genome sequencing, I will determine whether the genome is regionalized by spatial chromatin regulation
+or differential localization of genes themselves and establish whether these are associated with RNA
+regionalization and ultimately cellular patterning. To conduct this work, I will receive training in cell biology and
+imaging, chromatin biology and genomics, as well as in tool development in emerging model organisms. This
+innovative work will serve as the foundation for my independent research program, which aims to advance our
+understanding of the consequences of disrupted cellular patterning in development and disease.",41862,2026-01-20T00:00:00
+"ALDERETE, TANYA LYNN",JOHNS HOPKINS UNIVERSITY,Perfluoroalkyl Substances and the Gut Microbiome and Fecal Metabolome: Implications for Obesity Risk in Hispanic Children,"ABSTRACT
+Childhood obesity is a high priority public health issue as it increases the risk of co-morbid diseases, including
+cardiovascular disease, fatty liver disease, and type 2 diabetes. An improved understanding of the factors that
+trigger the development of early life obesity is urgently needed. This is especially important among Hispanics, a
+minority group with high rates of obesity in early life. Beyond poor diet and a lack of physical activity, early life
+exposure to environmental chemicals, which are higher in underserved communities, independently contribute
+to childhood obesity. Human studies show that even at low levels of exposure during pregnancy, poly- and
+perfluoroalkyl substances (PFAS) are associated with rapid infant weight gain and greater risk for childhood
+obesity. Postnatally, breastfeeding is a primary source of inadvertent PFAS transmission to infants, potentially
+offsetting some benefits of extended breastfeeding. Recent findings suggest that the developing gut microbiome
+is exposed to breast milk PFAS, which may alter gut bacteria and fecal metabolites that contribute to obesity.
+Despite this, human studies have largely focused on prenatal PFAS exposure, and no prior studies have
+examined the effects of breast milk PFAS on rapid infant growth and the gut microbiome during infancy, a critical
+period in which interventions have the potential to prevent the development of childhood obesity. Our overarching
+hypothesis is that higher concentrations of breast milk PFAS contribute to more rapid infant growth and childhood
+obesity risk, and that these effects are explained by alterations in the composition and function of the infant gut
+microbiome. This hypothesis is based on results from our preliminary data, which demonstrate that infant gut
+bacteria are associated with infant weight and breast milk PFAS at 6-months of age. Our multidisciplinary team
+of investigators propose to test this hypothesis in a cohort of 208 Hispanic mother-child pairs with assessments
+of child growth at 1, 6, 12, 18, 24, and 36-months as well as at 6yr of age. This study will measure breast milk
+PFAS concentrations and characterize the infant gut microbiome and fecal metabolome using archived breast
+milk and stool samples at 1- and 6-months to advance our mechanistic understanding of the obesogenic effects
+of PFAS exposure while accounting for prenatal PFAS exposure using newborn dried blood spots. Our aims are
+to determine the extent to which early life exposure to breast milk PFAS are associated with: 1) child weight from
+1-month to 6 years (Aim 1A) and the risk of rapid growth and childhood obesity (Aim 1B) as well as 2) changes
+in gut microbial profiles and fecal metabolites (Aim 2). Our ultimate goal (Aim 3) is to integrate breast milk PFAS
+exposure, gut microbiome, and fecal metabolomics profiles to identify subgroups of children that are at increased
+risk for rapid growth and obesity. This study offers a unique opportunity to advance our understanding of breast
+milk PFAS and may identify preventive measures that could be used to offset obesity-risk, including screening
+for breast milk PFAS and the use of probiotics to promote growth of beneficial gut bacteria in early life.",632567,2026-01-23T00:00:00
+"ALEXANDER, ALLYSON LAURA",UNIVERSITY OF COLORADO DENVER,Getting Excited about Cortical Malformations: Discovering the Mechanisms Leading to Seizure-prone Neurons in Malformations of Cortical Development,"Abstract
+ Background: Following surgical resection for intractable epilepsy caused by malformations of cortical
+development (MCDs), over 30% of children continue to have life-changing seizures. Mutations in genes of the
+mechanistic target of rapamycin (mTOR) pathway lead to these disorders that include focal cortical dysplasia
+(FCD), tuberous sclerosis complex and hemimegalencephaly. Therefore, there is a critical need to discover the
+specific mechanisms by which increased mTOR signaling leads to the development of epilepsy to develop
+specific therapies for children with MCDs. The central hypothesis of this proposal is that mTOR pathway
+upregulation in pyramidal cells causes axon overgrowth, creating an epileptogenic network in both mouse and
+human MCDs
+ Methods: The first step in testing the central hypothesis will be to determine the effect of mTOR pathway
+upregulation on axonal length in mouse FCD and human MCDs via quantifiable analysis of fluorescently labeled
+murine axons of and by 3D reconstruction of individually filled human neurons. A second set of experiments will
+be performed to determine whether some pyramidal neurons act as operational hub cells in human and mouse
+MCDs. Calcium imaging on ex vivo brain slices of mouse and human tissue will be used to define the local
+network connectivity and identify hub cells. Finally, axonal degeneration will be induced in vivo in dysplastic cells
+in mouse FCD to determine the effect of targeted reduction in axon length on seizure frequency.
+ Implications: The proposed research will help to determine whether axonal overgrowth is a key mechanism
+by which mTOR upregulation leads to the generation of pharmacoresistant epilepsy in children with MCDs.
+Additionally, this project will demonstrate whether targeting axonal overgrowth offers the potential for treatment
+of seizures. Thus, the results of this research will provide further biological understanding of MCD and provide
+hope for rational development of future successful therapies for children with this set of disorders.
+ Career Development Plan: During the five years of this award, Dr. Alexander will work with a team of
+mentors to achieve six specific career goals which allow her to accomplish this project and will also cement her
+transition to independent investigator. With hands-on mentorship and a focused set of coursework, she will work
+towards three training goals. These are as follows: 1) to obtain training and mentorship in the principles and
+techniques of molecular neuroscience; 2) to obtain mentorship and training in neuronal network analysis using
+calcium imaging; and 3) to obtain training and mentorship in laboratory management as a neurosurgeon-
+scientist. Dr. Alexander is a pediatric neurosurgeon at Children's Hospital Colorado. Her chairman and division
+chief continue to support 50% protected time through on-campus resources which include dedicated research
+space, a rodent EEG core, shared equipment and a startup package for laboratory equipment and personnel.",203824,2026-01-23T00:00:00
+"ALEXANDER, COURTNEY CARROLL",UNIVERSITY OF NORTH CAROLINA AT PEMBROKE,U-RISE at the UNC Pembroke,"The U-RISE program at the University of North Carolina at Pembroke aims to increase the number of students who pursue a terminal degree in biomedical or behavioral science and ultimately enter the biomedical research workforce. In order to accomplish this goal, we aim to recruit 4 trainees annually and provide them with two years of research training and experience with passionate faculty preceptors (for a total of 8 trainees supported each year). Research training will include basic skills such as lab safety and documenting experiments but also in communication skills, both written and oral, through practice writing abstracts, direction in reading primary sources, and presenting research in the form of elevator talks, poster and oral presentations. In addition, the trainees will be retained due to the formation of a strong cohort and supported by a three-pronged mentorship approach from peers, program leadership and research faculty. Furthermore, career exploration and development will aid in their retention by giving the trainees a more concrete picture of their future. Setting and accomplishing goals will be modeled through the development and monitoring of an individual development plan (IDP). To increase retention and resiliency in graduate training, trainees will take part in workshops and activities aimed at helping them develop coping and self-care strategies and increase self-efficacy and science identity. Recruitment of trainees will be facilitated by a pre-U-RISE summer research experience open to all students in the included majors. As a result of these activities, we expect that at least 90% of the RISE Fellows will graduate with a BS degree in biology, chemistry or physics and at least 75% of RISE Fellows will have entered a biomedical research graduate program within 3 years after graduation. The evidence-based interventions in the research training program will successfully prepare UNCP graduates to be confident, competent and experienced candidates to enter and succeed in biomedical research careers.",253026,2026-02-06T00:00:00
+"ALEXANDER, GREGORY L.",COLUMBIA UNIVERSITY HEALTH SCIENCES,Impact of Nursing Home Leadership Care Environments and Health Information Technology on Outcomes of Residents with Alzheimer's Disease and Related Dementias (ADRD),"Our study examines the Impact of Nursing Home Leadership, Care Environments and Health InformationTechnology on Outcomes of Residents with Dementia. Approximately 42% of 1.3 million nursing home (NH) residents have dementia. NH residents with dementia have frequent and longer length of stays than residents with other types of chronic illnesses. Nurse practitioners (NPs) are a predominant provider of NH care in the U.S. for residents with dementia with 11,222 clinicians providing care in 5000 facilities. A growing strategy for improving resident outcomes is to effectively integrate health information technology (HIT) into NH care delivery. The use and integration of HIT into resident care, clinical support and administrative activities (known as HIT maturity) enhances care coordination and communication between NPs and staff, enabling NPs to manage resident health conditions better and improve resident outcomes. Evidence supports that NPs deliver higher quality care to residents in more positive care environments with supportive collegial relationships, greater access to resources and information. Studies focusing on NH dementia care delivery confirm that technology, shared communication, and care environments with clearly defined NP roles, helpful relationships, and supportive care lead to improved quality. We will examine the impact of NH HIT maturity and care environments on outcomes of residents with dementia, including hospitalizations and emergency department
+visits. Our specific aims are to: 1) Provide comprehensive assessments of HIT maturity and NP care environments in NHs with dementia residents, 2) Examine the impact NH HIT maturity and NP care environments on a differences in outcomes for residents with dementia, and 3) Explore facilitators and barriers for achieving improved outcomes of NH residents with dementia in various HIT maturity and care environments from the perspectives of NH administrators and NPs, respectively. During Aim 1 we will survey administrators and NPs from 1400 NHs collecting HIT maturity and care environment data from each discipline. We will link surveys to national NH data. We will assess differences in HIT maturity and NP care environments by NH characteristics. The association between HIT maturity and care environments will also be tested. During Aim 2 we will explore the potential mediating role of care environment on the relationship between HIT maturity and health outcomes. We will link surveys and resident level data (i.e. Medicare claims) during the same years’ surveys are conducted. During Aim 3 we will conduct key informant interviews with NH administrators (n = 70) and NPs (n = 70) representing a variety of HIT maturity and care environments. Understanding HIT maturity and care environments where administrators and NPs work will help us identify methods to unlock their maximum potential to improve quality of NH care for residents with dementia. Our study will identify differences in HIT maturity and care environments in NHs where administrators and NPs work, allowing us to identify targeted interventions that can be implemented to improve outcomes of residents with dementia.",688301,2026-01-30T00:00:00
+"ALEXANDER, MATTHEW SCOTT",UNIVERSITY OF ALABAMA AT BIRMINGHAM,Molecular and therapeutic correction of XMEA using novel zebrafish and mouse models,"PROJECT SUMMARY/ABSTRACT
+The objective of this proposal is to define the molecular mechanisms and identify new therapeutic strategies for
+of an understudied class of myopathies, specifically X-linked myopathy with excessive autophagy (XMEA).
+XMEA is characterized by elevated levels of autophagy due to disruptions in the autolysosome function. One
+MEA of interest is X-linked myopathy with excessive autophagy (XMEA), a rare autophagic vacuolar myopathy
+that characterized by progressive proximal muscle weakness, high levels of serum creatine kinase and
+accumulation of autophagic vacuoles. XMEA is caused by pathogenic mutations in the VMA21 gene in which N-
+terminal loss-of-function variants result in early death by 10 years and milder pathogenic VMA21 splicing variants
+result in a slower disease progression. Patients with VMA21 pathogenic mutations have a defective autophagy
+and an impaired ability to form the autophagosomes. VMA21 is a subunit of the V-ATPase protein pump and its
+disruption results in a failure to properly acidify the autolysosome resulting in the formation of vacuolar inclusions
+in XMEA. No extensive biomarker studies have been performed in the XMEA population resulting in a dearth of
+knowledge and the lack of suitable XMEA models is a significant barrier towards any effective treatment.
+We have generated a Vma21 knock-in (Vma21 KI) mouse model based on an RNA-splice mutation identified in
+a set of XMEA patients observed at our Children’s of Alabama muscular dystrophy clinic. Vma21 KI mice have
+a progressive muscle weakness, impaired muscle function, and have vacuolar inclusions that form as they age,
+which phenocopies the XMEA patient symptoms. In parallel, we generated vma21 mutant zebrafish that have a
+severe loss-of-function (LoF) pathology resulting in muscle paralysis, vacuolar inclusion bodies, and early
+lethality by 10 days post fertilization (dpf). An autophagy drug library screen of our vma21 mutant zebrafish
+identified edaravone, an FDA-approved autophagy and oxidative stress inhibitor for ALS, as the most corrective
+compound out of 29 leads for XMEA zebrafish pathologies. This proposal seeks to establish molecular and
+therapeutic biomarkers for XMEA based on our analysis of XMEA patient cells, and VMA21-defective zebrafish
+and mouse models, with an emphasis on the Vma21 KI mice. Proteomic evaluation of the muscles from Vma21
+KI mice will allow us to identify VMA21-dependent factors that progress with XMEA disease status. We also seek
+to evaluate the therapeutic mechanism of action for edaravone in a 6 month treatment of our Vma21 KI mice.
+These studies seek to establish the XMEA/VMA21 disease processes while advancing a promising autophagy
+inhibitor compound to eventually treat these XMEA patients suffering from this devastating neuromuscular
+disorder.",149000,2026-01-28T00:00:00
+"ALEXOV, EMIL GEORGIEV",CLEMSON UNIVERSITY,"DelPhi and associated resources: maintenance, development and applications","We are a computational lab and our research is within the areas of Computational Biophysics,
+Bioinformatics, and modeling molecular effects associated with disease-causing mutations. We
+develop methods, software, and webservers to enable modeling of various processes in Molecular Biology.
+In the past, our primary interest was in Structural Biology, and thus the focus was on using structural
+information to investigate proteins, RNAs, DNAs and their assemblages with regard with their stability,
+interactions, dynamics, conformational and protonation changes, and effects of amino acid mutations (our lab
+won CAGI-6 MAPK-3 challenge in 2022, to predict folding free energy changes caused by mutations). We
+carry such investigations in collaborations with experimental labs. Recently we became very interested in
+human genetic disorders caused by missense mutations and the molecular mechanisms which cause
+pathogenicity. Our efforts were recognized by the community, and we were given the privilege to establish
+and chair the first Gordon Research Conference (2014) on “Human SNPs and disease”, which is now
+permanent event in GRC schedule.
+With this proposal we are seeking support to continue maintain and develop DelPhi (popular method for
+modeling electrostatics which currently has 8,000+ registered users), along with other methods and software
+for predicting the effect of missense mutations on folding and binding free energy changes of the
+corresponding macromolecules and their assemblages. Regarding DelPhi, we will focus on further
+development of Gaussian-based approach of treating biological macromolecules as inhomogeneous objects,
+which was shown to result in ensemble averaged folding and binding free energies. Regarding methods for
+modeling effects of missense mutations on folding and binding free energies, maintenance and further
+development will be done by combined first-principle and machine learning (ML) approaches. First-principle
+approaches have the advantage to be applicable to any case, but are not as accurate as the ML. The ML
+approaches are more accurate than the first-principle methods, however, they fail on cases not seen in the
+training database. We anticipate that combining them into a consensus algorithm for predicting the change of
+folding and binding free energy change will have the advantage to amplify their strengths while reducing their
+deficiencies. First-principle methods further development will include the Gaussian-based entropy estimation
+and novel method for calculation of electrostatic energy of inhomogeneous macromolecules; while for ML
+methods it will include new features as the Gaussian-based density and entropy estimation. We will use the
+above-mentioned developments along with third party methods to predict the dominant molecular effect of
+missense mutations associated with diseases, in collaboration with experimental labs.",340540,2026-01-27T00:00:00
+"ALI, EUNUS ",UNIVERSITY OF KENTUCKY,Regulation of one-carbon metabolism and purine synthesis by YRDC in hepatocellular carcinoma,"Hepatocellular carcinoma (HCC) accounts for >80% of patients with liver cancer and is one of the leading causes of cancer-associated mortalities, both worldwide and in the United States. Recent evidence highlights the involvement of YRDC (YrdC-threonylcarbamoyltransferase domain-containing protein), a tRNA modifying enzyme, in tumor growth via N6-threonylcarbamoylation (t6A) of tRNA in various cancer types, including HCC. Additionally, YRDC has been shown to be overexpressed in different types of cancer and associated with chemotherapeutic drug resistance as well as poor prognosis in HCC patients. However, the precise molecular mechanisms underlying YRDC overexpression in cancers and its involvement in the regulation of tumor metabolism remain unknown. The objective of our study is to define the mechanisms by which YRDC drives cellular growth and investigate the potential of targeting YRDC in cancers, with a specific focus on HCC. Our preliminary data, employing metabolomic and isotope tracing approaches, have shown that YRDC can act as a novel regulator of one-carbon metabolism and purine synthesis in several cancer cells, including HCC cells. We demonstrate that YRDC depletion reduces flux through one-carbon metabolism, thereby restricting the availability of substrates for the synthesis of de novo purine nucleotides. In light of these findings, this proposal focuses on studying YRDC and its impact on tumor metabolism using HCC as a model. We hypothesize that YRDC promotes tumor growth by activating one-carbon metabolism, thereby stimulating de novo purine synthesis. Consequently, targeting YRDC represents a potentially effective strategy against HCC. We will define the mechanisms underlying YRDC upregulation in HCC, we will use isogenic cell settings deleted for the tumor suppressor P53 and expressing mutant KRAS, and examine the role of the MAPK/ERK downstream of KRAS in the regulation of YRDC mRNA and protein levels (Aim1). Then, we will determine the molecular mechanisms by which YRDC stimulates one-carbon metabolism and purine synthesis in HCC cells (Aim2). Finally, we will examine the therapeutic potential of suppressing YRDC to improve HCC, and/or sensitize HCC to chemotherapy (Aim3). Overall, the proposal is significant because it will identify novel regulators of onecarbon metabolism and the de novo purine synthesis pathways, clarify the tumor pro-growth function of YRDC, and identify a novel drug target in HCC treatment. The project is highly innovative because, to date, YRDC has not been linked to the regulation of one-carbon metabolic pathway. The proposal will provide a stepping-stone to aid the applicant to establish an independent research career and the work performed under this award will be used to generate NIH R01 grant proposals.",210863,2026-01-30T00:00:00
+"ALLEN, JASON WILLIAM",INDIANA UNIVERSITY INDIANAPOLIS,Altered Central Multisensory Processing in Post-concussion Vestibular Dysfunction,"Project Summary/Abstract
+ Patients with persistent post-concussion vestibular dysfunction (PCVD) demonstrate visual motion sensitivity
+characterized by visual and motion stimuli inducing vestibular symptoms. We hypothesize that patients may
+acutely benefit from altered weighting of multisensory, particularly visual, input into vestibular processing
+networks to compensate for central or peripheral vestibular impairment, although this may persist and become
+maladaptive, leading to persistent vestibular symptoms. However, the changes in multisensory processing that
+underlie PCVD are largely theoretical and represent a significant knowledge gap in our understanding.
+ In a recent pilot study, we found selective increased activation in the primary vestibular cortex and vestibular
+multisensory processing regions in patients with subacute PCVD during a novel task-based fMRI visual-
+vestibular paradigm as well as altered resting-state fMRI connectivity between visual and vestibular processing
+centers, which correlates with symptom severity. Our central hypothesis is that persistent PCVD is due to altered
+multisensory vestibular processing, with increased activation/connectivity of visual and oculomotor inputs into
+the vestibular network.
+ Prior efforts to classify concussion based upon clinical symptoms have been limited as pre-existing
+symptoms may mimic post-concussion symptoms. We hypothesize that defining endophenotypes for PCVD
+patients using a combination of clinical and neuroimaging metrics will better subdivide this population and will
+correlate with response to vestibular rehabilitation therapy (VRT).
+ To assess these hypotheses, we propose the following three Specific Aims: (1) define regional brain
+activation that distinguishes PCVD patients from concussion recovered and control groups using a novel visual-
+vestibular task-based fMRI paradigm and correlations with subjective and objective vestibular testing; (2) identify
+alterations in functional networks and dynamic states in the PCVD group compared to recovered and control
+groups at rest and correlations with subjective and objective vestibular testing; and (3) stratify PCVD subjects
+into endophenotypes using clinical and neuroimaging metrics and determine the predictive power of these
+endophenotypes to predict VRT response. We propose a longitudinal study with three groups: (1) subacute
+PCVD patients, (2) patients with prior symptomatic concussion but who have since recovered, and (3) healthy
+controls. All subjects will undergo comprehensive vestibular testing and brain MRI. PCVD subjects will repeat
+clinical testing after completion of VRT. We expect to confirm and expand our preliminary data findings as well
+as develop endophenotypes that will be predictive model of VRT response. The proposed study will fill in current
+gaps in knowledge, drive the development of novel therapies, identify neuroimaging/clinical patterns that predict
+therapy response, and lead to the development of tailored, patient-centric therapy programs.",293150,2026-01-31T00:00:00
+"ALLEN, SOPHIA I.",PENNSYLVANIA STATE UNIV HERSHEY MED CTR,Mixed methods research to increase engagement and smoking abstinence among African Americans enrolled in Quitline text messaging services,"Cigarettes are used by over 34 million U.S. adults and cause more than 480,000 deaths annually due to smoking and smoke exposure. Despite smoking at similar rates and consuming less cigarettes per day, African Americans are more likely to die from several tobacco-caused cancers compared to Whites. Quitting smoking reduces the risk of premature death and adds years to life expectancy; however, a disparity exists in annual quit rates between African Americans and Whites (4.9% vs. 7.1%). This disparity is due to several social determinants. Thus, it is critical to investigate scalable, evidence-based strategies to increase smoking cessation among African Americans. African Americans are twice as likely to use quitlines compared to Whites. However, little is known about the impact of mHealth interventions among African Americans using quitlines. In preliminary studies conducted by Penn State investigators, we found that automated text messaging was feasible for monitoring smoking status and providing smoking cessation support. However, these studies were not designed to assess the impact of interventions among African Americans. A recent study compared engagement and abstinence rates between Black and White smokers in a national texting cessation program and found that Blacks were just as likely as Whites to enroll and remain in the program; yet Blacks were less likely to respond to abstinence assessments and report cessation. Few studies have focused on the behaviors and perceptions of quitline texting services among African Americans. The current project proposes to assess data from the Pennsylvania quitline to inform a tailored mHealth smoking cessation intervention. The overall goal of this Mentored Career Development Award (K01) is to build on the candidate’s advanced postdoctoral training by developing her expertise to investigate and alleviate disparities in tobacco-related disease for African Americans through the use of technology interventions. Career development objectives are to develop expertise in: 1) mHealth applications for smoking cessation, 2) qualitative data analysis, and 3) clinical research skills in ecological momentary assessment. The central hypothesis is that social determinants will explain differences in smoking abstinence between African Americans and White smokers using technology as a cessation aid. The specific aims for this study will be to 1) conduct a secondary analysis of the PA quitline texting program data and provide an overview of service engagement and smoking rates during enrollment and at 6-month follow-up; 2) to conduct qualitative interviews with African Americans who enrolled in the PA quitline texting program to better understand the factors that serve as barriers to engagement and abstinence; 3) To conduct a pilot EMA study to inform a tailored mHealth smoking cessation intervention for African Americans. The research environment is an academic medical center with the facilities, technology, resources, and advanced equipment to support the research and training proposed in this award.",183855,2026-02-13T00:00:00
+"ALLERS, CAROLINA ",TULANE UNIVERSITY OF LOUISIANA,Viral Testing Core,"PROJECT SUMMARY/ABSTRACT – VIRAL TESTING CORE
+Continuous, accurate surveillance for agents of concern is an essential requirement for maintenance of a specific
+pathogen-free (SPF) breeding colony. In 2009, we transitioned from testing at off-site laboratories to performing
+all screening assays at the Tulane National Primate Research Center’s (TNPRC) Pathogen Detection and
+Quantification Core (PDQC). The PDQC is administratively located in the Division of Microbiology and was
+established at the TNPRC in 2004. The primary mission of the PDQC is to provide diagnostic services to the
+Division of Veterinary Medicine for establishing and maintaining SPF nonhuman primate colonies. A secondary
+mission is to provide research support to investigators. The development of onsite viral testing capabilities has
+resulted in reduced costs and turnaround times, eliminated shipping of samples, and provided a platform for
+easy expansion for detection of additional agents. Quality assurance of the TNPRC SPF surveillance program
+is supported by the participation of the PDQC in proficiency panels testing from the Pathogen Detection Working
+Group (PDWG) of the NIH Nonhuman Primate Research Consortium (NHPRC) and the External Quality
+Assurance Program Oversight Laboratory (EQAPOL) Luminex program. This section of the application focuses
+on the function of the Viral Testing Core, techniques used for identification and detection of the target viruses,
+assay performance and validation, and current and future expansion of testing capabilities.
+The Aim of this core is to assure the SPF status of the colony through continued viral testing of existing breeding
+colony animals and all offspring. All animals in the SPF4 colony will be tested a minimum of twice each year for
+all four target viruses: Type D simian retrovirus (SRV), simian T-lymphotropic virus (STLV), simian
+immunodeficiency virus (SIV), and herpes B virus (BV). Characterization of the colony beyond the targeted
+agents supported by the U42 grant will continue through the development and use of additional assays for other
+pathogens of potential interest.",230239,2026-02-13T00:00:00
+"ALLMAN, DAVID M",UNIVERSITY OF PENNSYLVANIA,Biochemical Mechanisms for Sustained Humoral Immunity,"Project summary
+Antibody-secreting plasma cells play critical roles in health and disease, yet little is known
+about the biochemical mechanisms controlling antibody synthesis and secretion or how
+these pathways intersect with pathways controlling cell survival. Furthermore, due to the
+high metabolic demands inherent to robust antibody secretion and the tendency for many
+plasma cells to persist for decades, pathways restraining apoptosis in plasma cells are
+likely to be integrated in unique ways. This project centers on the hypothesis that long-
+lived plasma cells in bone marrow obtain requisite signals to maintain antibody secretion
+and avoid cell death by sensing extracellular ATP with a purinergic receptor known as
+P2rX4. We further hypothesize that eATP is produced locally in the bone marrow for
+plasma cells by osteoblastic cells via the gap junction protein known as Panx3. Thus,
+consistent with our preliminary data, inhibition of P2rX4 or Panx3 function is predicted to
+cause the depletion of long-lived plasma cells and reduce serum antibody titers including
+for disease-associated antibodies. To test our hypothesis, we will: 1) Define cell intrinsic
+P2rX4-regulated outcomes for newborn and long-lived plasma cells, and 2) Define cell
+extrinsic sources and outcomes for eATP/Panx3 regulation of long-lived plasma cells.
+These studies will provide unique and needed insights into the specialized survival
+mechanisms employed by long-lived plasma cells. This work supports our long-term
+objective of developing strategies to effectively and specifically disable or deplete
+problematic plasma cells.",620113,2026-01-29T00:00:00
+"ALMODOVAR, SHARILYN ",TEXAS TECH UNIVERSITY HEALTH SCIS CENTER,Role of HIV gp120 and Nef in Transcriptome Dysregulation and Pulmonary Vascular Remodeling,"PROJECT SUMMARY
+ People living with HIV (PLWH) are at a significantly high risk of developing Pulmonary Hypertension (PH),
+which can lead to death by heart failure, even with the suppressive effects of antiretroviral therapy (ART). PH is
+characterized by phenotypic changes in endothelial cells that result in increased pulmonary artery pressures and
+right ventricular hypertrophy. However, the underlying mechanism of how HIV contributes to the development of
+HIV-PH is still not fully understood. Our team has previously identified an association between specific HIV
+polymorphisms and the susceptibility to HIV-PH in patients. This proposal focuses on increasing the knowledge
+of how the pulmonary vasculature responds to HIV and determining how specific HIV polymorphisms contribute
+to the pathogenesis of HIV-associated vascular disease. To address this gap in knowledge, and guided by the
+literature and our preliminary studies, we propose conducting experiments in human vascular cells in vitro and
+in hu-mice to investigate the role of the CXCR4 signaling pathway elicited by HIV-PH polymorphisms in ECs, the
+impact of HIV-PH variants and ART in SMC constriction in vitro and in pulmonary vascular hemodynamics in hu-
+mice and transcriptomics (using scRNA-seq) and epigenomics (using scATAC-seq) changes induced by HIV-
+PH in pulmonary vascular cell sub-populations in hu-mice. This proposal addresses high-priority research areas
+established by the Office of AIDS Research and the NHLBI by addressing PH as an HIV-associated comorbidity
+that is not improved by ART. Our findings will inform future therapeutic advances tailored to HIV-PH. The
+strengths of this proposal build upon its multifaceted approach, compelling data on the role of HIV proteins in
+PH, access to HIV-PH biospecimens, utilization of a novel mouse model of HIV-PH, and a strong team of
+investigators with significant and complementary expertise.",647031,2026-02-13T00:00:00
+"ALONZO, FRANCIS ",UNIVERSITY OF ILLINOIS AT CHICAGO,Bacterial lipases and adaptation to the host lipid environment,"Project Summary
+The host lipid environment is a well-described barrier to bacterial infection at several sites including the skin,
+lung, and upper airways. In addition, both bacterial and host lipids serve as signals that promote inflammation.
+Bacterial lipids activate Toll-like receptors which initiates cytokine production, immune cell recruitment, and
+induction of oxidative burst to control infection. Several pathogenic bacteria evade these lipid-mediated defenses
+by secreting lipolytic enzymes (lipases). Bacterial lipases can cause host membrane dissolution, facilitate escape
+from cellular compartments, disrupt physical barriers, detoxify antimicrobial lipids, and release nutrient fatty
+acids. Despite these established contributions of lipases to infection there exist critical gaps in knowledge on
+how lipases drive host immunity and physiology. This is especially true for Staphylococcus aureus which
+produces three lipases that have long been presumed to promote virulence, despite scant mechanistic studies.
+Recent work from our lab started to fill this gap by providing evidence for a direct role for lipases in immune
+evasion and nutrient acquisition during infection. We made the unexpected observation that the S. aureus
+secreted lipase, Geh, inhibited activation of innate immune cells in culture. Further, Geh blunted pro-inflammatory
+cytokine production during infection and was responsible for bacterial persistence in some tissues but not others,
+highlighting tissue-specific contributions of Geh to survival. The blunted cytokine response was not due to direct
+functions of Geh on mammalian cells, but rather a result of inactivation of S. aureus lipoproteins, a major
+pathogen-associated molecular pattern (PAMP) of Gram-positive bacteria, via ester hydrolysis. While our studies
+indicate S. aureus uses lipases to inactivate lipoprotein PAMPs containing saturated straight and branched chain
+fatty acids that it synthesizes de novo, it can also acquire host unsaturated fatty acids in a lipase-dependent
+manner and use them for lipoprotein biogenesis. We found that S. aureus uptake of host fatty acids disrupted
+innate immune responses and infection dynamics in tissues involved in lipid metabolism via attachment of host
+fatty acids to bacterial lipoproteins. This deleterious response correlated well with Toll-like receptor 2 signaling.
+Finally, infections of the skin uncovered a role for Geh that appeared to be independent of Toll-like receptor 2
+and instead was linked to liberation of host fatty acid esters that promoted fitness. Altogether, our data support
+the hypothesis that S. aureus lipases modify both bacterial and host lipids to calibrate innate immunity and
+promote a fitness advantage that allows adaptation to a wide range of tissues during infection. Aim 1 will
+determine the cellular and molecular basis for Geh-mediated infection persistence. Aim 2 will test the roles of
+the three lipases secreted by S. aureus in virulence, lipid utilization, and immune defense. Aim 3 will determine
+how lipases disrupt immunity and allow S. aureus to adapt to increased circulating lipids in the host.",736822,2026-01-30T00:00:00
+"ALSHAREEF, AHMED ",UNIVERSITY OF SOUTH CAROLINA AT COLUMBIA,Biomechanics of the Human Brain During High-Severity Impacts: A Multimodal Approach,"Project Summary
+Traumatic brain injury (TBI) is a significant health care problem, affecting over 2.5 million people in the United
+States annually. Most cases are classified as mild or concussive TBI, caused by a rapid acceleration to the skull
+that may lead to short-term loss of consciousness and memory, as well as long-term disability. Prevention of TBI
+is therefore a critical consideration in contact sports, military operations, motor vehicle use and other activities.
+Accurate quantification of the locations, magnitudes, and orientations of brain deformation (strain) during TBI is
+a precursor to a better understanding of the onset and secondary cascades of injury. A key approach to
+understanding the risk of TBI and assessing preventative measures is computational modeling, which simulates
+the external forces applied to the head and the associated biomechanical response of the brain. The
+development of accurate computational models of TBI is challenging, however, requiring the collection of
+experimental data to calibrate and validate the models. Recently, our team has developed two complementary
+approaches to acquiring measurements of brain biomechanics under loading. One approach employs dynamic
+magnetic resonance imaging (MRI) in living human subjects undergoing both mild head accelerations. The other
+approach employs sonomicrometry to track the motion of markers in cadaveric brain specimens at concussion-
+level accelerations. The output of these experimental datasets has been limited to either 1) dense 3D brain strain
+data at non-injurious head motion in vivo, or 2) spatially sparse brain displacement data at injurious loading in
+cadavers. As a result, there remains two unknowns in our understanding of brain deformation during head
+impact: 1) the actual magnitude of strain at concussive accelerations, and 2) the accuracy of local strain
+distributions and if the strain patterns change with increases in impact severity. To address these fundamental
+deficiencies in our knowledge of brain biomechanics, we propose to integrate these two previously disparate but
+complementary ends of the experimental TBI spectrum to better enable prediction of the biomechanical response
+of the living brain during concussion. We will perform three aims: 1) Optimize dynamic MRI techniques for
+increased loading in phantoms and cadavers; 2) Perform multiscale biomechanical characterization of cadaveric
+specimens using both MRI and sonomicrometry techniques; 3) Demonstrate application of combined MRI and
+sonomicrometry data for improved injury prediction by evaluating publicly available computational models and
+applying them to sports impact databases. This work will provide a novel and complete characterization of the
+intracranial biomechanics of TBI. The combined use of cadavers and phantoms will enable a cross-validation of
+our ability to predict high acceleration response based on low acceleration measurements. By the end of the
+project, we will have fully characterized phantom and cadaveric data that will be made publicly available for other
+researchers to use and, by combining the acquired data with existing in vivo data, developed new tools to predict
+the response of the living human brain during concussion-level loading and improve injury prediction models.",475505,2026-01-22T00:00:00
+"ALTO, NEAL MATHEW",UT SOUTHWESTERN MEDICAL CENTER,Defining virulence factor functions using minimal pathogen genomes,"Project Summary
+Pathogenic bacteria have developed an array of strategies to undermine the host's defense mechanisms. In
+the context of non-Typhoidal Salmonella Typhimurium, a notable strategy involves the confinement of a single
+bacterium within a host vacuole called the Salmonella Containing Vacuole (SCV). This approach potentially
+provides an evolutionary advantage: by ensuring one bacterium per SCV, the host must target each SCV
+individually to eliminate the bacterial load, as opposed to confronting a vacuole harboring multiple bacteria
+clustered together. This mechanism could potentially extend the time required to combat the infection.
+Moreover, a single bacterium residing within an SCV exploits all accessible nutrients for replication and
+division. Conversely, multiple bacteria clustered within a single vacuole may engage in nutrient competition.
+Hence, understanding the fundamental mechanism of bacterial division in conjunction with vacuolar scission is
+imperative for gaining deeper insights into the pathogenic strategies employed by Salmonella enterica. Prior to
+this proposal we engineered a series of genetically minimal pathogenic strains that eliminates redundancy
+within the complex SPI-2 effector gene repertoire of Salmonella enterica serovar Typhimurium. Using this
+unique resource, here we will determine how a small network of SPI-2 T3SS effector proteins coordinate the
+complex events involved in SCV membrane scission and bacterial division within the host cell. This includes
+determining the location and host substrates of effector proteins at the SCV membrane using single cell
+particle tracking and live cell imaging (Aim 1). We will also investigate the molecular mechanisms of individual
+effector proteins that target a novel Rab-family GTPase defense system of the host (Aim 2). The resulting
+cellular and biochemical theories will be tested in murine models of systemic disease that are designed to
+evaluate effector protein functions at single cell resolution (Aim 3). Developing new drugs that target bacterial
+effector – host enzyme complexes would be an innovative approach to combat emerging infectious disease.
+While this idea holds great potential, the paucity of mechanistic information gleaned from deep studies into
+virulence factor functions has so far hampered their development as suitable drug targets. As a means to this
+end, the work performed here will allow us to predict new mechanisms of action for understudied Salmonella
+effector proteins and provide a glimpse into the structural-based evolutionary progression of a related
+pathogen groups.",596318,2026-02-10T00:00:00
+"ALUSHIN, GREGORY M",ROCKEFELLER UNIVERSITY,Converting cytoskeletal forces into biochemical signals,"PROJECT SUMMARY
+ Cells perceive mechanical cues in their local environments, which must be converted into intracellular
+biochemical signals to modulate cellular physiology and control gene expression. There is increasing
+appreciation for mechanical signal transduction’s (“mechanotransduction”) critical role in development and its
+dysfunction in disease states such as cancer. However, in contrast to canonical signal transduction, cellular force
+sensing is poorly understood, hampering efforts to define mechanistically distinct mechanotransduction
+pathways, delineate their specific biological functions, and target them therapeutically.
+ The actin cytoskeleton, a network of dynamic actin filaments, myosin motor proteins, and hundreds of
+associated factors, enables cells to mechanically interface with their surroundings. The cytoskeleton is classically
+understood to serve as a force generation and transmission apparatus that indirectly facilitates mechano-
+transduction through its physical linkages to membrane-anchored sites which mediate force signal conversion
+(e.g. cell-cell and cell-matrix adhesions). However, we and others have recently reported direct binding of soluble
+cytosolic proteins containing tandem arrays of LIM (LIN-11, Isl-1 & Mec-3) domains to tensed actin filaments,
+suggesting that the cytoskeleton itself may have the capacity to transduce forces into biochemical signals. Here
+I propose to test the hypothesis that force-activated actin binding by distinct LIM proteins is upstream of
+functionally discrete downstream mechanotransduction pathways. Through cellular assays and biophysical
+reconstitution, we will investigate how the representative force-activated actin binding LIM proteins zyxin (Aim 1)
+and FHL1/2 (Four-and-a-Half LIM domains 1/2, Aim 2) mediate distinct downstream functions in cytoplasmic
+cytoskeletal damage repair and nuclear gene expression regulation, respectively. We will then innovatively
+interface these approaches with cryo-electron microscopy (cryo-EM) to visualize force-activated actin binding by
+LIM proteins in structural detail (Aim 3). Our studies will establish how a conserved mechanism of force
+transduction through LIM domains is linked to distinct downstream signaling outcomes, which is likely to reveal
+general principles underlying the modular organization of cytoskeletal mechanical signaling networks. In the
+longer term, this work will enable precision dissection of context-specific biological functions of LIM proteins in
+vivo, facilitating rigorous evaluation of their potential as therapeutic targets.",305100,2026-01-27T00:00:00
+"ALVARADO, FRANCISCO J",UNIVERSITY OF WISCONSIN-MADISON,Mechanisms of calcium-induced arrhythmias in arrhythmogenic right ventricular cardiomyopathy,"PROJECT SUMMARY / ABSTRACT
+Arrhythmogenic right ventricular cardiomyopathy (ARVC) is a complex inherited disorder of the heart produced
+by mutation in proteins of the desmosome, such as plakophilin-2 (PKP2). Cardiac arrhythmias, and potentially
+sudden death, often occur in ARVC patients during the early stages of the disease, a “concealed phase” that
+presents before the onset of structural cardiomyopathy. The molecular and cellular mechanisms of these
+arrhythmic events remain unclear, hindering the search for effective strategies to treat patients. My long-term
+goal is to delineate the mechanisms of arrhythmia in ARVC and to identify potential drug targets to prevent
+sudden cardiac death. Mice with tamoxifen (TAM)-induced ablation of PKP2 (PKP2cKO) develop a phenotype
+evocative of human ARVC: a concealed stage with high incidence of arrhythmia but without structural remodeling
+at 14 days, cardiomyopathy of right ventricle dominance at 21 days, and biventricular cardiomyopathy, heart
+failure and death at ~42 days post-TAM. We reported that PKP2cKO hearts show significant dysregulation of
+Ca2+ handling at different stages of disease progression but, most remarkably, during the concealed stage of the
+disease. This proposal aims to elucidate the mechanisms underlying cardiac arrhythmia in PKP2-deficient hearts
+focusing on the microdomain where Ca2+ regulation takes place. I hypothesize that dysfunction of the cardiac
+ryanodine receptor (RyR2), a major intracellular Ca2+ release channel, and the ensuing Ca2+ mishandling are
+critical triggers of cardiac arrhythmia in the PKP2cKO mouse and, hence, in ARVC. These aims will test my
+hypothesis: 1) Determine the role of protein kinase C (PKC) phosphorylation in the regulation of RyR2 channel
+function and calcium homeostasis. Preliminary data suggest that RyR2 is undergoing phosphorylation in
+PKP2cKO hearts at Thr2810. This previously uncharacterized site is a predicted PKC substrate. I hypothesize
+that PKC phosphorylation of RyR2 at Thr2810 regulates channel function and contributes to arrhythmogenic
+Ca2+ release in the diseased heart. 2) Define the contribution of RyR2 dysfunction in the onset and progression
+of heart disease in PKP2cKO mice. Preliminary data suggest that RyR2 phosphorylation at Thr2810 and Ser2030
+is increased in ARVC. I hypothesize that inhibition of RyR2 phosphorylation at these sites prevents arrhythmia
+and sudden death in PKP2cKO mice. 3) Test the efficacy of RyR2 modulators for the prevention of arrhythmia
+in PKP2-deficient hearts. I hypothesize that pharmacological modulation of RyR2 is beneficial to prevent
+arrhythmia in PKP2cKO mice and hearts. The completion of these aims will provide significant insight into the
+regulation of RyR2 function in a model of PKP2cKO deficiency and hence shed light on the mechanisms
+underlying ARVC. I anticipate these results will advance the status of RyR2 as a potential therapeutic target to
+reduce the risk of arrhythmias and increase life-expectancy of patients with ARVC.",388750,2026-02-06T00:00:00
+"ALVAREZ, ELYSIA ",UNIVERSITY OF CALIFORNIA AT DAVIS,Barriers and Facilitators for Delivery of Guideline-Concordant Care for Adolescents and Young Adults with Ewing Sarcoma and Osteosarcoma,"PROJECT SUMMARY / ABSTRACT
+Roughly 90,000 adolescents and young adults (AYAs: 15–39) are diagnosed with cancer in the United States
+each year. Disparities in cancer mortality exist among AYAs with Ewing sarcoma (EWS) and osteosarcoma
+(OS), which may be partially due to unequal access to evidenced-based, standardized care (guideline
+concordant care; GCC). Many AYAs with cancer do not receive GCC, especially those with who are older and
+with limited resources.
+My prior research demonstrated 50% of AYAs with OS in California received guideline concordant care and the
+absence of such care negatively impacted survival. Increasing delivery of guideline concordant care in this
+patient population could markedly improve survival, especially in traditionally underserved patients (e.g., those
+with public insurance, other than White race/ethnicity). The barriers to the delivery of guideline concordant care
+are not clearly identified in AYAs. To fill this critical gap and gain essential training, I will employ an
+implementation mapping process to develop strategies that increase adoption of evidence-based practices,
+identify barriers and facilitators to the delivery of guideline concordant care, and develop an implementation
+blueprint to pilot an intervention to improve delivery of GCC in AYAs with EWS and OS.
+The specific aims are: 1) Identify barriers and facilitators to delivery of GCC for AYA patients with EWS and
+OS, 2) Systematically develop a tailored implementation blueprint for delivery of GCC care for AYA patients
+with EWS and OS, and 3) Evaluate the feasibility and acceptability of a cancer care delivery implementation
+blueprint to improve delivery of GCC in a pilot trial.
+The long-term goal of my research program is to improve cancer health equity for AYA patients with cancer.
+The proposed research and training plan supports my need to: (1) Expand skills in qualitative methods (i.e.,
+thematic analysis); (2) Develop skills in implementation science methods; (3) Gain experience conducting a
+cancer care delivery pilot trial; and (4) Obtain preliminary data for an R01 proposal for a refined and expanded
+R01 cancer care delivery trial. This proposal is supported by an outstanding mentorship team and scientific/
+content advisory committee, with substantial expertise in cancer care delivery research, qualitative research,
+implementation science, AYA oncology, and treatment of sarcomas. Formal training will be sought in
+qualitative methods and implementation science methods, while concurrently building essential skills in
+leadership. Collectively, this research proposal and career development plan will firmly secure my position as
+an independent physician-scientist and national leader as an AYA cancer care delivery researcher.",254504,2026-01-23T00:00:00
+"ALVAREZ, PEDRO J",BAYLOR COLLEGE OF MEDICINE,Project 4: Pyrolytic conversion of PAHs in contaminated sediments into char to eliminate toxicity and enhance soil fertility,"Project Summary
+There is a pressing need for more reliable and cost-effective remediation of contaminated soils and sediments
+at Superfund sites to mitigate exposure and protect public health. This project will develop a sustainable
+thermal remediation technology to rapidly and reliably treat soils contaminated with such priority pollutants,
+including activated PAHs byproducts of environmental transformations. Similar to all other thermal remediation
+technologies, high energy requirements are a major cost driver that hinders its scalability and broad
+application. Thus, significantly decreasing energy requirements for thermal treatment is a critical goal (and
+anticipated benefit) of this project. During the current funding cycle, we made significant novel scientific
+contributions: (a) Discovery of a new pyrolytic degradation pathway that degrades PAH by anoxic heating and
+eventually converts them to a stable and non-toxic (char-like) carbonaceous residue, which is a safe treatment
+endpoint. (b) Recognition of the importance of soil components like clays, which can catalyze PAH
+decomposition reactions, apparently facilitated by π-cation interactions between PAHs with transition metals.
+(c) Use of a combined mathematical and experimental approach to analyze soil behavior and soil-contaminant
+interactions during pyrolytic treatment, and derive the kinetics of decomposition reactions. This framework
+allows us to study potential tradeoffs between PAH degradation efficiency, energy requirements, and residual
+toxicity of treated soils due to toxic byproducts potentially forming at low temperatures. Thus, our Specific Aims
+are to: 1. Understand and exploit the catalytic effect of natural clays with common transition metals (e.g., Fe,
+Cu) to accelerate the pyrolytic degradation of PAHs, detoxify the contaminated soils and decrease the required
+treatment temperature, time, and energy. 2. Apply molecular modeling with density-function theory to advance
+molecular-level understanding of PAH proximal adsorption and degradation mechanisms on catalytic sites, and
+characterize pathways and byproducts to guide safe application. 3. Develop a process model for designing and
+optimizing pyrolysis reactors. Our hypothesis is that pyrolytic treatment of contaminated soils under carefully
+selected conditions will consistently achieve regulatory compliance and completely eliminate toxicity while
+recovering soil fertility to facilitate ecosystem restoration. Furthermore, clays enriched with common transition
+metals will catalyze pyrolytic degradation of PAHs, and decrease the required temperature and contact time to
+significantly lower the energy requirements. Overall, this project will advance molecular-level understanding of
+PAH degradation in pyro-catalytic treatment systems and enable predictive understanding of contaminant/soil
+interactions and reaction mechanisms. Thus, this Project will inform the design of thermal treatment processes
+with lower energy requirements, higher throughput capacity, and wider applicability.",382939,2026-01-27T00:00:00
+"ALVES SIMOES SPASSOV, SABRINA ",COLUMBIA UNIVERSITY HEALTH SCIENCES,Targeting Endosomal dysfunction as a new source of biomarkers for Alzheimer's disease,"Endosomal dysfunction is a well-accepted cell biological feature in Alzheimer’s disease (AD). However,
+biomarkers reflecting endosomal traffic defects are still lacking. Current imaging and cerebrospinal fluid (CSF)
+AD biomarkers focus primarily on the histopathology of the disease—that is, biomarkers that are linked to
+neurofibrillary tangles and amyloid plaques. This proposal is designed to expand this focus to develop
+biomarkers of the ‘cell biology’ of AD. Such biomarkers could potentially accelerate drug discovery, as
+therapeutic interventions are currently being developed that target endosomal trafficking defects in AD.
+ Genetic and cell biology studies have previously linked the endosomal trafficking assembly Retromer to
+AD pathology. Most notable are deficiencies and rare mutations in retromer’s core protein, VPS35, and
+retromer’s receptor, SORL1. Depletion of either VPS35 or SORL1 mimics the core cytopathology in AD, enlarged
+endosomes in neurons, with concomitant mis-trafficking of endosomal cargoes.
+In an effort to characterize defects in the endocytic pathway resulting from retromer dysfunction, we recently
+completed a proteomic screen of CSF of VPS35 knock-out (KO) mice and control littermates. Among the proteins found elevated in the CSF of VPS35 KO mice were well established β-secretase BACE1 substrates, includingAPP (Amyloid Precursor Protein); APLP1/2 (Amyloid Beta Precursor Like Proteins 1 and 2); and CHL1 (Neuralcell adhesion molecule L1-like protein). Two of these proteins --APLP1 and CHL1-- were further validated inmouse CSF, and human CSF from cognitively healthy participants and prodromal AD patients. Collectively, our studies suggest BACE1 substrates as potential biomarkers of retromer-dependent endosomal dysfunction.
+However, since VPS35 is implicated in other neurodegenerative disorders, including Parkinson’s disease (PD),
+these new biomarkers may not be specific to AD. Therefore, relying on these exciting findings, but moving
+towards the development of a panel of biomarkers reflecting endosomal trafficking defects that are specific to
+AD, we will examine SORL1 mouse models and human pluripotent stem cell (hPSC) SORL1-derived neurons
+as a new source of biomarkers of endosomal trafficking. We will also investigate exosomes as an additional
+source of biomarkers of endosomal defects. Lastly, since Sorl1 protein levels are altered in AD and CSF from
+AD patients, we will examine SORL1 CSF levels as a potential biomarker for AD. Completion of this study will
+provide evidence that SORL1-dependent endosomal trafficking is a new source of biomarkers for AD.
+Moreover, we predict that the extensive studies here proposed will identify a unique and specific
+endosomal biomarker of the “cell biology” of AD.",358718,2026-01-21T00:00:00
