@@ -209,3 +209,4 @@ __marimo__/
 # Tuva Specific
 tuva_env/
 output/
+.venv/
