@@ -34,7 +34,7 @@ def prettify_csv(input_csv, output_xlsx):
         worksheet.set_column(i, i, min(column_len, 50)) # Cap at 50 for readability
 
     writer.close()
-    print(f"✅ Prettified report saved to: {output_xlsx}")
+    print(f"Report saved to: {output_xlsx}")
 
 if __name__ == "__main__":
     prettify_csv('data/raw_nih_leads.csv', 'output/Tuva_Strategic_Radar_Final.xlsx')
