@@ -8,8 +8,9 @@ def ingest_open_grants():
     fetch_url = "https://api.grants.gov/v1/api/fetchOpportunity"
     
     payload = {
-        "rows": 50,
-        "keyword": "genomics OR biophysics OR \"computational biology\"",
+        "rows": 100,
+        # Trying to find computational science grants
+        "keyword": "(\"computational\" OR \"in silico\" OR \"modeling\" OR \"simulation\") AND (biology OR physics OR genomics OR biophysics OR mechanobiology)",
         "oppStatuses": "posted",
         "keywordEncoded": False
     }

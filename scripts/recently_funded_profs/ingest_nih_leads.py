@@ -50,11 +50,11 @@ def ingest_recent_r01_leads():
         })
 
     # 4. SAVE TO DATA FOLDER
-    os.makedirs('data', exist_ok=True)
+    os.makedirs('data/recently_funded_profs', exist_ok=True)
     df = pd.DataFrame(leads_data)
-    df.to_csv('data/raw_nih_leads.csv', index=False)
+    df.to_csv('data/recently_funded_profs/raw_nih_leads.csv', index=False)
     
-    print(f"SUCCESS: Found {len(df)} fresh R01 leads. Saved to data/raw_nih_leads.csv")
+    print(f"SUCCESS: Found {len(df)} fresh R01 leads. Saved to data/recently_funded_profs/raw_nih_leads.csv")
 
 if __name__ == "__main__":
     ingest_recent_r01_leads()

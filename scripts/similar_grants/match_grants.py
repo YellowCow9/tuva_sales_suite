@@ -26,17 +26,16 @@ def get_tuva_readiness_score(description):
 
     return reasons
 
-def run_strategic_advisory():
-    parser = argparse.ArgumentParser(description="Strategic Grant Advisory with Sales Flags.")
-    parser.add_argument("prof_name", help="The name of the professor folder")
-    args = parser.parse_args()
+def run_strategic_advisory(prof_name):
+    prof_name = prof_name.lower().replace(" ", "_")
 
     # (Previous loading logic remains the same)
     script_dir = os.path.dirname(os.path.abspath(__file__)) 
-    root_dir = os.path.dirname(script_dir) 
-    embed_path = os.path.join(root_dir, 'data', 'grant_embeddings.pkl')
-    csv_path = os.path.join(root_dir, 'data', 'open_opportunities_deep.csv')
-    prof_folder = os.path.join(root_dir, 'data', 'profiles', args.prof_name)
+    root_dir = os.path.dirname(os.path.dirname(script_dir))
+    data_dir = os.path.join(root_dir, 'data', 'similar_grants')
+    embed_path = os.path.join(data_dir, 'grant_embeddings.pkl')
+    csv_path = os.path.join(data_dir, 'open_opportunities_deep.csv')
+    prof_folder = os.path.join(data_dir, 'profiles', prof_name)
 
     with open(embed_path, 'rb') as f:
         grant_embeddings = pickle.load(f)
@@ -60,7 +59,7 @@ def run_strategic_advisory():
     top_matches = df_grants.sort_values(by='match_score', ascending=False).head(3)
 
     print(f"\n" + "="*60)
-    print(f"STRATEGIC TUVA REPORT: {args.prof_name.upper()}")
+    print(f"STRATEGIC TUVA REPORT: {prof_name.upper()}")
     print("="*60)
 
     for i, (idx, row) in enumerate(top_matches.iterrows(), 1):
@@ -78,4 +77,4 @@ def run_strategic_advisory():
         print("-" * 40)
 
 if __name__ == "__main__":
-    run_strategic_advisory()
+    run_strategic_advisory("Shannon Quinn")

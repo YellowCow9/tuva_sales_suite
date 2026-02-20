@@ -2,6 +2,12 @@ import pandas as pd
 
 def prettify_csv(input_csv, output_xlsx):
     df = pd.read_csv(input_csv)
+    df.columns = df.columns.str.replace('_', ' ').str.title()
+
+    # 2. STRIP TIME FROM DATE: Split at 'T' and keep only the date portion
+    # Note: Column name is now 'Award Date' due to the title case update above
+    if 'Award Date' in df.columns:
+        df['Award Date'] = df['Award Date'].astype(str).str.split('T').str[0]
     
     # Create an Excel writer object
     writer = pd.ExcelWriter(output_xlsx, engine='xlsxwriter')
@@ -37,4 +43,4 @@ def prettify_csv(input_csv, output_xlsx):
     print(f"Report saved to: {output_xlsx}")
 
 if __name__ == "__main__":
-    prettify_csv('data/raw_nih_leads.csv', 'output/Tuva_Strategic_Radar_Final.xlsx')
+    prettify_csv('data/recently_funded_profs/raw_nih_leads.csv', 'output/Tuva_Strategic_Radar_Final.xlsx')

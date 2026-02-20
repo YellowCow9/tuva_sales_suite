@@ -3,7 +3,7 @@ import os
 
 def fetch_pi_data(pi_name):
     pi_id = pi_name.lower().replace(' ', '_')
-    folder_path = f"data/profiles/{pi_id}"
+    folder_path = f"data/similar_grants/profiles/{pi_id}"
     os.makedirs(folder_path, exist_ok=True)
     
     # 1. TRY NIH REPORTER (For R01 leads)
@@ -48,7 +48,7 @@ def fetch_pi_data(pi_name):
                 if paper.get('abstract'):
                     with open(os.path.join(folder_path, f"paper_abstract_{i}.txt"), 'w') as f:
                         f.write(f"Title: {paper.get('title')}\n\n{paper.get('abstract')}")
-            print(f"✅ Found {len(papers)} recent paper abstracts on Semantic Scholar.")
+            print(f"Found {len(papers)} recent paper abstracts on Semantic Scholar.")
             return
 
     # SAVE NIH RESULTS (If found in Step 1)

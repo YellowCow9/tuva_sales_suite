@@ -3,7 +3,7 @@ import json
 import os
 
 def export_raw_nih_to_json():
-    input_csv = 'data/raw_nih_leads.csv'
+    input_csv = 'data/recently_funded_profs/raw_nih_leads.csv'
     output_json = 'output/radar_leads_schema.json'
     
     if not os.path.exists(input_csv):

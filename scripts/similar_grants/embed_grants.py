@@ -5,9 +5,9 @@ import os
 
 def generate_grant_embeddings():
     # 1. Load your clean data
-    csv_path = 'data/open_opportunities_deep.csv'
+    csv_path = 'data/similar_grants/open_opportunities_deep.csv'
     if not os.path.exists(csv_path):
-        print("Error: data/open_opportunities_deep.csv not found!")
+        print("Error: data/similar_grants/open_opportunities_deep.csv not found!")
         return
 
     df = pd.read_csv(csv_path)
@@ -27,7 +27,7 @@ def generate_grant_embeddings():
 
     # 4. Save the math for the plane
     # We save as a Pickle file (.pkl) which is a binary format for Python objects
-    output_path = 'data/grant_embeddings.pkl'
+    output_path = 'data/similar_grants/grant_embeddings.pkl'
     with open(output_path, 'wb') as f:
         pickle.dump(embeddings, f)
 
