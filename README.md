@@ -1,6 +1,4 @@
 # Tuva Sales Suite
-
-## Overview
 The Tuva Sales Suite is a Python-based utility for ingesting, processing, and analyzing NIH grant and lead data. It provides two main functionalities:
 
 1. **Lead Generation for New Prospects:**
@@ -24,8 +22,6 @@ The Tuva Sales Suite is a Python-based utility for ingesting, processing, and an
 - **Embedding & Analysis:** Supports embedding grant data for similarity search and lead identification.
 
 ## Technical Architecture
-The Tuva Sales Suite is architected around two core functionalities, leveraging modular Python scripts, external APIs, and machine learning techniques:
-
 ### 1. Lead Generation for New Prospects
 - **Data Ingestion:** Automated scripts pull and parse NIH grant data (CSV, TXT) and PI profiles. Data sources can be extended to other APIs or institutional feeds as needed.
 - **Filtering & Matching:** Logic filters for professors recently awarded R1 grants, then matches their research interests (using keyword and embedding-based approaches) to Tuva’s current target areas.
