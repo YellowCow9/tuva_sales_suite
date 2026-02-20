@@ -66,4 +66,4 @@ python main.py
 ```
 
 ## Contact
-For questions or support, please contact aryanthakur0319@gmail.com.
+For questions or support, please contact aryanthakur0319@gmail.com!
