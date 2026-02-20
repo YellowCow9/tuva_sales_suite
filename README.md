@@ -1,19 +1,18 @@
-# Tuva Tool
+# Tuva Sales Suite
 
 ## Overview
-Tuva Tool is a Python-based utility for ingesting, processing, and analyzing NIH grant and lead data. It provides two main functionalities:
+The Tuva Sales Suite is a Python-based utility for ingesting, processing, and analyzing NIH grant and lead data. It provides two main functionalities:
 
 1. **Lead Generation for New Prospects:**
-   - Filters professors who have recently been awarded an R1 grant.
-   - Matches their research interests with Tuva's current target areas.
+   - Filters professors who have recently (within the last 90 days) been awarded an R1 grant.
+   - Matches their research interests with Tuva's current target areas (computational science).
    - Generates a curated list of potential leads for outreach.
 
 2. **Grant Matching for Existing Clients:**
    - Uses recently funded projects or publication abstracts from current Tuva clients.
    - Identifies suitable grant opportunities for these clients.
-   - Calculates a 'similarity score' between new grants and those previously won by the client, aiding targeted recommendations.
+   - Calculates a ML-based 'similarity score' between new grants and those previously won by the client, aiding targeted recommendations.
 
-These functionalities streamline the workflow for extracting, embedding, matching, and formatting research opportunities and principal investigator profiles, supporting sales and research teams in identifying relevant leads and grant matches.
 
 ## Features
 - **Lead Filtering:** Identifies professors with recent R1 grants and matches their interests to Tuva's targets.
@@ -24,19 +23,29 @@ These functionalities streamline the workflow for extracting, embedding, matchin
 - **Formatting & Output:** Converts results to structured JSON, ready for downstream applications.
 - **Embedding & Analysis:** Supports embedding grant data for similarity search and lead identification.
 
-## Directory Structure
-- `data/` — Raw and processed data files, including CSVs and PI profile abstracts.
-- `output/` — Generated JSON schemas and formatted results.
-- `scripts/` — Python scripts for ingestion, embedding, matching, formatting, and utility operations.
-- `tuva_env/` — Python virtual environment and dependencies.
+## Technical Architecture
+The Tuva Sales Suite is architected around two core functionalities, leveraging modular Python scripts, external APIs, and machine learning techniques:
 
-## Key Scripts
-- `ingest_nih.py` — Main entry for ingesting NIH data.
-- `scripts/embed_grants.py` — Embeds grant data for similarity analysis.
-- `scripts/fetch_pi_history.py` — Retrieves PI history.
-- `scripts/find_open_grants.py` — Identifies open grant opportunities.
-- `scripts/format_json.py` — Formats results into JSON.
-- `scripts/match_grants.py` — Matches grants to PI profiles.
+### 1. Lead Generation for New Prospects
+- **Data Ingestion:** Automated scripts pull and parse NIH grant data (CSV, TXT) and PI profiles. Data sources can be extended to other APIs or institutional feeds as needed.
+- **Filtering & Matching:** Logic filters for professors recently awarded R1 grants, then matches their research interests (using keyword and embedding-based approaches) to Tuva’s current target areas.
+- **Output:** Results are formatted as JSON/CSV for integration with sales tools or analytics platforms.
+
+### 2. Grant Matching for Existing Clients
+- **Client Data Ingestion:** Ingests recently funded project abstracts or publication data for each client (optionally via APIs or manual upload).
+- **Embedding & Similarity Scoring:** Uses ML models to embed both client and grant abstracts. Computes cosine-similarity scores to identify the best grant matches for each client.
+- **Grant Opportunity Discovery:** Integrates with NIH and other grant APIs to fetch open opportunities.
+- **Output:** Produces a ranked list of suitable grants with similarity scores, exportable as JSON/xlsx.
+
+## Project Structure & Key Components
+
+- **data/**: Raw and processed data files (NIH grants, PI profiles, client/project abstracts).
+- **output/**: Results and reports (JSON, CSV) for integration or review.
+- **scripts/**: Modular Python scripts for data ingestion, filtering, embedding, matching, and formatting, organized by the two core functionalities.
+   - Recently Funded Professors: Ingests and formats new R1 grant awardees.
+   - Grant Matching for Clients: Embeds, matches, and ranks grants for existing clients.
+- **tuva_env/**: Python virtual environment and dependencies.
+
 
 ## Setup
 1. **Clone the repository:**
@@ -57,26 +66,8 @@ These functionalities streamline the workflow for extracting, embedding, matchin
 ## Usage
 Run scripts as needed, for example:
 ```bash
-python scripts/format_json.py
+python main.py
 ```
 
-### Lead Generation
-To generate a list of leads (professors with recent R1 grants matching Tuva's targets), use the relevant ingestion and filtering scripts.
-
-### Grant Matching for Clients
-To generate suitable grant recommendations for existing clients, use their recent project abstracts or publication data as input. The tool will output grants with similarity scores to those previously won.
-
-## Data Sources
-- NIH leads and opportunities (CSV, TXT)
-- PI profile abstracts (TXT)
-
-## Output
-- Curated lead lists for new prospects.
-- Grant recommendations with similarity scores for existing clients.
-- JSON schemas and formatted results for integration with sales tools or analytics platforms.
-
-## License
-[MIT License](LICENSE)
-
 ## Contact
-For questions or support, contact the repository maintainer.
+For questions or support, please contact aryanthakur0319@gmail.com.

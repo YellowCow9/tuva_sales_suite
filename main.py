@@ -14,7 +14,7 @@ def main():
     print("="*60)
 
     # FEATURE 1: Generate/Refresh the Lead Database
-    print("\n[1/2] Refreshing Grant Database (300 Leads)...")
+    print("\n[1/2] Refreshing Grant Database...")
     try:
         ingest_open_grants()
         print("SUCCESS: Database updated in data/similar_grants/")
