@@ -1,0 +1,32 @@
+Title: Role of fibroblastic stromal cells and notch signaling in tissue inflammation in RA and SLE
+
+The role of fibroblasts in end organ fibrosis is well established, but insights into their roles in chronic
+inflammatory diseases in peripheral tissues like rheumatoid arthritis (RA) and lupus nephritis (LN) is still
+emerging. We identified a highly expanded inflammatory subpopulation of fibroblasts in RA synovial tissue. It
+accounts for >50% of all fibroblasts in the synovium in RA, but it is a rare population in osteoarthritis (OA). The
+expanded population is distinguished by high expression of CD90 (Thy1), HLA-DR and production of IL-6 and
+many chemokines. We hypothesize that these CD90+DR+ fibroblasts are key in driving inflammation directly by
+secretion of inflammatory factors and indirectly by recruiting and activating leukocytes to maintain chronic
+inflammation. When analyzing single cell RNA-seq data from the RA/SLE Accelerating Medicines Partnership
+(AMP) consortium, we found that markers of lining and sublining fibroblasts in synovium were not absolute –
+but instead represented a gradient in gene expression in trajectory analysis. We found that this transcriptional
+gradient corresponds to an anatomic spatial gradient in the synovium emanating from blood vessels. Our data
+suggest that Notch signaling is a dominant driver of the gradient starting with fibroblasts around blood vessels
+in the sublining compartment that express Notch3. When we clustered fibroblasts from active lupus nephritis
+with fibroblasts from RA synovium, we identified co-clusters of Notch3+ fibroblasts that also express Jag1 in
+both diseases.
+ Here, we wish to determine if it is Notch 3 signaling on fibroblasts that specifically drives spatial
+pattering and sublining fibroblast differentiation. To accomplish this, in Aim 1 we use mixed cell organoids with
+endothelial tubules and fibroblasts to compare spatial pattering and differentiation of Notch3 deficient
+compared to WT fibroblasts. In Aim 2, we determine the location of the CD90+DR+ inflammatory cytokine
+producing fibroblasts and Notch3+ fibroblasts in the synovium and in the kidney in lupus nephritis and
+determine which fibroblast population(s) most significantly associate with leukocytes (T, B and macrophage).
+In Aim 3 we further activate synovial and kidney-derived fibroblast lines with inflammatory cytokines in the
+presence or absence of Notch ligands. We use flow cytometry, RNA-seq, LDA, and trajectory analysis to
+compare fibroblast cell states induced in vitro with those found in synovium in RA and kidney in lupus nephritis.
+Then, we extend the Notch gradient concept from fibroblasts to adjacent leukocytes by determining if
+fibroblast-derived Notch ligands activate attached T cell in organoids. Finally, in Aim 4, we determine if
+targeted, conditional deletion of Notch signaling in fibroblasts or targeted conditional deletion of Notch ligands
+on fibroblasts prevents inflammatory arthritis in mouse models. Together, these studies will advance our
+knowledge of how fibroblasts differentiate and become drivers of inflammation and pathology in chronically
+inflamed human tissues, and how they might be targeted therapeutically.

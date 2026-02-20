@@ -1,0 +1,30 @@
+Title: Phosphoarginine-linked protein quality control and stress responses in mycobacteria
+
+ABSTRACT
+Antibiotics are a cornerstone of modern medicine, but antibiotic resistance threatens the effectiveness of our
+existing antibacterial arsenal. This phenomenon poses an acute challenge with Mycobacterium tuberculosis, a
+global pathogen that causes greater mortality than any other bacterium. Nearly half a million drug-resistant
+tuberculosis infections occurred in 2021, driving an urgent clinical need to develop novel drugs against M.
+tuberculosis and to rigorously characterize new molecular targets. One promising class of targets are the
+mycobacterial Clp proteases, which carry out regulated degradation of cytosolic proteins. Although Clp proteases
+are known to be essential, their cellular roles and the reasons for their essentiality are poorly understood, which
+in turn constrains efforts to develop Clp-targeting therapeutics. This proposal investigates the connection
+between arginine phosphorylation and the mycobacterial ClpC1P1P2 Clp protease. In the distantly related
+species Bacillus subtilis, phosphoarginine (pArg) modifications occur on diverse proteins during proteotoxic
+stress and are recognized by the ClpCP protease as a degradation signal. We recently reported that pArg
+modifications also occur in mycobacteria, although the specific conditions that stimulate pArg installation appear
+to be different than in B. subtilis. Preliminary studies confirm that pArg-bearing proteins are proteolyzed by
+ClpC1P1P2. Additionally, we find that pArg binds ClpC2, a protein that contributes to antibiotic persistence. We
+hypothesize that mycobacteria install pArg in response to stress or starvation; that pArg directs ClpC1P1P2
+activity and modulates its assembly state; and that ClpC2 is a pArg-sensitive regulator of dormancy and
+persistence. This proposal seeks to test this overarching hypothesis and interrogate key biochemical aspects of
+pArg recognition. In Aim 1, we use phosphoproteomics to identify stress conditions that elevate pArg, assess
+the requirement of pArg on mycobacterial stress tolerance, and identify mycobacterial arginine kinases and
+phosphatases. In Aim 2, we use in vitro biochemical approaches to test the influence of pArg number and
+substrate stability on proteolysis by ClpC1, and determine the influence of pArg binding on the ClpC1 activity
+state. In Aim 3 we assess how pArg-dependent changes in ClpC2 oligomerization influence its function. The
+outcomes of this proposal will include an expanded understanding of the roles of pArg in mycobacteria, new
+mechanistic details of how pArg-bearing proteins interact with Clp proteases, and elucidation of the role of ClpC2
+in pArg-sensing and persistence. These studies will lay the groundwork for future efforts to test the connection
+between pArg and M. tuberculosis infection. Moreover, a detailed understanding of pArg-linked proteolytic
+pathways will improve our ability to screen for new ClpC1-targeting therapeutic leads.

@@ -1,0 +1,33 @@
+Title: Differentiation of immune cells and fibrobalsts in inflamed tissue in RA and SLE
+
+ABSTRACT
+ Rheumatoid arthritis (RA) and systemic lupus erythematosus (SLE) are different diseases clinically and
+the most important tissue damage occurs in joints and kidneys, respectively. Yet, both SLE and RA share a
+central common theme of adaptive T and B cell interactions that result in autoantibody production. Both tissues
+develop chronic inflammatory reactions that also include myeloid cell populations, neutrophils and other innate
+leukocytes. The two diseases cluster in families and share a number of closely related risk alleles suggesting
+related immune mechanisms. Developing targeted therapies for lupus has been frustrating and while a
+number of therapies can reduce disease activity in RA, a large unmet need exists in the form of TNF
+inadequate responders; and there is no cure.
+ Based on the RA/SLE AMP consortium, single cell RNA-seq and CyTOF analysis has phenotypically
+and transcriptionally identified many unexpected cell types and cell states present in the inflamed kidney in
+lupus nephritis and RA synovitis. Here, we select a set of important cell populations specific to, or highly
+enriched in, the involved tissues in both diseases. Given the importance of B cells and antibody production,
+we focus on the novel subset of age (or autoimmunity) associated B cells (ABC B cells) and B helper T cells
+including both T follicular helper (Tfh) and the recently discovered T peripheral helper (Tph) T cells in Project 1.
+The project focuses on defining the relationship of ABC to other B cell populations and examines the role of
+Tph and Tfh cells in driving ABC B cells and their cross-talk. ABC B cells and Tph/Tfh cells are enriched in
+both lupus kidney and RA synovium allowing their comparison across diseases. Project 2 examines novel
+macrophage inflammatory states found in lupus kidney and seeks to define the main activating factors and
+transcription factors that drive cell state changes to achieve the inflammatory CM4 state that predominates in
+nephritis. Project 3 examines the fibroblastic stroma that drives inflammation in RA. A population of
+inflammatory sublining CD90+DR+ fibroblasts is profoundly expanded in RA and implicated in perpetuating
+inflammation. Project 3 examines the role of a Notch gradient and Notch signaling in driving the differentiation
+and activation of this population in synovium and kidney and its role in inflammatory arthritis. All 3 projects
+interact to examine the cell types of interest across diseases, to determine which cells are interacting most
+closely by integrated imaging analysis. By utilizing the synchronized expert pipelines of the Computational
+Systems Immunology Core for single cell RNA-seq and image analysis, the data gathered from both diseases
+and tissues can be effectively compared. All 3 projects focus on determining the drivers and transitions that
+yield the important cell states that have been discovered directly in the involved tissues. Together, the program
+will provide new insights into the tissue immunopathology in these human autoimmune diseases and help to
+unfold new avenues for therapeutic intervention.

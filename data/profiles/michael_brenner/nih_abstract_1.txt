@@ -1,0 +1,32 @@
+Title: CD8 T cell derived Granzyme K activates complement that drives synovial fibroblast inflammation
+
+The role of T cells in RA is established, but nearly all research has focused on CD4 T cells. We have
+shown that CD8 T cells are similarly expanded and activated in inflamed RA synovium yet do not belong to the
+typical granzyme (Gzm) B+ cytotoxic T lymphocyte (CTL) subset. Instead, they express high levels of GzmK
+whose function is not well defined. Remarkably, we find that GzmK drives a new pathway of complement
+activation. We show that GzmK can cleave C4 and C2 into C4b and C2a to generate an active C3 convertase
+(C4b2a) that cleaves C3 to C3a and C3b. We show that fibroblasts express the highest levels of complement
+components C2, C3 and C4 in the synovium and can secrete these proteins in response to CD8 T cell-derived
+TNF and IFNg. We show that GzmK can elicit formation of an active C3 covertase by cleaving complement
+components secreted by fibroblasts. Further, we demonstrate that GzmK generated C3a and C3b are bioactive
+and can drive mast cell degranulation and opsonize cells, respectively. We hypothesize that GzmK-mediated
+complement activation by GzmK in vivo occurs on cell surfaces as we show GzmK binds strongly to plasma
+membranes. Recently published research by others shows that complement activation drives inflammatory
+priming of murine synovial fibroblasts, mediated by mTOR activation with downstream metabolic changes and
+production of pro-inflammatory molecules. We propose to determine if human CD8 T cell-derived GzmK can
+induce inflammatory priming of human synovial fibroblasts by mediating local cellular complement activation
+and whether GzmK can drive complement activation and inflammatory arthritis in murine models.
+ In Aim 1, we study GzmK binding to cell surfaces and determine its ability to assemble a C5
+convertase, resulting in the generation of the anaphylatoxin C5a and a C5b-9 membrane attack complex. In
+Aim 2, we define the ability of GzmK to induce inflammatory priming of synovial fibroblasts via complement
+activation, by determining the effects of 1) recombinant and live CD8 T cell-derived GzmK on the inflammatory
+and metabolic activation of synovial fibroblasts. Then, using CRISPR GzmK-deleted T cells or CRISPR
+complement factor or complement receptor deleted fibroblasts, we confirm if these effects are mediated
+directly by GzmK and complement. In Aim 3, we use GzmK globally deficient mice and targeted CD8 T cell
+GzmK-deficient mice to demonstrate the role of GzmK in vivo in driving inflammation, complement activation,
+joint damage and fibroblast activation in the CIA mouse model of inflammatory arthritis.
+ Together, these studies define a new pathway of complement activation mediated by lymphocyte-
+derived GzmK, and its role in inflammatory fibroblast activation and joint pathology. These studies will unravel
+key elements of how the pathway works and determine its role in arthritis in vivo. These findings provide new
+insights into the immunopathology of RA and point to GzmK and CD8 T cells as potential new therapeutic
+targets.

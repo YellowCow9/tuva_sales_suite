@@ -1,0 +1,27 @@
+Title: Dissection of Mycobacterium tuberculosis Clp protease assembly, activity and regulation
+
+Project Summary/Abstract 
+Drug-resistant tuberculosis is a global public health crisis. Mycobacterium tuberculosis (Mtb) causes ~1.3 million 
+deaths each year. 5% of new Mtb infections are drug-resistant, driving an urgent clinical need for new anti-Mtb 
+therapeutics. This proposal supports efforts to combat drug-resistant Mtb by dissecting the function and 
+pharmacological dysregulation of Clp proteases, a family of novel antibacterial targets. Clp proteases harness 
+chemical energy to destroy folded proteins in the cytosol of bacteria. Clp proteases are essential in mycobacteria, 
+and compounds that disrupt their function can kill Mtb and potentially treat drug-resistant tuberculosis. Our prior 
+work on Mtb Clp proteases revealed distinctive characteristics that set them apart from well-studied homologs. 
+We hypothesize that mycobacteria exploit these characteristics to regulate Clp protease assembly and activity 
+across stages of mycobacterial growth and infection. However, no studies have yet examined how these features 
+contribute to mycobacterial physiology, and this deficiency in our understanding hampers efforts to develop Clp- 
+targeting therapeutics. This sub-project aims to addresses outstanding questions surrounding Mtb Clp protease 
+regulation, and to develop compounds optimized to target Mtb Clp proteases. In Aim 1, we will interrogate Clp 
+protease regulation by investigating how and when Clp proteases form proteolytically active complexes. We will 
+use biophysical approaches to define the kinetic trajectory of assembly, and identify active and inactive complex 
+intermediates that form along the assembly pathway. Additionally, we will use a model mycobacterial system to 
+correlate assembly state and activity state within the cell. Understanding these details will improve our ability to 
+effectively target these enzymes during infection. In Aim 2, we seek to elaborate existing chemical scaffolds to 
+create new compounds optimized to target Mtb Clp enzymes. We will develop novel probes that modulate or 
+report on Clp protease assembly, and new lead compounds with improved affinity and target selectivity. 
+Structural information, together with our existing toolbox of biochemical assays, will guide compound 
+development and will be used to evaluate compound affinity and selectivity. We will also create and screen a 
+compound library, derived from an existing scaffold, to identify novel leads. Together, these studies will expand 
+our understanding of Mtb Clp protease function, and support the development of therapeutics capable of 
+combating drug-resistant tuberculosis.

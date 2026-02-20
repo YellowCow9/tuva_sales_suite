@@ -1,0 +1,30 @@
+Title: Expanded fibroblast subset drives pathology in rheumatoid arthritis
+
+The role of fibroblasts in end organ fibrosis is well established, but insights into their roles in chronic
+inflammatory diseases in peripheral tissues like rheumatoid arthritis (RA) is still emerging. We identified a
+highly expanded inflammatory subpopulation of fibroblasts in the sublining region of RA synovial tissue. It
+accounts for >50% of all fibroblasts in the synovium in RA, but it is a rare population in osteoarthritis (OA). The
+expanded population is distinguished by high expression of CD90 (Thy1, a sublining marker) and HLA-DR, and
+the production of IL-6 and many chemokines. We hypothesize that these CD90+DR+IL-6+ fibroblasts are key in
+driving inflammation directly by secreting inflammatory factors and indirectly by recruiting and activating
+leukocytes to maintain chronic inflammation. When analyzing single cell RNA-seq data from the RA/SLE
+Accelerating Medicines Partnership (AMP) Consortium, we found that markers of lining and sublining
+fibroblasts in synovium were not absolute – but instead represented a gradient in gene expression in trajectory
+analysis. We found that this transcriptional gradient corresponds to an anatomic spatial gradient in the
+synovium emanating from blood vessels. Our data suggest that Notch signaling is a dominant driver of the
+gradient starting with fibroblasts around blood vessels and extending to sublining fibroblasts that express
+Notch3 receptors and Jagged (Jag)1 Notch ligands.
+ Here, we wish to determine if Notch 3 signaling specifically on fibroblasts drives the spatial pattering
+and the differentiation of sublining fibroblasts. To accomplish this, in Aim 1 we use mixed cell organoids with
+endothelial tubules and fibroblasts to compare spatial pattering and differentiation of Notch3 deficient
+compared to control fibroblasts. In Aim 2, we determine the location of the CD90+DR+ inflammatory cytokine
+producing fibroblasts and Notch3+ fibroblasts in the synovium and determine which fibroblast population(s)
+most significantly associate with leukocytes (T cells, B cells and macrophages). In Aim 3 we activate synovial
+fibroblast lines with inflammatory cytokines that are found in RA, in the presence or absence of Notch ligands.
+We use flow cytometry, RNA-seq, LDA, and trajectory analyses to compare fibroblast cell states induced in
+vitro with those found in the synovium in RA. Then, we extend the Notch gradient concept from fibroblast
+differentiation to how fibroblast-derived Notch ligands activate attached T cell in organoids. Finally, in Aim 4,
+we determine if targeted, conditional disruption of Notch signaling in fibroblasts or targeted conditional deletion
+of Notch ligands in fibroblasts prevents inflammatory arthritis in mouse models. Together, these studies will
+advance our knowledge of how fibroblasts differentiate in RA to become drivers of inflammation and pathology
+in chronically inflamed synovial tissues, and how they might be targeted therapeutically in murine models.

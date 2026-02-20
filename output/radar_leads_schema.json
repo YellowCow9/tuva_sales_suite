@@ -1,0 +1,759 @@
+{
+    "metadata": {
+        "source": "NIH Raw Leads",
+        "export_date": "2026-02-19",
+        "total_leads": 50
+    },
+    "leads": [
+        {
+            "professor": {
+                "name": "Vikki M Abrahams",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Mechanisms regulating fetal membrane and neutrophil responses to infection",
+                "award_amount": 703356,
+                "abstract_snippet": "Summary/Abstract\nChorioamnionitis - inflammation of the fetal membranes (FM) - is characterized by neutrophil infiltration and is\na major risk factor for preterm birth. Even in the absence of prematurity, chorioamnionitis can be detrimental to\nthe fetus. Despite a strong association between bacterial infection, chorioamnionitis, and preterm birth, the\nmechanisms involved are not fully understood. Through expression of the innate immune pattern recognition\nreceptors (PRR), Toll-like receptors (TL"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Zach N. Adelman",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Self-Eliminating Strategy To Control Gene Drive",
+                "award_amount": 749703,
+                "abstract_snippet": "The ability to deliver pathogen-resistance genes into mosquito populations has long been sought as a potential\nalternative for disrupting dengue or malaria transmission where funds and infrastructure are the limiting factors\nin effective mosquito control. While effective gene drive transgenes based on CRISPR/Cas9 have been\ndeveloped for model organism Drosophila and for malaria mosquitoes, Aedes aegypti, the most medically\nimportant vector of dengue, yellow fever and chikungunya viruses, lags be"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Erin Eun-Young Ahn",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Genetic and molecular basis of hematopoietic abnormalities in ZTTK syndrome",
+                "award_amount": 493219,
+                "abstract_snippet": "PROJECT SUMMARY\nIndividuals with rare genetic diseases do not receive attention from the medical and research community. One\nout of two patients diagnosed with a rare disease is a child, meaning that patients and their families must endure\nlong battles relating to disease progress throughout their child\u2019s lifetime. Therefore, characterization of\nclinical/molecular aspects of rare diseases will greatly benefit young patients and their families.\nSON is a DNA- and RNA-binding protein that plays dua"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Sharilyn  Almodovar",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Role of HIV gp120 and Nef in Transcriptome Dysregulation and Pulmonary Vascular Remodeling",
+                "award_amount": 647031,
+                "abstract_snippet": "PROJECT SUMMARY\n People living with HIV (PLWH) are at a significantly high risk of developing Pulmonary Hypertension (PH),\nwhich can lead to death by heart failure, even with the suppressive effects of antiretroviral therapy (ART). PH is\ncharacterized by phenotypic changes in endothelial cells that result in increased pulmonary artery pressures and\nright ventricular hypertrophy. However, the underlying mechanism of how HIV contributes to the development of\nHIV-PH is still not fully understood. O"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Neal Mathew Alto",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Defining virulence factor functions using minimal pathogen genomes",
+                "award_amount": 596318,
+                "abstract_snippet": "Project Summary\nPathogenic bacteria have developed an array of strategies to undermine the host's defense mechanisms. In\nthe context of non-Typhoidal Salmonella Typhimurium, a notable strategy involves the confinement of a single\nbacterium within a host vacuole called the Salmonella Containing Vacuole (SCV). This approach potentially\nprovides an evolutionary advantage: by ensuring one bacterium per SCV, the host must target each SCV\nindividually to eliminate the bacterial load, as opposed to con"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Zandrea  Ambrose",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Deciphering HIV-1 Resistance Pathways against Capsid Inhibitors in vitro and in Humanized Mice",
+                "award_amount": 790847,
+                "abstract_snippet": "PROJECT SUMMARY\nThe HIV-1 capsid, a cone-shaped protein shell, is a promising target for antiviral interventions, with\nlenacapavir (LEN), a potent capsid inhibitor, demonstrating efficacy in treatment and prevention. However,\nresistance to LEN has been reported in both in vitro and clinical contexts. Our preliminary studies have also\nidentified LEN-resistant mutations not previously observed. As the use of capsid inhibitors is expected to\nexpand in the future, a deeper understanding of drug resi"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Mark Sascha Ansorge",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Developmental Origins of Aggressive and Impulsive Behavior",
+                "award_amount": 758893,
+                "abstract_snippet": "Project Summary. Septal-hypothalamic neuronal activity centrally mediates aggressive behavior, while the\nmonoamine neurotransmitters dopamine and serotonin play strong and mostly opposing modulatory roles.\nHowever, related circuit mechanisms and ontogeny are largely unknown. Making progress towards circuit\nmechanism, we found in mice that dopamine input from the ventral tegmental area to the lateral septum is\nsufficient for promoting aggression and necessary for establishing baseline aggression."
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Toni M Antalis",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Modulating the resolution of angiogenesis and normalization of the vasculature for therapeutic benefit",
+                "award_amount": 523364,
+                "abstract_snippet": "Cardiovascular diseases are a leading cause of morbidity and mortality worldwide. Defective vascular repair or\ninsufficient vascularization after disrupted or blocked blood flow often lead to ischemic peripheral artery diseases\nand other cardiovascular disorders. Treatment options generally aim to re-establish blood flow through affected\nvascular beds. Angiogenesis, or the formation of new blood vessels from existing vasculature, is fundamental\nfor forming and maintaining the microvascular netwo"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Ken  Arai",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "The effect of circadian rhythm disruptions on the angiogenic response to hypoperfusion in the AD brain",
+                "award_amount": 683192,
+                "abstract_snippet": "PROJECT SUMMARY/ABSTRACT\nAlthough the pathophysiology of Alzheimer\u2019s Disease (AD) is complex and multifactorial, vascular comorbidities\nand cerebrovascular insufficiency occur in almost two-thirds of AD patients. However, how cerebrovascular\ninsufficiency interacts with and contributes to AD remains poorly understood. Recently, the brain vasculome (i.e.\ntranscriptome profiles of cerebral endothelial cells and pericytes) has been proposed as a conceptual\nframework to investigate vascular mechanis"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Gowthami M Arepally",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Complement and thrombosis in HIT",
+                "award_amount": 683259,
+                "abstract_snippet": "ABSTRACT\nHeparin-induced thrombocytopenia (HIT) is a thrombotic disorder caused by ultra-large immune complexes\n(ULICs) composed of IgG antibodies (Abs) to platelet factor 4 (PF4) and heparin (H). Even with prompt\nrecognition, discontinuation of heparin, and institution of alternative anticoagulants, thrombotic risk remains high\nand persists for weeks. Studies from our last funding cycle suggest that therapy targeting complement may\nimprove outcomes. We showed that HIT ULICs potently activate th"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Stephen Arthur Back",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Mechanisms of Hypoxia-Mediated Disturbances in Cerebral Maturation in a Fetal Ovine Model of Maternal Sleep Apnea",
+                "award_amount": 607641,
+                "abstract_snippet": "Project Summary\nAlthough sleep apnea arising from sleep-disordered breathing commonly occurs during pregnancy, the\ncumulative impact of brief repetitive episodes of maternal intermittent hypoxia (IHx) on fetal brain development\nis unknown. We have developed a novel clinically relevant model of maternal IHx, which reproducibly results in\nfetal systemic IHx early in the third trimester. The fetal hippocampus appears to be particularly sensitive to\nmaternal IHx, which chronically disrupts neuronal "
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Vladimir P Badovinac",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Impact of whole-body radiation exposure on pathogen-specific memory CD8 T cells",
+                "award_amount": 649484,
+                "abstract_snippet": "Accidental or deliberate radiation exposure of humans remains a major health concern, due to the paucity of\nmedical countermeasures (MCMs) to ameliorate radiation-induced damage. While high dose radiation\nexposure is generally fatal, even low dose whole body (WBI) or partial radiation exposure can have acute-\nand/or delayed- negative impacts that appear to act through disruption of the immune system. The\ncytoreductive effects of WBI have long been exploited in conjunction with chemotherapy as a "
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Adam Lee Bailey",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Pathophysiology of Severe Yellow Fever",
+                "award_amount": 729189,
+                "abstract_snippet": "PROJECT SUMMARY/ABSTRACT\nYellow fever (YF) is a serious mosquito-borne disease (~80,000 deaths annually) endemic to Africa and South\nAmerica that is poised for emergence/re-emergence on a global scale. YF is caused by the yellow fever virus\n(YFV), which replicates primarily in the liver where it causes significant damage and organ dysfunction.\nAlthough treatment of YF is limited to supportive care, a highly effective live-attenuated YF vaccine (known as\n\u201c17D\u201d) was created in the 1930s. 17D diffe"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Tamilyn  Bakas",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Telehealth Assessment and Skill-Building Intervention for Stroke Caregivers (TASK III)",
+                "award_amount": 528362,
+                "abstract_snippet": "Project Summary/Abstract:\nStroke is a leading cause of serious, long-term disability, and has a very sudden onset. Families are often\nthrust into providing care without sufficient training from health care providers, having to learn on their own to\nprovide care. Studies show that caregiving without proper training can be detrimental to caregiver\u2019s physical\nand mental health, which can impede survivor rehabilitation and lead to institutionalization and higher societal\ncosts. Unlike existing strok"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Irina V Balyasnikova",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Targeting SEC61 complex to overcome resistance to immunotherapy in GBM",
+                "award_amount": 519870,
+                "abstract_snippet": "Glioblastoma (GBM) is an incurable brain tumor with a median overall survival of less than 15 months. The recent\nsuccess of immunotherapy in extracranial malignancies has translated into trials for GBM. Despite its promise,\nimmunotherapy's clinical efficacy has yet to be shown for GBM. The resistance to immunotherapy in GBM is\nmultifactorial. To uncover the targets and pathways contributing to resistance in GBM, we designed and\nperformed an unbiased, genome-wide CRIPR-Cas9 knockout screen screen"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Geoffrey Douglas Barnes",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Michigan Emergency Department Improvement Collaborative AltERnaTives to admission for Pulmonary Embolism (MEDIC ALERT PE) Study",
+                "award_amount": 774549,
+                "abstract_snippet": "PROJECT SUMMARY\nOf the 250,000 annual patients in the United States with acute pulmonary embolism (PE), the majority are at\nlow risk for morbidity and mortality. In fact, evidence-based guidelines suggest that up to 50% of patients with\nan acute PE are at sufficiently low risk for complications that they can be safely managed without hospital\nadmission. Yet fewer than 5% of patients nation-wide are currently discharged for outpatient management.\nReliable access to anticoagulant medications and o"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Mark  Bathe",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Investigation of Synthetic DNA-based Viral Particles for Spatially Controlled Antigen Presentation",
+                "award_amount": 844182,
+                "abstract_snippet": "PROJECT SUMMARY\nHIV and influenza pose major health burdens in the US and worldwide, claiming hundreds of thousands of lives\nannually, with the latter additionally posing a significant pandemic threat. Protein subunit vaccines formulated as\nnanoparticles with multivalent display of pathogenic immunogens are a proven, successful strategy to safely and\neffectively induce long lasting humoral, antibody-based immunity. Indeed, this strategy may be particularly\nimportant for challenging-to-neutralize"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Aaron Paul Batista",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Interrogating and Perturbing Neural Dynamics",
+                "award_amount": 571586,
+                "abstract_snippet": "Interrogating and Perturbing Neural Population Dynamics\nProject Summary\nOur behavior and our mental functions, such as movement, perception, memory, cognition, and emotional\nprocessing are mediated by the flow of neural signals through our central nervous system. When these\nfunctions are disrupted in neurological and psychiatric disease those disruptions are manifested in alterations\nto the brain\u2019s healthy dynamics. The standard of care involves psychotropic medications, and more recently,\nneuro"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Lisa M Bebell",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Advancing neurodevelopmental outcome prediction in children exposed to HIV using clinical features and placental imaging",
+                "award_amount": 22786,
+                "abstract_snippet": "PROJECT SUMMARY\nMore than one million children who are HIV-exposed but uninfected (CHEU) are born to pregnant people with\nHIV (PPHIV) every year. CHEU have a higher risk of adverse early-life outcomes than HIV-unexposed peers,\nincluding neurodevelopmental deficits and a >2-fold risk of growth stunting. The pathophysiology of adverse\nCHEU outcomes is incompletely understood, but mounting evidence suggests that placental abnormalities play\na key role. A better understanding of the causes and mecha"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Lisa M Bebell",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Microbiome-driven immune changes and growth stunting in HIV-exposed uninfected children",
+                "award_amount": 533813,
+                "abstract_snippet": "Despite increasing access to antiretroviral therapy (ART) in pregnancy, the >1 million children born annually to pregnant individuals with HIV (PHIV) who are HIV-exposed but uninfected (HEU) remain at >2-fold higher risk of growth stunting and infectious morbidity than HIV-unexposed children. Though the origins of adverse HEU child health outcomes are poorly understood, mounting evidence suggests that abnormal microbiome development may play a key role. However, the mechanisms remain elusive, an"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Lisa M Bebell",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Mechanistic intersection between placental vascular and newborn neuronal development",
+                "award_amount": 715595,
+                "abstract_snippet": "PROJECT SUMMARY\nMore than one million children who are HIV-exposed but uninfected (HEU) are born to pregnant people with HIV\n(PPHIV) every year. HEU children have poorer early-life outcomes than their HIV-unexposed peers, including\nan increased risk of adverse neurodevelopmental outcomes. The pathophysiology of HEU neurodevelopmental\noutcomes is poorly understood. Mounting evidence suggests that altered placental gene expression may play a\nkey mechanistic role, but the mechanisms have not been f"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Lisa M Bebell",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Mechanistic intersection between placental vascular and newborn neuronal development",
+                "award_amount": 36131,
+                "abstract_snippet": "PROJECT SUMMARY\nMore than one million children who are HIV-exposed but uninfected (HEU) are born to pregnant people with HIV\n(PPHIV) every year. HEU children have poorer early-life outcomes than their HIV-unexposed peers, including\nan increased risk of adverse neurodevelopmental outcomes. The pathophysiology of HEU neurodevelopmental\noutcomes is poorly understood. Mounting evidence suggests that altered placental gene expression may play a\nkey mechanistic role, but the mechanisms have not been f"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Michelle L Bell",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Hospital admissions risks from fine particulate matter by source sector, fuel type, and components: A national analysis",
+                "award_amount": 641308,
+                "abstract_snippet": "ABSTRACT\nThere is an urgent need to understand the health impacts of alternative air quality policies. Such policies can impact various source sectors (e.g., transportation), fuel type and chemical composition of fine particulate matter (PM2.5). Detailed characterization of the health consequences of exposure to PM2.5 sources and chemical composition will provide timely guidance to develop the most cost effective interventions for air pollution mitigation. The National Academy of Sciences, Healt"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Rachel Elise Bennett",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Microvascular Stress as a Pathway to Neurodegeneration in Alzheimer's",
+                "award_amount": 376449,
+                "abstract_snippet": "Project Abstract\nChanges to cerebral microvasculature that impact blood flow and blood brain barrier function are increasingly\nrecognized as a key feature of early Alzheimer\u2019s disease (AD) and cognitive impairment. The underlying\ncause of this dysfunction is largely unknown, though data from transgenic mice indicates pathways related to\nmicrovascular stress (inflammation, senescence, and angiogenesis) are upregulated with increasing amyloid\nbeta and tau deposition. This research will make use of"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Joshua D Berke",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Dopaminergic mechanisms for motivation and reinforcement learning",
+                "award_amount": 534498,
+                "abstract_snippet": "Summary / Abstract\n This research program seeks to describe and understand striatal dopamine (DA) signals, particularly in\nthe nucleus accumbens (NAc). NAc DA is a key regulator of both motivation and reward-related learning, and\ndrugs of abuse share the common property of enhancing NAc DA. Yet we lack a clear account of how DA\nsignals arise, how they are shaped by local NAc circuits, and how they modulate NAc output to influence\nbehavior. Our Aims for the next funding period address three speci"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Donald M Bers",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Calmodulin and Regulation of Cardiac Ryanodine Receptor and CaMKII",
+                "award_amount": 677685,
+                "abstract_snippet": "SUMMARY\n Our overall goal is to understand the structural mechanisms for functional regulation of the cardiac\nryanodine receptor (RyR2) and Ca/calmodulin-dependent kinase (CaMKII), two central signaling nodes\ncausally implicated in numerous cardiac pathologies, including heart failure (HF) and arrhythmias. Our focus is\non pathological states and their mitigation by drug-like compounds. Our structural studies using fluorescence\nresonance energy transfer in physiological environments will evolve a"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Italo  Biaggioni",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Hemodynamic Effects of Positive Airway Pressure to Treat Supine Hypertension and Improve Neurogenic Orthostatic Hypotension",
+                "award_amount": 558202,
+                "abstract_snippet": "Orthostatic hypotension (OH) is a common disabling condition in the elderly, particularly in those with impaired\nautonomic reflexes. Supine hypertension is the most common comorbidity; it not only increases the risk for target\norgan damage but also induces pressure natriuresis during nighttime causing nocturia and volume depletion that\ncontributes to OH. Thus, nocturnal hypertension worsens daytime OH. Unfortunately, there is reluctance to\ntreat supine hypertension for fear of worsening OH. Slee"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Timothy Allen Bigelow",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Ultrasound Imaging and Treatment of Hernia Mesh",
+                "award_amount": 381808,
+                "abstract_snippet": "There is a critical need to develop a new device to noninvasively treat mesh infections without removing the\nmesh. In the absence of such a device, the treatment of many mesh infections will remain highly invasive and\ncostly. This study's objective is to develop cavitation-based histotripsy to treat surgical mesh infections.\nHistotripsy generates/excites a cloud of micron sized bubbles in the tissue which mechanically shred the targeted\ncells. The physics of microbubble collapse promotes lysis o"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Jennifer Melinda Bomberger",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Impact of a Dual Function Type VI Secretion System (T6SS) Immunity Protein on Airway Microbiota",
+                "award_amount": 825054,
+                "abstract_snippet": "SUMMARY/ABSTRACT\nDense microbial communities known as the microbiota are intimately associated with human health. Invading\npathogens must overcome the microbiota to establish and successfully cause infections. In settings like the\ngastrointestinal tract, antagonistic interactions between microbes can strongly influence colonization outcomes.\nOne highly prevalent pathway known to mediate these interactions the type VI secretion system (T6SS) which\nmediates contact-dependent killing via the transl"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Werner A Braun",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Novel Artificial Intelligence approaches to distinguish allergenic from non-allergenic proteins",
+                "award_amount": 429499,
+                "abstract_snippet": "ABSTRACT\nAllergic diseases have increased dramatically to become the most common human disorders in developed\ncountries. Despite improved clinical diagnosis and management, they are the leading cause of work and school\nabsences. The prevalence of food allergy is rising for unclear reasons, with prevalence estimates in the\ndeveloped countries around 10%. Peanut allergy affects 1\u20132% of the population in Westernized nations and is\na leading cause of food-induced anaphylaxis. Specifying and maintain"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Alison T Brenner",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Expanding access to colorectal cancer screening through community pharmacies: The PharmFIT study",
+                "award_amount": 582667,
+                "abstract_snippet": "Medically underserved populations are disproportionately affected by screen-preventable cancers, such as colorectal cancer (CRC). Entities such as the United States Preventive Services Task Force and the American Cancer Society recommend fecal immunochemical testing (FIT) as an effective home-based method for CRC screening. Annual FIT, when followed by a diagnostic colonoscopy for a positive result, can reduce CRC mortality on a population level. CRC screening is traditionally delivered as part "
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Jonathan B Bricker",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Providing nicotine replacement therapy to enhance the efficacy of a smoking cessation smartphone app for Hispanic adults",
+                "award_amount": 647926,
+                "abstract_snippet": "Hispanic adults, the largest and fastest growing population in the United States (US), have higher rates of smoking-related morbidity and mortality. They lack access to standard smoking cessation treatments primarily due to the absence of medical insurance and guidance from healthcare providers to quit. Needed now is rigorous research on methods to enable Hispanic adults to access efficacious evidence-based interventions to quit smoking. Two widely available cessation methods that hold promise f"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Aron S Buchman",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Identifying resilience proteins in key motor tissues that drive motor and cognitive decline and offset the negative effects of ADRD pathologies within and outside the brain",
+                "award_amount": 1195218,
+                "abstract_snippet": "Movement is a volitional behavior linked to Alzheimer\u2019s disease and related dementias (ADRD). Though many older adults show some degree of Alzheimer\u2019s disease and related pathologies, the extent that these pathologies degrade movement varies. The same amount of Alzheimer\u2019s disease and related pathologies may be related to rapid decline in one adult and little loss in another. An adult who maintains movement or has a slower rate of decline in the presence of Alzheimer\u2019s disease and related pathol"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Thomas P Burris",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Exercise Mimetics for Dementia and Alzheimer's Disease",
+                "award_amount": 653981,
+                "abstract_snippet": "Project Summary\nDementia or major neurocognitive disorder is a condition of significant cognitive decline that impairs\nindependent living. Learning and memory, executive function, perceptual-motor function, social cognition, and\nlanguage may be affected. Although dementia is typically associated with aging, it is not a natural component\nof the aging process. Dementia is associated with several diseases, but most commonly associated with AD\n(60-80%). AD is a progressive neurodegenerative disease "
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Timothy J. Buschman",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Neural Mechanisms of Rule-Based Behavior",
+                "award_amount": 403058,
+                "abstract_snippet": "PROJECT SUMMARY/ABSTRACT\nOver our lifetime, we learn hundreds of \u2018rules\u2019 that define how we should act in a given situation. For example,\nwhen in a restaurant, we follow a set of rules that guide the way we order, eat, and pay for a meal. By learning\nand using rules, we can optimize our behavior and maximize social and physical rewards. Disrupting one\u2019s ability\nto learn and follow rules can be pathological. Such disruptions are associated with many neuropsychiatric and\nneurodegenerative disorder"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Jason Mathew Butler",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Netrin-1 promotes the expansion and function of human hematopoietic stem cells by supporting a pro-hematopoietic vascular niche",
+                "award_amount": 294959,
+                "abstract_snippet": "PROJECT SUMMARY\nAdult hematopoietic stem cells (HSCs) are defined by their ability to undergo self-renewal and maintain the\ncapacity to generate all the types of mature hematopoietic cells within the blood and immune system. The\nultimate objective of the proposed research plan described herein is to establish a novel HSC expansion platform\nto enable treating more patients with life-threatening disorders of blood and bone marrow than is currently\npossible. This proposal seeks to greatly expand th"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Margaret Kathleen Callahan",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Understanding Immunotype, a Novel Biomarker for Checkpoint Blockade Resistance",
+                "award_amount": 497480,
+                "abstract_snippet": "ABSTRACT\nAn estimated 44% of patients with cancer in the United States are eligible to receive immune checkpoint blockade\n(ICB). FDA-approved ICB agents include \u03b1-PD-1 and \u03b1-CTLA-4 antibodies, but the majority of patients do not\nbenefit because their tumors are resistant to these agents. ICB treatment is expensive and may lead to serious\ntoxicity. Prospective identification of patients with ICB-resistant cancers would reduce unnecessary risk and cost\nand give patients opportunities to seek more "
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Erhu  Cao",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Structures and Pharmacology of Cation-Chloride Cotransporters",
+                "award_amount": 680627,
+                "abstract_snippet": "Project Summary\nHuman cation-chloride cotransporters (CCCs) consist of three Na+-dependent Na+-(K+)-Cl- (NCC and NKCC1-\n2) and four Na+-independent K+-Cl\u2212 (KCC1-4) transporters. CCCs drive the symport of Cl- with Na+ and/or K+\nacross membrane and play pivotal roles in cell volume regulation, trans-epithelia ion movement, and regulation\nof intracellular Cl- concentration ([Cl-]i) and neuronal excitability. CCCs are profoundly regulated by the opposing\nactions of WNKs-SPAK kinases and phosphatases"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Michael  Cappello",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Translational studies of hookworm infection in Ghana",
+                "award_amount": 695579,
+                "abstract_snippet": "PROJECT SUMMARY\nHookworm infection is a leading cause of malnutrition and growth delay in poor countries, especially in sub-\nSaharan Africa where millions of people are infected with Necator americanus. Data from human studies\nsuggest chronic hookworm infection also impairs routine vaccine efficacy and exacerbates other globally\nimportant, co-endemic infectious diseases. Current strategies to control hookworm rely primarily on Mass Drug\nAdministration of standard anthelminthic drugs, although re"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Michael  Cappello",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Translational studies of hookworm infection in Ghana",
+                "award_amount": 84829,
+                "abstract_snippet": "PROJECT SUMMARY\nHookworm infection is a leading cause of malnutrition and growth delay in poor countries, especially in sub-\nSaharan Africa where millions of people are infected with Necator americanus. Data from human studies\nsuggest chronic hookworm infection also impairs routine vaccine efficacy and exacerbates other globally\nimportant, co-endemic infectious diseases. Current strategies to control hookworm rely primarily on Mass Drug\nAdministration of standard anthelminthic drugs, although re"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Charles F Caskey",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Next generation transcranial ultrasound-based neuromodulation using phase shift nanoemulsions",
+                "award_amount": 765144,
+                "abstract_snippet": "Project Summary\n This proposal responds to PAR-22-039 and aims to develop focused ultrasound (FUS) as a next\ngeneration high precision device-based pharmacological neuromodulation tool and evaluate its use in non-\nhuman primates as a translational step to humans. Current device-based neuromodulation technologies rely\non interaction with cells\u2019 endogenous sensitivities to different forms of energy. Although FUS alone overcomes\nspatial and depth limitations of other non-invasive neuromodulation mo"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Joshua D Chandler",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Neutrophil hyperexocytosis and hypochlorous acid exposure in early cystic fibrosis lung disease",
+                "award_amount": 383936,
+                "abstract_snippet": "PROJECT SUMMARY / ABSTRACT\nCurrent standard of care for cystic fibrosis (CF) does not include drugs unequivocally effective at curbing\nairway inflammation, in contrast to crucial gains made in correcting defects in the CF transmembrane\nconductance regulator (CFTR) via highly effective modulator therapy (HEMT) and an array of antimicrobial\ndrugs. Effectively treating exuberant neutrophil-dominated inflammation in CF, particularly in the earliest stages\nof the disease, is a critical goal because d"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Shiyou  Chen",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Targeting response gene to complement 32 to alleviate vascular remodeling",
+                "award_amount": 622225,
+                "abstract_snippet": "Summary/Abstract:\nVascular remodeling is a fundamental pathological process occurring in artery wall during the development of\nnumerous vascular diseases including artery restenosis following angioplasty and bypass surgery, hypertension,\norgan transplantation, atherosclerosis, and pulmonary arterial hypertension (PAH). Emerging evidence indicates\nthat endothelial-mesenchymal transition (EndoMT) plays a critical role in the initiation and progression of\nvascular remodeling. However, the molecular"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Guang-Shing  Cheng",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Longitudinal Impact of Respiratory Viruses on Bronchiolitis Obliterans Syndrome in Allogeneic Hematopoietic Cell Transplant Recipients",
+                "award_amount": 703183,
+                "abstract_snippet": "PROJECT SUMMARY/ABSTRACT\nBronchiolitis obliterans syndrome (BOS) is the most severe manifestation of chronic graft-versus-host disease\n(cGVHD) in survivors of allogeneic hematopoietic cell transplant (alloHCT), leading to irreversible pulmonary\nimpairment, poor quality of life, and 5-year survival of 40%. Fundamental gaps in knowledge of the pathogenic\nevents that contribute to progressive lung dysfunction in BOS have not been well characterized, hampering our\nability to intervene effectively. O"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Shin-Heng  Chiou",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Elucidation of hypoxia-induced metastatic reprogramming through the regulation of KDM8 function in pancreatic cancer",
+                "award_amount": 432651,
+                "abstract_snippet": "ABSTRACT\nPancreatic ductal adenocarcinoma (PDAC) is one of the deadliest malignancies. Full transcriptome defines\nclinically relevant \u201csubtypes\u201d of disease and the basal-like subtype of PDAC is associated with advanced\nstage, metastasis, resistance to treatment, and poor patient survival. The mechanism by which the tumor\nmicroenvironment drives PDAC subtype differentiation remains uncharacterized. Understanding the cancer-\nextrinsic factors in the tumor microenvironment that promotes the basal-l"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Michael H. Cho",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Uncovering the genetically-driven differential susceptibility to chronic obstructive pulmonary disease and pulmonary fibrosis",
+                "award_amount": 761983,
+                "abstract_snippet": "ABSTRACT\nChronic obstructive pulmonary disease (COPD) and idiopathic pulmonary fibrosis (IPF) are two devastating\nchronic lung diseases associated with aging and with a common environmental risk factor, cigarette smoking,\nbut with differing physiology and pathology, which may be due to genetics. Our group has led two large-scale\nCOPD genome-wide association studies (GWASs), identifying five loci (near FAM13A, DSP, MAPT-KANSL1,\nZKSCAN1, and STN1) where the genetic variant alleles associated with "
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Artur V Cideciyan",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Photoreceptor Disease in Inherited Retinal Degenerations",
+                "award_amount": 572025,
+                "abstract_snippet": "PROJECT SUMMARY / ABSTRACT\nLoss of eyesight is regarded among the worst possible diseases by most Americans. Despite being rare\ncauses of vision loss, inherited retinal diseases (IRDs) are molecularly simple single-gene defects, and\nadvances in genetics and genomics have raised hopes for the development of gene-based treatments. For\nmost IRDs, the natural history of disease involves progressive vision loss and successful interventions must\ndemonstrate a clinically meaningful slowing of the natur"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Monica P Colaiacovo",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Synaptonemal Complex Assembly and Function in Meiosis",
+                "award_amount": 51934,
+                "abstract_snippet": "PROJECT SUMMARY\nFailure to achieve accurate chromosome segregation during meiosis is a leading cause of miscarriages,\ninfertility, and birth defects such as Down syndrome. Therefore, understanding the mechanisms underlying\naccurate meiotic chromosome segregation is of paramount importance to human health. The synaptonemal\ncomplex (SC) is a zipper-like structure present from yeast to humans during meiosis that assembles between\nhomologous chromosomes, stabilizing homologous pairing interactions a"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Melissa D Conrad",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Surveillance to track and characterize antimalarial resistance trends in Ugandan Plasmodium falciparum parasites (STARTUP)",
+                "award_amount": 518579,
+                "abstract_snippet": "PROJECT SUMMARY/ABSTRACT:\nNew studies in Uganda and Rwanda have reported increasing prevalence of mutations in pfkelch13 (K13)\nassociated with delayed parasite clearance following clinical or in vitro treatment with artemisinins, suggesting\nthat fears that resistance of Plasmodium falciparum to artemisinins will emerge in Africa, where >90% of\nmalaria cases and deaths occur, have been realized. However, the extent of resistance to components of\nartemisinin-based combination therapies (ACTs) is n"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        },
+        {
+            "professor": {
+                "name": "Melissa D Conrad",
+                "organization": "N/A"
+            },
+            "research_context": {
+                "project_title": "Surveillance to track and characterize antimalarial resistance trends in Ugandan Plasmodium falciparum parasites (STARTUP)",
+                "award_amount": 113391,
+                "abstract_snippet": "PROJECT SUMMARY/ABSTRACT:\nNew studies in Uganda and Rwanda have reported increasing prevalence of mutations in pfkelch13 (K13)\nassociated with delayed parasite clearance following clinical or in vitro treatment with artemisinins, suggesting\nthat fears that resistance of Plasmodium falciparum to artemisinins will emerge in Africa, where >90% of\nmalaria cases and deaths occur, have been realized. However, the extent of resistance to components of\nartemisinin-based combination therapies (ACTs) is n"
+            },
+            "automation_flags": {
+                "is_active_grant": true,
+                "start_date": NaN
+            }
+        }
+    ]
+}
