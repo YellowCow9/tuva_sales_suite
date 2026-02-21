@@ -6,21 +6,20 @@ from datetime import datetime, timedelta
 def ingest_recent_r01_leads():
     url = "https://api.reporter.nih.gov/v2/projects/search"
     
-    # 1. DEFINE "FRESHNESS"
-    # Vamsi wants leads with fresh infrastructure budgets (last 90 days)
+    # Define 'freshness' as published within the last 90 days. This should dynamically update every day.
     today = datetime.now()
     ninety_days_ago = (today - timedelta(days=90)).strftime('%Y-%m-%d')
     
-    # 2. DEFINE THE SEARCH CRITERIA
+    # Define search criteria.
     payload = {
     "criteria": {
-        # This is the "Hard Gate" for the 90-day window
+        # Was having some trouble with the 90 day window, so created this hard gate
         "award_notice_date": {
             "from_date": ninety_days_ago, 
             "to_date": today.strftime('%Y-%m-%d')
         },
         "activity_codes": ["R01"],
-        # Ensure 'newly_added_projects_only' is True for outbound leads
+        # Make sure they're newly added projects and not artifacts
         "newly_added_projects_only": True 
     },
     "include_fields": ["ProjectTitle", "AbstractText", "ContactPiName", "AwardAmount", "AwardNoticeDate"],
@@ -36,7 +35,7 @@ def ingest_recent_r01_leads():
 
     results = response.json().get('results', [])
     
-    # 3. STRUCTURE THE DATA FOR TUVA
+    # Structure the data
     leads_data = []
     for proj in results:
         leads_data.append({
@@ -49,7 +48,7 @@ def ingest_recent_r01_leads():
             'abstract': proj.get('abstract_text')
         })
 
-    # 4. SAVE TO DATA FOLDER
+    # Save to data/recently_funded_profs/
     os.makedirs('data/recently_funded_profs', exist_ok=True)
     df = pd.DataFrame(leads_data)
     df.to_csv('data/recently_funded_profs/raw_nih_leads.csv', index=False)

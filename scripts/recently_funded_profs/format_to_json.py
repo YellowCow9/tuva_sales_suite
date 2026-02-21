@@ -10,11 +10,10 @@ def export_raw_nih_to_json():
         print(f"Error: {input_csv} not found.")
         return
 
-    # 1. Load the raw data
-    # Use 'quotechar' because your CSV uses double quotes for abstracts
+    # Load the raw data; using 'quotechar' b/c CSV uses double quote for abstract
     df = pd.read_csv(input_csv, quotechar='"')
 
-    # 2. Structure for the "Integration Layer"
+    # Structure for integration layer
     json_output = {
         "metadata": {
             "source": "NIH Raw Leads",
@@ -46,7 +45,7 @@ def export_raw_nih_to_json():
         }
         json_output["leads"].append(lead_entry)
 
-    # 3. Save to output folder
+    # Save to output folder
     os.makedirs('output', exist_ok=True)
     with open(output_json, 'w') as f:
         json.dump(json_output, f, indent=4)

@@ -9,7 +9,6 @@ def ingest_open_grants():
     
     payload = {
         "rows": 100,
-        # Trying to find computational science grants
         "keyword": "(\"computational\" OR \"in silico\" OR \"modeling\" OR \"simulation\") AND (biology OR physics OR genomics OR biophysics OR mechanobiology)",
         "oppStatuses": "posted",
         "keywordEncoded": False
@@ -32,14 +31,14 @@ def ingest_open_grants():
         opp_id = hit.get('id')
         print(f"  Fetching details for {opp_id}: {hit.get('title')[:50]}...")
         
-        # Use the fetch endpoint to get the deep 'synopsis'
+        # Use the fetch endpoint to get synopsis
         fetch_res = requests.post(fetch_url, json={"opportunityId": opp_id})
         
         if fetch_res.status_code == 200:
             details = fetch_res.json().get('data', {})
             synopsis = details.get('synopsis', {})
             
-            # Use the field identified in the official sample response
+            # Use field identified in the official sample response
             description = (
                 synopsis.get('synopsisDesc') or 
                 details.get('opportunityDescription') or 
@@ -51,7 +50,7 @@ def ingest_open_grants():
                 'title': hit.get('title'),
                 'number': hit.get('number'),
                 'agency': hit.get('agencyName'),
-                'description': description, # This will now grab the 'synopsisDesc'
+                'description': description, 
                 'close_date': hit.get('closeDate')
             })
         

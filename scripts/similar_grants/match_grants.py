@@ -9,27 +9,26 @@ def get_tuva_readiness_score(description):
     desc_low = description.lower()
     reasons = []
 
-    # 1. THE DATA PLUMBING NEED (Tuva's Input Layer)
+    # Check 'data plumbing' requirements
     dms_keywords = ["data management", "sharing plan", "data sharing", "repository", "curation", "harmonization"]
     if any(word in desc_low for word in dms_keywords):
-        reasons.append("Rigorous requirement: Explicitly asks for data sharing or curation requirements.")
+        reasons.append("Explicitly asks for data sharing/curation requirements.")
 
-    # 2. THE REPRODUCIBILITY NEED (Tuva's Core Model)
+    # Check reproducibility need
     repro_keywords = ["reproducibility", "rigor", "validation", "standardization", "interoperable"]
     if any(word in desc_low for word in repro_keywords):
-        reasons.append("Rigorous requirement: Explicitly asks for model/data validation.")
+        reasons.append("Explicitly asks for reproducible data.")
 
-    # 3. THE AI/ML SUBMISSION NEED 
+    # Check if AI/ML component requested
     ai_keywords = ["ai ", "artificial intelligence", "machine learning", "predictive knowledge", "modeling", "computational tools"]
     if any(term in desc_low for term in ["predictive modeling", "machine learning", "neural", "ai usage"]):
-        reasons.append("Rigorous requirement: Requires structured data for machine learning.")
+        reasons.append("Requests AI/ML component.")
 
     return reasons
 
 def run_strategic_advisory(prof_name):
     prof_name = prof_name.lower().replace(" ", "_")
 
-    # (Previous loading logic remains the same)
     script_dir = os.path.dirname(os.path.abspath(__file__)) 
     root_dir = os.path.dirname(os.path.dirname(script_dir))
     data_dir = os.path.join(root_dir, 'data', 'similar_grants')
@@ -43,7 +42,7 @@ def run_strategic_advisory(prof_name):
     df_grants = pd.read_csv(csv_path)
     model = SentenceTransformer('all-MiniLM-L6-v2')
 
-    # COLLECT AND MEAN-EMBED
+    # Collect and mean-embed
     abstract_files = [f for f in os.listdir(prof_folder) if f.lower().endswith('.txt')]
     all_vectors = []
     for filename in sorted(abstract_files):
@@ -66,7 +65,7 @@ def run_strategic_advisory(prof_name):
         print(f"\nRANK #{i} | Score: {row['match_score']:.4f}")
         print(f"GRANT: {row['title']}")
         
-        # GENERATE TUVA READINESS SCORE
+        # If applicable, list why Tuva is extra useful for these grants
         reasons = get_tuva_readiness_score(row['description'])
         if reasons:
             print(f"Tuva could be especially helpful here!")

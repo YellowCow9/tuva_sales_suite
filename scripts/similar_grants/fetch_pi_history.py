@@ -6,7 +6,7 @@ def fetch_pi_data(pi_name):
     folder_path = f"data/similar_grants/profiles/{pi_id}"
     os.makedirs(folder_path, exist_ok=True)
     
-    # 1. TRY NIH REPORTER (For R01 leads)
+    # Try NIH Reporter API (For R01 leads)
     nih_url = "https://api.reporter.nih.gov/v2/projects/search"
     nih_payload = {
         "criteria": {"pi_names": [{"any_name": pi_name}]},
@@ -18,7 +18,7 @@ def fetch_pi_data(pi_name):
     nih_res = requests.post(nih_url, json=nih_payload).json()
     projects = nih_res.get('results', [])
 
-    # 2. TRY NSF API (If NIH is empty)
+    # 2. Try NSF API (If NIH is empty)
     if not projects:
         print(f"No NIH projects found. Checking NSF...")
         name_parts = pi_name.split()
@@ -31,7 +31,7 @@ def fetch_pi_data(pi_name):
             with open(os.path.join(folder_path, f"nsf_award_{i}.txt"), 'w') as f:
                 f.write(f"Title: {proj.get('title')}\n\n{proj.get('abstractText', 'No abstract')}")
 
-    # 3. PLAN C: SEMANTIC SCHOLAR (If both Gov APIs fail)
+    # Semantic scholar search (If no NIH & NSF grants)
     if not projects:
         print(f"No Federal awards found. Falling back to Semantic Scholar for {pi_name}...")
         # Search for author to get their S2ID
@@ -40,7 +40,7 @@ def fetch_pi_data(pi_name):
         
         authors = s2_res.get('data', [])
         if authors:
-            # We take the first author result and their 5 most recent papers
+            # Take the first author result and their 5 most recent papers
             top_author = authors[0]
             papers = sorted(top_author.get('papers', []), key=lambda x: x.get('year', 0), reverse=True)[:5]
             
@@ -51,7 +51,7 @@ def fetch_pi_data(pi_name):
             print(f"Found {len(papers)} recent paper abstracts on Semantic Scholar.")
             return
 
-    # SAVE NIH RESULTS (If found in Step 1)
+    # Save NIH results (If found in Step 1)
     if projects and not os.listdir(folder_path): # Only if NSF wasn't already saved
         for i, proj in enumerate(projects):
             with open(os.path.join(folder_path, f"nih_abstract_{i}.txt"), 'w') as f:
@@ -60,5 +60,6 @@ def fetch_pi_data(pi_name):
     if not projects and not os.listdir(folder_path):
         print(f"Total failure: {pi_name} has no recent Federal awards or Public abstracts.")
 
+# Change name below to run this for different professors. ie. 'fetch_pi_data("Robert Schmitz")'
 if __name__ == "__main__":
     fetch_pi_data("Shannon Quinn")
