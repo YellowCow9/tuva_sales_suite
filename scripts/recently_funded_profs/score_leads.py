@@ -22,10 +22,25 @@ is_new_award     1.0 if this is a brand-new R01 (type code '1'), 0.0 for
 """
 
 import re
+import sys
 import pandas as pd
 import numpy as np
 import os
 from datetime import datetime
+
+# Make tuva_tool/ importable when running score_leads.py standalone
+_HERE = os.path.dirname(os.path.abspath(__file__))
+_ROOT = os.path.dirname(os.path.dirname(_HERE))
+if _ROOT not in sys.path:
+    sys.path.insert(0, _ROOT)
+
+from config import (
+    SCORING_WEIGHTS,
+    FRESHNESS_DECAY_DAYS,
+    AWARD_SIZE_LOG_MIN,
+    AWARD_SIZE_LOG_MAX,
+    ABSTRACT_MIN_WORDS,
+)
 
 
 # ── Keyword dictionaries ───────────────────────────────────────────────────────
@@ -129,7 +144,7 @@ def freshness_score(award_date_str):
     try:
         award_dt = pd.to_datetime(award_date_str, utc=True).replace(tzinfo=None)
         days_old = (datetime.now() - award_dt).days
-        return max(0.0, 1.0 - (days_old / 90.0))
+        return max(0.0, 1.0 - (days_old / FRESHNESS_DECAY_DAYS))
     except Exception:
         return 0.5
 
@@ -144,7 +159,7 @@ def award_size_score(amount):
         if val <= 0:
             return 0.0
         log_val = np.log(val)
-        return max(0.0, min(1.0, (log_val - 10.8) / (15.4 - 10.8)))
+        return max(0.0, min(1.0, (log_val - AWARD_SIZE_LOG_MIN) / (AWARD_SIZE_LOG_MAX - AWARD_SIZE_LOG_MIN)))
     except Exception:
         return 0.0
 
@@ -270,7 +285,7 @@ def score_all_leads():
     # Step 2: abstract length pre-filter
     # Abstracts under 80 words are administrative grants that pollute rankings.
     word_counts = df["abstract"].fillna("").apply(lambda x: len(str(x).split()))
-    short_mask  = word_counts < 80
+    short_mask  = word_counts < ABSTRACT_MIN_WORDS
     if short_mask.sum() > 0:
         print(f"  Abstract filter: zeroing signals for {short_mask.sum()} short abstracts (<80 words)")
 
@@ -285,12 +300,13 @@ def score_all_leads():
     df.loc[short_mask, ["ai_signal", "data_signal"]] = 0.0
 
     # Step 4: weighted composite score (weights sum to 1.0)
+    w = SCORING_WEIGHTS
     df["outbound_score"] = (
-        0.20 * df["grant_freshness"]  +
-        0.15 * df["award_size_score"] +
-        0.30 * df["ai_signal"]        +
-        0.20 * df["data_signal"]      +
-        0.15 * df["is_new_award"]
+        w["grant_freshness"]  * df["grant_freshness"]  +
+        w["award_size_score"] * df["award_size_score"] +
+        w["ai_signal"]        * df["ai_signal"]        +
+        w["data_signal"]      * df["data_signal"]      +
+        w["is_new_award"]     * df["is_new_award"]
     ).round(4)
 
     df = df.sort_values("outbound_score", ascending=False).reset_index(drop=True)

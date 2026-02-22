@@ -20,6 +20,12 @@ import pandas as pd
 import requests
 import streamlit as st
 
+from config import SCORING_WEIGHTS, SIGNAL_LABELS
+
+# ── Session state keys ────────────────────────────────────────────────────────
+_KEY_PI_CANDIDATES = "pi_candidates"
+_KEY_CONFIRMED_PI  = "confirmed_pi"
+
 # ── Path setup ────────────────────────────────────────────────────────────────
 ROOT_DIR    = os.path.dirname(os.path.abspath(__file__))
 LEADS_CSV   = os.path.join(ROOT_DIR, "data", "recently_funded_profs", "scored_leads.csv")
@@ -104,12 +110,85 @@ def load_leads():
                 email_map.get(x, {}).get("email_confidence", "").replace("_", " ").title(),
             )
         )
+
+    # Direct grant project link
+    if "full_project_num" in df.columns:
+        df["grant_link"] = df["full_project_num"].apply(
+            lambda num: f"https://reporter.nih.gov/project-details/{num}"
+            if pd.notna(num) and str(num).strip() not in ("", "nan") else ""
+        )
+
     return df
 
 
 def _nih_link(pi_name):
     query = str(pi_name).replace(",", "").strip().replace(" ", "+")
     return f"https://reporter.nih.gov/search/results?query={query}"
+
+
+def _format_currency(value) -> str:
+    """Format a numeric value as '$1,234,567'. Returns '' if null/empty."""
+    if pd.isna(value) or str(value).strip() in ("", "nan"):
+        return ""
+    try:
+        return f"${int(float(value)):,}"
+    except (ValueError, TypeError):
+        return ""
+
+
+def _search_nih_pi(pi_input: str) -> dict:
+    """
+    Search NIH Reporter for PIs matching `pi_input`.
+    Returns a dict keyed by display label → {"raw_name": ..., "org": ...}.
+    Returns empty dict if no matches or API error.
+    """
+    payload = {
+        "criteria": {"pi_names": [{"any_name": pi_input}]},
+        "include_fields": ["PrincipalInvestigators", "OrgName"],
+        "limit": 5, "offset": 0,
+    }
+    try:
+        resp = requests.post(
+            "https://api.reporter.nih.gov/v2/projects/search",
+            json=payload, timeout=10,
+        )
+        resp.raise_for_status()
+    except Exception:
+        return {}
+    results = resp.json().get("results", [])
+    candidates = {}
+    for r in results:
+        for pi in r.get("principal_investigators", []):
+            raw_name = pi.get("full_name", "")
+            org      = r.get("org_name", "")
+            label    = f"{_nih_name_to_first_last(raw_name)} — {org.title()}"
+            candidates[label] = {"raw_name": raw_name, "org": org}
+    return candidates
+
+
+def _render_score_breakdown(row: pd.Series) -> None:
+    """Render the signal breakdown panel for a selected lead row."""
+    st.divider()
+    st.markdown(
+        f"**{_fmt_pi_name(row['pi_name'])}** — {_fmt_org(row.get('organization', ''))}"
+    )
+
+    for col, label in SIGNAL_LABELS.items():
+        val = float(row.get(col, 0))
+        contribution = val * SCORING_WEIGHTS[col]
+        st.write(f"**{label}** — raw: `{val:.3f}` | weighted: `{contribution:.3f}`")
+        st.progress(val)
+
+    st.write(f"**Total Outbound Score:** `{row.get('outbound_score', 0):.3f}`")
+    if row.get("project_title"):
+        with st.expander("Project Title"):
+            st.write(row["project_title"])
+    if row.get("abstract"):
+        with st.expander("Abstract"):
+            abstract_text = str(row["abstract"])
+            st.write(abstract_text[:1500] + ("..." if len(abstract_text) > 1500 else ""))
+
+    st.link_button("View on NIH Reporter", _nih_link(row.get("pi_name", "")))
 
 
 def run_pipeline():
@@ -181,19 +260,35 @@ with tab1:
 
     st.divider()
 
+    with st.expander("What do these scores mean?", expanded=False):
+        st.markdown(
+            "**Tier** — Relative priority ranking based on Outbound Score percentile within the current dataset:\n"
+            "- **Tier 1** — Top 10%: highest-priority leads, strong fit across multiple signals\n"
+            "- **Tier 2** — Top 25%: strong leads worth prioritizing\n"
+            "- **Tier 3** — Above median: solid leads for standard outreach\n"
+            "- **Tier 4** — Below median: lower priority; deprioritize unless bandwidth allows\n\n"
+            "**Outbound Score** — Composite priority score (0–1) combining grant freshness (20%), "
+            "award size (15%), AI/ML signal (30%), data signal (20%), and whether this is a new award (15%). "
+            "Higher = stronger fit for an outbound sales conversation.\n\n"
+            "**Email Confidence** — Reliability of the email address found for this PI:\n"
+            "- *Exact* — confirmed match from institutional directory\n"
+            "- *Verified* — cross-referenced from multiple sources\n"
+            "- *LLM Inferred* — derived by LLM from name/institution pattern\n"
+            "- *Inferred* — best-guess pattern match, lowest confidence"
+        )
+
     # ── Build display table ───────────────────────────────────────────────────
     display_cols = {
         "tier":             "Tier",
         "pi_name":          "PI Name",
         "organization":     "Organization",
         "email":            "Email",
-        "email_confidence": "Confidence",
+        "email_confidence": "Email Confidence",
         "award_type":       "Award Type",
         "award_amount":     "Award Amount",
         "award_date":       "Award Date",
         "outbound_score":   "Score",
-        "ai_signal":        "AI Signal",
-        "data_signal":      "Data Signal",
+        "grant_link":       "Grant Detail",
     }
     available = [c for c in display_cols if c in df_filtered.columns]
     df_display = df_filtered[available].rename(columns=display_cols)
@@ -204,6 +299,10 @@ with tab1:
     if "Organization" in df_display.columns:
         df_display["Organization"] = df_display["Organization"].apply(_fmt_org)
 
+    # Pre-format Award Amount with comma separators
+    if "Award Amount" in df_display.columns:
+        df_display["Award Amount"] = df_display["Award Amount"].apply(_format_currency)
+
     # ── Interactive table ─────────────────────────────────────────────────────
     selection = st.dataframe(
         df_display,
@@ -212,52 +311,15 @@ with tab1:
         on_select="rerun",
         selection_mode="single-row",
         column_config={
-            "Score":        st.column_config.NumberColumn(format="%.3f"),
-            "AI Signal":    st.column_config.NumberColumn(format="%.3f"),
-            "Data Signal":  st.column_config.NumberColumn(format="%.3f"),
-            "Award Amount": st.column_config.NumberColumn(format="$%d"),
+            "Score":       st.column_config.NumberColumn(format="%.3f"),
+            "Grant Detail": st.column_config.LinkColumn(display_text="View ↗"),
         },
     )
 
     # ── Score breakdown panel ─────────────────────────────────────────────────
     selected_rows = selection.selection.rows if selection.selection else []
     if selected_rows:
-        idx = selected_rows[0]
-        row = df_filtered.iloc[idx]
-
-        st.divider()
-        st.subheader(f"Score Breakdown: {_fmt_pi_name(row.get('pi_name', ''))}")
-
-        signal_labels = {
-            "grant_freshness":  "Grant Freshness  (weight: 20%)",
-            "award_size_score": "Award Size       (weight: 15%)",
-            "ai_signal":        "AI Signal        (weight: 30%)",
-            "data_signal":      "Data Signal      (weight: 20%)",
-            "is_new_award":     "New Award        (weight: 15%)",
-        }
-        weights = {
-            "grant_freshness":  0.20,
-            "award_size_score": 0.15,
-            "ai_signal":        0.30,
-            "data_signal":      0.20,
-            "is_new_award":     0.15,
-        }
-
-        for col, label in signal_labels.items():
-            val = float(row.get(col, 0))
-            contribution = val * weights[col]
-            st.write(f"**{label}** — raw: `{val:.3f}` | weighted: `{contribution:.3f}`")
-            st.progress(val)
-
-        st.write(f"**Total Outbound Score:** `{row.get('outbound_score', 0):.3f}`")
-        if row.get("project_title"):
-            with st.expander("Project Title"):
-                st.write(row["project_title"])
-        if row.get("abstract"):
-            with st.expander("Abstract"):
-                st.write(str(row["abstract"])[:1500] + ("..." if len(str(row.get("abstract", ""))) > 1500 else ""))
-
-        st.link_button("View on NIH Reporter", _nih_link(row.get("pi_name", "")))
+        _render_score_breakdown(df_filtered.iloc[selected_rows[0]])
 
     # ── Download buttons ──────────────────────────────────────────────────────
     st.divider()
@@ -283,19 +345,6 @@ with tab1:
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         )
 
-    # ── Metric definitions ────────────────────────────────────────────────────
-    with st.expander("What do these scores mean?"):
-        st.markdown(
-            "**Outbound Score** — Composite priority score (0–1) combining grant freshness, "
-            "award size, AI signal, data signal, and whether this is a new award. "
-            "Higher = stronger fit for an outbound sales conversation.\n\n"
-            "**AI Signal** — Likelihood that the PI's funded research involves AI or ML methods, "
-            "based on keywords and phrases in the project abstract. "
-            "Tuva's AI-ready data pipelines are most relevant to these researchers.\n\n"
-            "**Data Signal** — Likelihood that the grant involves significant data management, "
-            "multi-site collection, or large dataset work, based on the abstract. "
-            "Tuva's harmonization and data quality tools are the core pitch here."
-        )
 
 
 # ══════════════════════════════════════════════════════════════════════════════
@@ -327,8 +376,6 @@ with tab2:
             st.caption(f"Grant database last refreshed: {last_refresh} ({days_ago} days ago)")
             if days_ago > 7:
                 st.warning("Grant database is over a week old. Consider refreshing.")
-        else:
-            st.caption("Grant database has not been refreshed yet.")
     except ImportError:
         pass
 
@@ -340,39 +387,20 @@ with tab2:
         if not pi_input.strip():
             st.warning("Please enter a PI name.")
         else:
-            with st.spinner("Searching NIH records..."):
-                try:
-                    resp = requests.post(
-                        "https://api.reporter.nih.gov/v2/projects/search",
-                        json={
-                            "criteria": {"pi_names": [{"any_name": pi_input.strip()}]},
-                            "include_fields": ["ContactPiName", "Organization"],
-                            "limit": 25,
-                        },
-                        timeout=10,
-                    )
-                    results = resp.json().get("results", [])
-                    candidates = {}
-                    for r in results:
-                        name = r.get("contact_pi_name", "")
-                        org  = (r.get("organization") or {}).get("org_name", "")
-                        if name:
-                            key = f"{name} — {org}"
-                            candidates[key] = {"raw_name": name, "org": org}
-                    st.session_state.pi_candidates = candidates
-                    st.session_state.confirmed_pi  = None
-                except Exception as e:
-                    st.error(f"NIH search error: {e}")
-                    st.session_state.pi_candidates = {}
+            with st.spinner("Searching NIH..."):
+                candidates = _search_nih_pi(pi_input.strip())
+            st.session_state[_KEY_PI_CANDIDATES] = candidates
+            st.session_state[_KEY_CONFIRMED_PI]  = None
+            st.rerun()
 
     # ── Step 2: Institution picker ────────────────────────────────────────────
-    candidates = st.session_state.get("pi_candidates")
+    candidates = st.session_state.get(_KEY_PI_CANDIDATES)
     if candidates is not None:
         if len(candidates) == 0:
             st.warning("No NIH records found for this name.")
         elif len(candidates) == 1:
             key = list(candidates.keys())[0]
-            st.session_state.confirmed_pi = candidates[key]
+            st.session_state[_KEY_CONFIRMED_PI] = candidates[key]
             st.info(
                 f"Found: **{_fmt_pi_name(candidates[key]['raw_name'])}** "
                 f"— {_fmt_org(candidates[key]['org'])}"
@@ -382,10 +410,10 @@ with tab2:
                 "Select the correct researcher:", list(candidates.keys())
             )
             if st.button("Confirm Selection"):
-                st.session_state.confirmed_pi = candidates[selected_key]
+                st.session_state[_KEY_CONFIRMED_PI] = candidates[selected_key]
 
     # ── Step 3: Find matching grants ──────────────────────────────────────────
-    confirmed = st.session_state.get("confirmed_pi")
+    confirmed = st.session_state.get(_KEY_CONFIRMED_PI)
     if confirmed:
         prof_name   = _nih_name_to_first_last(confirmed["raw_name"])
         prof_slug   = prof_name.lower().replace(" ", "_")
@@ -403,7 +431,7 @@ with tab2:
                         fetch_pi_data(prof_name)
 
                 with st.spinner(
-                    "Matching against open grants... asking Claude to rank top 5..."
+                    "Matching against open grants... ranking top 5..."
                 ):
                     results = run_strategic_advisory(prof_name, verbose=False)
 
@@ -420,11 +448,8 @@ with tab2:
                     st.subheader(f"Top Grant Matches for {prof_name}")
 
                     for r in results:
-                        score_pct = int(r["match_score"] * 100)
                         with st.container(border=True):
-                            col_score, col_title = st.columns([1, 5])
-                            col_score.metric("Match", f"{score_pct}%")
-                            col_title.markdown(f"**{r['title']}**")
+                            st.markdown(f"**{r['title']}**")
 
                             meta_parts = []
                             if r.get("agency"):
@@ -441,6 +466,12 @@ with tab2:
 
                             if r.get("llm_explanation"):
                                 st.write(f"_{r['llm_explanation']}_")
+
+                            if r.get("opp_id"):
+                                st.link_button(
+                                    "View on Grants.gov ↗",
+                                    f"https://grants.gov/search-results-detail/{r['opp_id']}",
+                                )
 
             except FileNotFoundError as e:
                 st.error(str(e))

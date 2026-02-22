@@ -1,0 +1,20 @@
+Title: Dissecting epitranscriptomic signal from complex tissues
+
+Title: Dissecting epitranscriptomic signal from complex tissues
+PROJECT SUMMARY:
+“RNA epigenetics” or “epitranscriptomics” has emerged in recent years as an exciting and active research
+field to study post-transcriptional regulation of gene expressions. The RNA modifications play important roles
+in gene expression regulation, and are involved in neurodevelopment and a number of neurological diseases.
+Methylated RNA Immunoprecipitation Sequencing (MeRIP-seq) is a newly developed technology for
+transcriptome-wise profiling of the RNA epigenetic modifications. MeRIP-seq leads to an expansion of
+applications in both basic and clinical research, but faces a number of challenges in analysis with its unique
+data characteristics, including 1) the presence of technical artifacts due to sequence content and sample
+preparation procedures unique to MeRIP; 2) lack of appropriate methods for identification and comparison of
+RNA methylated regions; and 3) lack of methods to account for the heterogeneity of tissue samples.
+In this proposal, we will address these challenges and develop a series of novel statistical methods for
+MeRIP-seq data preprocessing and analyses. They include a data normalization procedure to remove
+technical bias, accurate and efficient methods for RNA methylation site detection and comparison, and signal
+deconvolution methods to draw cell type specific inferences based on data from tissue samples. All methods
+developed in this project will be implemented and released as free, open source software to benefit the
+epigenomics research community, including basic scientists working on genetics, epigenetics, gene
+regulation and cell development, as well as clinicians looking for disease biomarkers.

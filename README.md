@@ -19,5 +19,27 @@ The Tuva Sales Suite is a Python-based utility for ingesting, processing, and an
    - Grant Matching for Clients: Embeds, matches, and ranks grants for existing clients.
 - **tuva_env/**: Python virtual environment and dependencies.
 
+## Running the App
+
+Always launch the app using the project virtualenv wrapper to avoid environment conflicts:
+
+```bash
+bash run.sh
+```
+
+This is equivalent to `tuva_env/bin/python -m streamlit run app.py` and ensures the correct pinned dependencies in `tuva_env/` are used instead of any system-level Anaconda install.
+
+**Do not** use a bare `streamlit run app.py` — this resolves to the system Anaconda `streamlit` binary, which uses incompatible package versions and will crash on import.
+
+### First-time setup
+
+If you haven't installed dependencies into the virtualenv yet, run once from the `tuva_tool/` directory:
+
+```bash
+tuva_env/bin/pip install -r requirements.txt
+```
+
+Then start the app with `bash run.sh`.
+
 ## Contact
 For questions or support, please contact aryanthakur0319@gmail.com!

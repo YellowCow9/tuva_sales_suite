@@ -26,8 +26,10 @@ Return structure:
 
 import re
 import os
+import smtplib
 import requests
 import anthropic
+import dns.resolver
 from dotenv import load_dotenv
 
 load_dotenv(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".env"))
@@ -278,6 +280,25 @@ def _llm_infer_domain(org_name):
         return None
 
 
+def _smtp_verify(email, timeout=6):
+    """
+    Probe the MX server to confirm an email address exists.
+    Returns True if the server accepts it (RCPT TO 250), False otherwise.
+    Fails silently on any connection or DNS error.
+    """
+    try:
+        domain = email.split("@")[1]
+        mx_records = dns.resolver.resolve(domain, "MX")
+        mx_host = str(sorted(mx_records, key=lambda r: r.preference)[0].exchange).rstrip(".")
+        with smtplib.SMTP(mx_host, port=25, timeout=timeout) as smtp:
+            smtp.ehlo("tuva-health.com")
+            smtp.mail("verify@tuva-health.com")
+            code, _ = smtp.rcpt(email)
+            return code == 250
+    except Exception:
+        return False
+
+
 # ── Orchestrator ──────────────────────────────────────────────────────────────
 
 def infer_emails(pi_name, org_name, pi_profile_id=None):
@@ -314,6 +335,10 @@ def infer_emails(pi_name, org_name, pi_profile_id=None):
     domain = org_to_domain_lookup(org_name)
     if domain:
         candidates = _candidate_emails(first, last, domain)
+        for cand in candidates:
+            if _smtp_verify(cand):
+                return {"best_guess": cand, "candidates": candidates,
+                        "confidence": "exact", "source": "domain_lookup+smtp"}
         return {
             "best_guess": candidates[0],
             "candidates": candidates,
@@ -325,6 +350,10 @@ def infer_emails(pi_name, org_name, pi_profile_id=None):
     domain = _llm_infer_domain(org_name)
     if domain:
         candidates = _candidate_emails(first, last, domain)
+        for cand in candidates:
+            if _smtp_verify(cand):
+                return {"best_guess": cand, "candidates": candidates,
+                        "confidence": "exact", "source": "llm+smtp"}
         return {
             "best_guess": candidates[0],
             "candidates": candidates,

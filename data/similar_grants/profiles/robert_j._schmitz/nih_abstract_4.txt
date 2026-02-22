@@ -1,0 +1,33 @@
+Title: Identification and Characterization of Population-Wide Epigenetic Variation
+
+Project Summary 
+One of the grand challenges in biology today is the ability to link genotype to phenotype. Phenotypes are the 
+basic form of traits of an organism. Phenotypes, in the form of diseases, can arise when mutations occur at 
+certain loci. Recent advances in genomic technologies have enabled the scientific community to generate 
+genotypic information for hundreds of species. Moreover, methods for linking genotype to phenotype using 
+genome-wide association mapping are continuously improving. As a result of these two endeavors, the first 
+landmark studies using this association-mapping technique from an entire range of organisms have surfaced. 
+These studies demonstrate the power of combining genomics with population genetics for the study of 
+phenotypic diversity. The ultimate goal of genome-wide association studies is to identify the casual genetic 
+variant for a particular trait. While remarkable progress is being made in identifying some casual variants, 
+many remain elusive. One possible source of naturally occurring casual variants that is currently being 
+overlooked are epigenetic alleles (epialleles). These alleles often go undetected in a population because their 
+defining signatures are not as obvious as a change in DNA sequence, like genetic mutations, which can easily 
+be identified by sequencing-based technologies. Epialleles often contain changes in their DNA methylation 
+status. Very few epialleles have been identified across kingdoms, which is likely a result of the difficulty in their 
+identification. This proposal aims to use naturally occurring Arabidopsis thaliana strains that have been isolated 
+from a broad range of geographically distributed regions of the planet for the identification of population-wide 
+epialleles. The short-term goals of this proposal are to identify these unique alleles by whole-genome bisulfite 
+sequencing technologies. Upon computational identification of these unique alleles, proposed experiments aim 
+to understand their origins and their modes of inheritance, in addition to their impact on phenotypic variation. 
+To accomplish these goals, the candidate will continue to learn computational biology methods as well as 
+principles in quantitative genetics through collaboration with experts in these respective fields. The successful 
+completion of this proposed work will reveal the degree of epiallelic variation within a species paving the way 
+for extending these studies into human populations. This work will attempt to determine the basis for epiallelic 
+variation using association-mapping techniques. This approach will allow the mapping of genomic regions that 
+are linked to the presence of an epiallele. One major goal of this work is to determine the impact that epialleles 
+identified by these high-throughput techniques have on phenotypic variation. Demonstrating that epialleles 
+identified in this population actually contribute to the phenotype variation will be of utmost importance to 
+increasing awareness of naturally occurring epialleles and their potential phenotypic consequences in human 
+biology. Finally, successful training in genomics, computational biology and quantitative genetics will give me a 
+strong foundation for beginning an independent research program focused on natural epigenetic variation.

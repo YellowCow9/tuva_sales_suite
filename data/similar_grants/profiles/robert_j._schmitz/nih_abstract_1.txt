@@ -1,0 +1,28 @@
+Title: Investigating natural epigenetic variation and the origins and inheritance of spontaneous epimutations
+
+PROJECT SUMMARY
+The goal of this proposal is to determine how interindividual variation in heterochromatin abundance and
+mechanisms required for its maintenance lead to the formation and differential accumulation of spontaneous
+epimutations. There is exists vast amounts of heterochromatin in genomes, which varies in abundance
+depending on the population being studied. We hypothesize that changes to overall sequences that lead to
+heterochromatin formation will influence the formation of stable epimutations and therefore create novel allelic
+variants. Although the formation of spontaneous epimutations are documented and they are linked to a range
+of developmental abnormalities and diseases, the mechanisms underlying their origins is unknown.
+Spontaneous epimutations are rare, but this is mostly an ascertainment bias because there are have not been
+systematic efforts dedicated to their discovery. In this proposal we are using mutation accumulation
+populations from distinct genotypes including both natural variation and experimental variation as a result of
+induced mutations as experimental models. These experimental evolution populations make detection of
+spontaneous epimutations routine. At the same time, we have designed experiments to modulate the rate of
+epimutation formation based on varying total abundance of heterochromatin. Combined, these approaches and
+unique experimental populations will allow us to dissect the mechanistic origins of spontaneous epimutations,
+which will provide the basis for the design of drugs that can target their reversal. We expect that the proposed
+studies will elucidate how the mis-regulation of heterochromatin establishment or maintenance leads to
+spontaneous epimutations that are associated with human diseases. Heterochromatin is a critical aspect of
+chromosomes that is important for chromosome segregation, silencing of transposable elements and repetitive
+DNA sequences. Errors in proper formation of heterochromatin and its maintenance upon DNA replication are
+associated with a number of cellular abnormalities and human diseases. This proposal addresses a key
+hypothesis that posits rare epimutations in genes form as a byproduct of enzymatic activities of proteins that
+are required for the maintenance of heterochromatin and that they are impacted by genomic variation. These
+spontaneous epimutations result in a stable and inherited change in gene expression states, which is often
+associated with a change in DNA methylation and chromatin status. Due to the absence of changes to the
+DNA sequences, these spontaneous epimutations can be reversed potentially mitigating associated diseases.

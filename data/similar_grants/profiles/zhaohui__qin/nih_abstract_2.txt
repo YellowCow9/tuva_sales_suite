@@ -1,0 +1,21 @@
+Title: Mechanistic insights of cortical hyperexcitability in ALS
+
+PROJECT SUMMARY/ABSTRACT
+Amyotrophic lateral sclerosis (ALS) is a devastating neurodegenerative disease caused by the loss of upper
+and lower motor neurons, leading to progressive muscle weakness and paralysis. Many altered molecular and
+cellular pathways have been implicated in disease pathogenesis. However, determining which are causative
+remains challenging, and many clinical trials have failed in the last few decades. One explanation for the
+unsuccessful clinical interventions is the difficulty of rescuing dying motor neurons once death has been
+triggered, meaning that therapeutic interventions must be implemented early in the disease. Months before
+clinical onset, ALS patients often experience fasciculations and cramps (i.e., spontaneous and persistent
+muscle twitching), suggesting increased neural activity and excitability. Indeed, neurophysiological studies in
+patients and rodent models with ALS-associated genetic mutations have identified that circuit dysfunction,
+specifically motor cortex hyperexcitability, are among the earliest pathologies. Recently, two studies suggested
+that upper corticospinal motor neurons (CSMN) in the motor cortex play an essential role in the low motor
+neuron death of transgenic mice expressing human SOD1 mutations. We thus hypothesize that CSMN
+hyperexcitability might drive ALS pathogenesis. We propose to utilize recently developed enhancer-driven viral
+tools that allow cell-specific targeting to 1) perform cutting-edge chemogenetics to modulate neuronal activity
+to determine whether dampening CSMN hyperexcitability in the late pre-symptomatic stage can mitigate ALS-
+related behavioral and pathological deficits in SOD1G93A mice, and 2) identify cell-specific altered molecular
+pathways leading to motor cortex hyperexcitability. This study has significant implications in developing
+therapeutics targeting this early clinical abnormality in ALS patients.
