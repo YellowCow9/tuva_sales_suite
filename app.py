@@ -3,19 +3,21 @@ app.py — Tuva Grant Radar: Streamlit Frontend
 
 Tab 1 — Lead Radar:
     Sortable table of fresh R01 grantees ranked by outbound_score.
-    Sidebar filters. Score breakdown panel on row selection.
+    Sidebar filters (global). Score breakdown panel on row selection.
     Download buttons for JSON and Excel.
 
 Tab 2 — Grant Advisor:
-    PI name input → 5 grant match cards with LLM explanations.
+    PI name input → NIH disambiguation → 5 grant match cards with LLM explanations.
     Flags shown only when True (AI methodology, data management plan).
 """
 
 import json
 import os
+import re
 import sys
 
 import pandas as pd
+import requests
 import streamlit as st
 
 # ── Path setup ────────────────────────────────────────────────────────────────
@@ -38,7 +40,36 @@ st.set_page_config(
 st.title("Tuva Grant Radar")
 
 
-# ── Helpers ───────────────────────────────────────────────────────────────────
+# ── Name / org formatting helpers ─────────────────────────────────────────────
+
+def _fmt_pi_name(raw):
+    """'BEBELL, LISA M' -> 'Lisa M. Bebell'"""
+    raw = str(raw).strip()
+    if "," not in raw:
+        return raw.title()
+    last, rest = raw.split(",", 1)
+    tokens = rest.strip().split()
+    formatted = " ".join(t + "." if len(t) == 1 else t.title() for t in tokens)
+    return f"{formatted} {last.title()}"
+
+
+def _fmt_org(raw):
+    """'MASSACHUSETTS GENERAL HOSPITAL' -> 'Massachusetts General Hospital'
+    Fixes .title() artifact on apostrophes: "Children'S" -> "Children's"
+    """
+    s = str(raw).strip().title()
+    return re.sub(r"'([A-Z])", lambda m: "'" + m.group(1).lower(), s)
+
+
+def _nih_name_to_first_last(raw):
+    """'SCHMITZ, ROBERT' -> 'Robert Schmitz'"""
+    if "," in raw:
+        last, first = raw.split(",", 1)
+        return f"{first.strip().title()} {last.strip().title()}"
+    return raw.title()
+
+
+# ── Data helpers ──────────────────────────────────────────────────────────────
 
 @st.cache_data(show_spinner=False)
 def load_leads():
@@ -49,6 +80,30 @@ def load_leads():
     for col in ["award_date", "start_date"]:
         if col in df.columns:
             df[col] = df[col].astype(str).str.split("T").str[0]
+    # Merge email data from outbound_leads.json (keyed by raw pi_name before formatting)
+    if os.path.exists(OUTPUT_JSON):
+        with open(OUTPUT_JSON) as f:
+            outbound = json.load(f)
+        email_map = {
+            r["pi_name"]: {
+                "email":            r.get("email", {}).get("best_guess") or "",
+                "email_confidence": r.get("email", {}).get("confidence") or "",
+            }
+            for r in outbound
+        }
+        _conf_labels = {
+            "inferred":     "Inferred",
+            "llm_inferred": "LLM Inferred",
+            "verified":     "Verified",
+            "exact":        "Exact",
+        }
+        df["email"]            = df["pi_name"].map(lambda x: email_map.get(x, {}).get("email", ""))
+        df["email_confidence"] = df["pi_name"].map(
+            lambda x: _conf_labels.get(
+                email_map.get(x, {}).get("email_confidence", ""),
+                email_map.get(x, {}).get("email_confidence", "").replace("_", " ").title(),
+            )
+        )
     return df
 
 
@@ -66,29 +121,37 @@ def run_pipeline():
     load_leads.clear()
 
 
+def fetch_pi_data(prof_name):
+    """Fetch PI grant history from NIH and build profile folder."""
+    from fetch_pi_history import fetch_pi_data as _fetch
+    _fetch(prof_name)
+
+
+# ── Sidebar — Lead Radar filters (global, always visible) ────────────────────
+with st.sidebar:
+    st.header("Lead Radar Filters")
+    min_score = st.slider("Min Outbound Score", 0.0, 1.0, 0.0, 0.01)
+    min_ai    = st.slider("Min AI Signal",      0.0, 1.0, 0.0, 0.01)
+    award_types = st.multiselect(
+        "Award Type",
+        options=["New", "Renewal", "Supplement", "Continuation", "Unknown"],
+        default=[],
+    )
+    st.divider()
+    if st.button("Refresh from NIH", use_container_width=True):
+        with st.spinner("Scanning NIH for fresh R01s..."):
+            run_pipeline()
+        st.success("Database refreshed.")
+
+
+tab1, tab2 = st.tabs(["Lead Radar", "Grant Advisor"])
+
+
 # ══════════════════════════════════════════════════════════════════════════════
 # TAB 1: LEAD RADAR
 # ══════════════════════════════════════════════════════════════════════════════
 
-tab1, tab2 = st.tabs(["Lead Radar", "Grant Advisor"])
-
 with tab1:
-    # ── Sidebar ───────────────────────────────────────────────────────────────
-    with st.sidebar:
-        st.header("Filters")
-        min_score = st.slider("Min Outbound Score", 0.0, 1.0, 0.0, 0.01)
-        min_ai    = st.slider("Min AI Signal",      0.0, 1.0, 0.0, 0.01)
-        award_types = st.multiselect(
-            "Award Type",
-            options=["New", "Renewal", "Supplement", "Continuation", "Unknown"],
-            default=[],
-        )
-        st.divider()
-        if st.button("Refresh from NIH", use_container_width=True):
-            with st.spinner("Scanning NIH for fresh R01s..."):
-                run_pipeline()
-            st.success("Database refreshed.")
-
     # ── Load data ─────────────────────────────────────────────────────────────
     df = load_leads()
 
@@ -120,18 +183,26 @@ with tab1:
 
     # ── Build display table ───────────────────────────────────────────────────
     display_cols = {
-        "tier":           "Tier",
-        "pi_name":        "PI Name",
-        "organization":   "Organization",
-        "award_type":     "Award Type",
-        "award_amount":   "Award Amount",
-        "award_date":     "Award Date",
-        "outbound_score": "Score",
-        "ai_signal":      "AI Signal",
-        "data_signal":    "Data Signal",
+        "tier":             "Tier",
+        "pi_name":          "PI Name",
+        "organization":     "Organization",
+        "email":            "Email",
+        "email_confidence": "Confidence",
+        "award_type":       "Award Type",
+        "award_amount":     "Award Amount",
+        "award_date":       "Award Date",
+        "outbound_score":   "Score",
+        "ai_signal":        "AI Signal",
+        "data_signal":      "Data Signal",
     }
     available = [c for c in display_cols if c in df_filtered.columns]
     df_display = df_filtered[available].rename(columns=display_cols)
+
+    # Apply name / org formatting
+    if "PI Name" in df_display.columns:
+        df_display["PI Name"] = df_display["PI Name"].apply(_fmt_pi_name)
+    if "Organization" in df_display.columns:
+        df_display["Organization"] = df_display["Organization"].apply(_fmt_org)
 
     # ── Interactive table ─────────────────────────────────────────────────────
     selection = st.dataframe(
@@ -141,9 +212,9 @@ with tab1:
         on_select="rerun",
         selection_mode="single-row",
         column_config={
-            "Score":      st.column_config.NumberColumn(format="%.3f"),
-            "AI Signal":  st.column_config.NumberColumn(format="%.3f"),
-            "Data Signal": st.column_config.NumberColumn(format="%.3f"),
+            "Score":        st.column_config.NumberColumn(format="%.3f"),
+            "AI Signal":    st.column_config.NumberColumn(format="%.3f"),
+            "Data Signal":  st.column_config.NumberColumn(format="%.3f"),
             "Award Amount": st.column_config.NumberColumn(format="$%d"),
         },
     )
@@ -155,7 +226,7 @@ with tab1:
         row = df_filtered.iloc[idx]
 
         st.divider()
-        st.subheader(f"Score Breakdown: {row.get('pi_name', '')}")
+        st.subheader(f"Score Breakdown: {_fmt_pi_name(row.get('pi_name', ''))}")
 
         signal_labels = {
             "grant_freshness":  "Grant Freshness  (weight: 20%)",
@@ -212,13 +283,38 @@ with tab1:
             mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         )
 
+    # ── Metric definitions ────────────────────────────────────────────────────
+    with st.expander("What do these scores mean?"):
+        st.markdown(
+            "**Outbound Score** — Composite priority score (0–1) combining grant freshness, "
+            "award size, AI signal, data signal, and whether this is a new award. "
+            "Higher = stronger fit for an outbound sales conversation.\n\n"
+            "**AI Signal** — Likelihood that the PI's funded research involves AI or ML methods, "
+            "based on keywords and phrases in the project abstract. "
+            "Tuva's AI-ready data pipelines are most relevant to these researchers.\n\n"
+            "**Data Signal** — Likelihood that the grant involves significant data management, "
+            "multi-site collection, or large dataset work, based on the abstract. "
+            "Tuva's harmonization and data quality tools are the core pitch here."
+        )
+
 
 # ══════════════════════════════════════════════════════════════════════════════
 # TAB 2: GRANT ADVISOR
 # ══════════════════════════════════════════════════════════════════════════════
 
 with tab2:
-    st.header("Grant Advisor")
+    # Inline header + refresh button (no sidebar involvement)
+    col_hdr, col_btn = st.columns([4, 1])
+    col_hdr.header("Grant Advisor")
+    if col_btn.button("Refresh Grant Database", use_container_width=True):
+        with st.spinner("Refreshing grant database... This may take several minutes."):
+            from refresh_grant_db import refresh_grant_db
+            summary = refresh_grant_db(verbose=False)
+        st.success(
+            f"Refresh complete. {summary['new']} new grants added. "
+            f"{summary['total']} total in database."
+        )
+
     st.write("Enter a PI's name to find the best open grant opportunities for their research profile.")
 
     # ── Last refresh info ─────────────────────────────────────────────────────
@@ -236,32 +332,80 @@ with tab2:
     except ImportError:
         pass
 
-    with st.sidebar:
-        if tab2:
-            st.divider()
-            if st.button("Refresh Grant Database", use_container_width=True, key="refresh_grants"):
-                with st.spinner("Refreshing grant database... This may take several minutes."):
-                    from refresh_grant_db import refresh_grant_db
-                    summary = refresh_grant_db(verbose=False)
-                st.success(
-                    f"Refresh complete. {summary['new']} new grants added. "
-                    f"{summary['total']} total in database."
-                )
+    # ── Step 1: PI name input + NIH search ───────────────────────────────────
+    col_input, col_search = st.columns([4, 1])
+    pi_input = col_input.text_input("PI Name", placeholder="e.g. Robert Schmitz")
 
-    # ── PI name input ─────────────────────────────────────────────────────────
-    pi_input = st.text_input("PI Name", placeholder="e.g. Shannon Quinn")
-
-    if st.button("Find Matching Grants", type="primary"):
+    if col_search.button("Search PI", type="primary"):
         if not pi_input.strip():
             st.warning("Please enter a PI name.")
         else:
+            with st.spinner("Searching NIH records..."):
+                try:
+                    resp = requests.post(
+                        "https://api.reporter.nih.gov/v2/projects/search",
+                        json={
+                            "criteria": {"pi_names": [{"any_name": pi_input.strip()}]},
+                            "include_fields": ["ContactPiName", "Organization"],
+                            "limit": 25,
+                        },
+                        timeout=10,
+                    )
+                    results = resp.json().get("results", [])
+                    candidates = {}
+                    for r in results:
+                        name = r.get("contact_pi_name", "")
+                        org  = (r.get("organization") or {}).get("org_name", "")
+                        if name:
+                            key = f"{name} — {org}"
+                            candidates[key] = {"raw_name": name, "org": org}
+                    st.session_state.pi_candidates = candidates
+                    st.session_state.confirmed_pi  = None
+                except Exception as e:
+                    st.error(f"NIH search error: {e}")
+                    st.session_state.pi_candidates = {}
+
+    # ── Step 2: Institution picker ────────────────────────────────────────────
+    candidates = st.session_state.get("pi_candidates")
+    if candidates is not None:
+        if len(candidates) == 0:
+            st.warning("No NIH records found for this name.")
+        elif len(candidates) == 1:
+            key = list(candidates.keys())[0]
+            st.session_state.confirmed_pi = candidates[key]
+            st.info(
+                f"Found: **{_fmt_pi_name(candidates[key]['raw_name'])}** "
+                f"— {_fmt_org(candidates[key]['org'])}"
+            )
+        else:
+            selected_key = st.selectbox(
+                "Select the correct researcher:", list(candidates.keys())
+            )
+            if st.button("Confirm Selection"):
+                st.session_state.confirmed_pi = candidates[selected_key]
+
+    # ── Step 3: Find matching grants ──────────────────────────────────────────
+    confirmed = st.session_state.get("confirmed_pi")
+    if confirmed:
+        prof_name   = _nih_name_to_first_last(confirmed["raw_name"])
+        prof_slug   = prof_name.lower().replace(" ", "_")
+        data_dir    = os.path.join(ROOT_DIR, "data", "similar_grants")
+        prof_folder = os.path.join(data_dir, "profiles", prof_slug)
+
+        st.write(f"**Selected:** {prof_name} — {_fmt_org(confirmed['org'])}")
+
+        if st.button("Find Matching Grants", type="primary"):
             try:
                 from match_grants import run_strategic_advisory
 
+                if not os.path.isdir(prof_folder):
+                    with st.spinner(f"Building profile from NIH records for {prof_name}..."):
+                        fetch_pi_data(prof_name)
+
                 with st.spinner(
-                    "Fetching PI profile... matching against open grants... asking Claude to rank top 5..."
+                    "Matching against open grants... asking Claude to rank top 5..."
                 ):
-                    results = run_strategic_advisory(pi_input.strip(), verbose=False)
+                    results = run_strategic_advisory(prof_name, verbose=False)
 
                 if not results:
                     st.error("No matches found. Check that the PI profile folder exists.")
@@ -273,7 +417,7 @@ with tab2:
                             "Set ANTHROPIC_API_KEY in .env to enable LLM reranking."
                         )
 
-                    st.subheader(f"Top Grant Matches for {pi_input.strip()}")
+                    st.subheader(f"Top Grant Matches for {prof_name}")
 
                     for r in results:
                         score_pct = int(r["match_score"] * 100)
@@ -301,7 +445,6 @@ with tab2:
             except FileNotFoundError as e:
                 st.error(str(e))
             except ValueError as e:
-                # Profile not found or empty
                 st.warning(str(e))
                 st.info(
                     "To build a profile, run:\n"

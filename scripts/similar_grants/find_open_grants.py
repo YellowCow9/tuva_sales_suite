@@ -132,7 +132,7 @@ def ingest_open_grants():
                     "opp_id":      opp_id,
                     "title":       hit.get("title"),
                     "number":      hit.get("number"),
-                    "agency":      hit.get("agencyName"),
+                    "agency":      hit.get("agency"),
                     "close_date":  hit.get("closeDate"),
                     "description": description,
                 })

@@ -229,10 +229,11 @@ def deduplicate_leads(df):
 
     deduped = (
         df.groupby("_key", group_keys=False)
-        .apply(aggregate)
+        .apply(aggregate, include_groups=False)
         .reset_index(drop=True)
-        .drop(columns=["_key"])
     )
+    if "_key" in deduped.columns:
+        deduped = deduped.drop(columns=["_key"])
 
     removed = before - len(deduped)
     if removed > 0:

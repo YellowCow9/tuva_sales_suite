@@ -32,13 +32,15 @@ import os
 import pickle
 from datetime import date
 
-import anthropic
 import pandas as pd
 import torch
-from dotenv import load_dotenv
 from sentence_transformers import SentenceTransformer, util
 
-load_dotenv(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".env"))
+try:
+    from dotenv import load_dotenv
+    load_dotenv(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", ".env"))
+except ImportError:
+    pass
 
 _RETRIEVAL_POOL = 50  # how many candidates pass to the LLM
 
@@ -91,6 +93,7 @@ def _call_llm_reranker(prompt):
     if not api_key:
         return None
     try:
+        import anthropic          # lazy — works even if package not installed
         client = anthropic.Anthropic(api_key=api_key)
         msg = client.messages.create(
             model="claude-haiku-4-5-20251001",
@@ -98,6 +101,12 @@ def _call_llm_reranker(prompt):
             messages=[{"role": "user", "content": prompt}],
         )
         raw = msg.content[0].text.strip()
+        # Strip markdown code fences if the model adds them
+        if raw.startswith("```"):
+            raw = raw.split("```", 2)[1]
+            if raw.startswith("json"):
+                raw = raw[4:]
+            raw = raw.strip()
         return json.loads(raw)
     except Exception as e:
         print(f"  LLM reranker error: {e}")
