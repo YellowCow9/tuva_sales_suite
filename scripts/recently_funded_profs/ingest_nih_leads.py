@@ -13,7 +13,6 @@ def ingest_recent_r01_leads():
     # Define search criteria.
     payload = {
     "criteria": {
-        # Was having some trouble with the 90 day window, so created this hard gate
         "award_notice_date": {
             "from_date": ninety_days_ago, 
             "to_date": today.strftime('%Y-%m-%d')
