@@ -40,7 +40,7 @@ sys.path.insert(0, os.path.join(ROOT_DIR, "scripts", "similar_grants"))
 st.set_page_config(
     page_title="Tuva Grant Radar",
     layout="wide",
-    initial_sidebar_state="expanded",
+    initial_sidebar_state="collapsed",
 )
 
 st.title("Tuva Grant Radar")
@@ -144,8 +144,8 @@ def _search_nih_pi(pi_input: str) -> dict:
     """
     payload = {
         "criteria": {"pi_names": [{"any_name": pi_input}]},
-        "include_fields": ["PrincipalInvestigators", "OrgName"],
-        "limit": 5, "offset": 0,
+        "include_fields": ["ContactPiName", "Organization"],
+        "limit": 25,
     }
     try:
         resp = requests.post(
@@ -158,11 +158,11 @@ def _search_nih_pi(pi_input: str) -> dict:
     results = resp.json().get("results", [])
     candidates = {}
     for r in results:
-        for pi in r.get("principal_investigators", []):
-            raw_name = pi.get("full_name", "")
-            org      = r.get("org_name", "")
-            label    = f"{_nih_name_to_first_last(raw_name)} — {org.title()}"
-            candidates[label] = {"raw_name": raw_name, "org": org}
+        name = r.get("contact_pi_name", "")
+        org  = (r.get("organization") or {}).get("org_name", "")
+        if name:
+            label = f"{name} — {org}"
+            candidates[label] = {"raw_name": name, "org": org}
     return candidates
 
 
@@ -206,22 +206,6 @@ def fetch_pi_data(prof_name):
     _fetch(prof_name)
 
 
-# ── Sidebar — Lead Radar filters (global, always visible) ────────────────────
-with st.sidebar:
-    st.header("Lead Radar Filters")
-    min_score = st.slider("Min Outbound Score", 0.0, 1.0, 0.0, 0.01)
-    min_ai    = st.slider("Min AI Signal",      0.0, 1.0, 0.0, 0.01)
-    award_types = st.multiselect(
-        "Award Type",
-        options=["New", "Renewal", "Supplement", "Continuation", "Unknown"],
-        default=[],
-    )
-    st.divider()
-    if st.button("Refresh from NIH", use_container_width=True):
-        with st.spinner("Scanning NIH for fresh R01s..."):
-            run_pipeline()
-        st.success("Database refreshed.")
-
 
 tab1, tab2 = st.tabs(["Lead Radar", "Grant Advisor"])
 
@@ -236,18 +220,11 @@ with tab1:
 
     if df.empty:
         st.warning(
-            "No scored leads found. Click **Refresh from NIH** in the sidebar to fetch data."
+            "No scored leads found. Run the pipeline to fetch and score NIH data."
         )
         st.stop()
 
-    # ── Apply filters ─────────────────────────────────────────────────────────
-    mask = (
-        (df["outbound_score"] >= min_score) &
-        (df["ai_signal"]      >= min_ai)
-    )
-    if award_types:
-        mask &= df["award_type"].isin(award_types)
-    df_filtered = df[mask].reset_index(drop=True)
+    df_filtered = df.reset_index(drop=True)
 
     # ── Summary metrics ───────────────────────────────────────────────────────
     tier1_count = (df_filtered["tier"] == "Tier 1").sum() if "tier" in df_filtered.columns else 0
