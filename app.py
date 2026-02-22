@@ -34,6 +34,15 @@ try:
     _load_dotenv(os.path.join(ROOT_DIR, ".env"))
 except ImportError:
     pass
+
+# Bridge st.secrets → os.environ for deployed environments (e.g. Streamlit Cloud)
+# .env covers local dev; st.secrets covers deployments where .env is gitignored.
+try:
+    if not os.environ.get("ANTHROPIC_API_KEY") and "ANTHROPIC_API_KEY" in st.secrets:
+        os.environ["ANTHROPIC_API_KEY"] = st.secrets["ANTHROPIC_API_KEY"]
+except Exception:
+    pass
+
 LEADS_CSV   = os.path.join(ROOT_DIR, "data", "recently_funded_profs", "scored_leads.csv")
 RAW_CSV     = os.path.join(ROOT_DIR, "data", "recently_funded_profs", "raw_nih_leads.csv")
 OUTPUT_XL   = os.path.join(ROOT_DIR, "output", "Tuva_Strategic_Radar_Final.xlsx")
@@ -308,15 +317,21 @@ with tab1:
     st.divider()
     dl1, dl2 = st.columns(2)
 
-    if os.path.exists(OUTPUT_JSON):
-        with open(OUTPUT_JSON) as f:
-            json_bytes = f.read()
-        dl1.download_button(
-            "Download Outbound JSON",
-            data=json_bytes,
-            file_name="outbound_leads.json",
-            mime="application/json",
-        )
+    # Build download payload from in-memory DataFrame — no output file dependency.
+    top50 = df.sort_values("outbound_score", ascending=False).head(50)
+    export_cols = [
+        "pi_name", "organization", "award_type", "award_amount",
+        "award_date", "project_title", "outbound_score", "tier",
+        "email", "email_confidence",
+    ]
+    export_cols = [c for c in export_cols if c in top50.columns]
+    json_bytes = top50[export_cols].to_json(orient="records", indent=2)
+    dl1.download_button(
+        "Download Outbound JSON",
+        data=json_bytes,
+        file_name="outbound_leads.json",
+        mime="application/json",
+    )
 
     if os.path.exists(OUTPUT_XL):
         with open(OUTPUT_XL, "rb") as f:
