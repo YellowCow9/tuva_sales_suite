@@ -28,6 +28,12 @@ _KEY_CONFIRMED_PI  = "confirmed_pi"
 
 # ── Path setup ────────────────────────────────────────────────────────────────
 ROOT_DIR    = os.path.dirname(os.path.abspath(__file__))
+
+try:
+    from dotenv import load_dotenv as _load_dotenv
+    _load_dotenv(os.path.join(ROOT_DIR, ".env"))
+except ImportError:
+    pass
 LEADS_CSV   = os.path.join(ROOT_DIR, "data", "recently_funded_profs", "scored_leads.csv")
 RAW_CSV     = os.path.join(ROOT_DIR, "data", "recently_funded_profs", "raw_nih_leads.csv")
 OUTPUT_XL   = os.path.join(ROOT_DIR, "output", "Tuva_Strategic_Radar_Final.xlsx")
@@ -417,10 +423,14 @@ with tab2:
                 else:
                     has_llm = any(r.get("llm_explanation") for r in results)
                     if not has_llm:
-                        st.info(
-                            "LLM explanations unavailable — showing top 5 by semantic similarity. "
-                            "Set ANTHROPIC_API_KEY in .env to enable LLM reranking."
-                        )
+                        llm_error = next((r.get("llm_error") for r in results if r.get("llm_error")), None)
+                        if llm_error:
+                            st.warning(f"LLM reranking failed: {llm_error}")
+                        else:
+                            st.info(
+                                "LLM explanations unavailable — showing top 5 by semantic similarity. "
+                                "Set ANTHROPIC_API_KEY in .env to enable LLM reranking."
+                            )
 
                     st.subheader(f"Top Grant Matches for {prof_name}")
 

@@ -87,11 +87,11 @@ Example output:
 
 def _call_llm_reranker(prompt):
     """
-    Single claude-haiku call. Returns parsed list of dicts or None on failure.
+    Single claude-haiku call. Returns (parsed_list, None) on success, (None, error_str) on failure.
     """
     api_key = os.environ.get("ANTHROPIC_API_KEY")
     if not api_key:
-        return None
+        return None, "ANTHROPIC_API_KEY is not set in environment."
     try:
         import anthropic          # lazy — works even if package not installed
         client = anthropic.Anthropic(api_key=api_key)
@@ -107,10 +107,9 @@ def _call_llm_reranker(prompt):
             if raw.startswith("json"):
                 raw = raw[4:]
             raw = raw.strip()
-        return json.loads(raw)
+        return json.loads(raw), None
     except Exception as e:
-        print(f"  LLM reranker error: {e}")
-        return None
+        return None, str(e)
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -227,14 +226,14 @@ def run_strategic_advisory(prof_name, verbose=False):
 
     # ── Stage 2: LLM reranking ────────────────────────────────────────────────
     prompt    = _build_llm_prompt(pi_abstracts_text, top50)
-    llm_ranks = _call_llm_reranker(prompt)
+    llm_ranks, llm_error = _call_llm_reranker(prompt)
 
     top50_rows = top50.reset_index(drop=True)
 
     if llm_ranks is None:
         # Fallback: top 5 by embedding score, no LLM explanation
         if verbose:
-            print("  LLM unavailable — using top 5 by embedding score")
+            print(f"  LLM unavailable — {llm_error}")
         results = []
         for rank, (_, row) in enumerate(top50_rows.head(5).iterrows(), 1):
             entry = {
@@ -245,6 +244,7 @@ def run_strategic_advisory(prof_name, verbose=False):
                 "close_date":      str(row.get("close_date", "")),
                 "match_score":     round(float(row["match_score"]), 4),
                 "llm_explanation": None,
+                "llm_error":       llm_error,
             }
             results.append(entry)
         return results
